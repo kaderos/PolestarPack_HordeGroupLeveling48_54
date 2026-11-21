@@ -1,0 +1,362 @@
+{
+  "6064": {
+    "id": 6064,
+    "name": "Miniature Platinum Discs"
+  },
+  "6212": {
+    "id": 6212,
+    "name": "Head of Jammal'an"
+  },
+  "8070": {
+    "id": 8070,
+    "name": "Reward Voucher"
+  },
+  "8463": {
+    "id": 8463,
+    "name": "Warchief's Orders"
+  },
+  "10454": {
+    "id": 10454,
+    "name": "Essence of Eranikus"
+  },
+  "10466": {
+    "id": 10466,
+    "name": "Atal'ai Stone Circle"
+  },
+  "10538": {
+    "id": 10538,
+    "name": "Tablet of Beth'Amara"
+  },
+  "10539": {
+    "id": 10539,
+    "name": "Tablet of Jin'yael"
+  },
+  "10540": {
+    "id": 10540,
+    "name": "Tablet of Markri"
+  },
+  "10541": {
+    "id": 10541,
+    "name": "Tablet of Sael'hai"
+  },
+  "10556": {
+    "id": 10556,
+    "name": "Stone Circle"
+  },
+  "10660": {
+    "id": 10660,
+    "name": "First Mosh'aru Tablet"
+  },
+  "10661": {
+    "id": 10661,
+    "name": "Second Mosh'aru Tablet"
+  },
+  "10662": {
+    "id": 10662,
+    "name": "Filled Egg of Hakkar"
+  },
+  "10678": {
+    "id": 10678,
+    "name": "Magatha's Note"
+  },
+  "10679": {
+    "id": 10679,
+    "name": "Andron's Note"
+  },
+  "10680": {
+    "id": 10680,
+    "name": "Jes'rimon's Note"
+  },
+  "10681": {
+    "id": 10681,
+    "name": "Xylem's Note"
+  },
+  "10715": {
+    "id": 10715,
+    "name": "Kim'Jael's Scope"
+  },
+  "10717": {
+    "id": 10717,
+    "name": "Kim'Jael's Compass"
+  },
+  "10718": {
+    "id": 10718,
+    "name": "Kim'Jael's Wizzlegoober"
+  },
+  "10722": {
+    "id": 10722,
+    "name": "Kim'Jael's Stuffed Chicken"
+  },
+  "11104": {
+    "id": 11104,
+    "name": "Large Compass"
+  },
+  "11105": {
+    "id": 11105,
+    "name": "Curled Map Parchment"
+  },
+  "11106": {
+    "id": 11106,
+    "name": "Lion-headed Key"
+  },
+  "11112": {
+    "id": 11112,
+    "name": "Research Equipment"
+  },
+  "11113": {
+    "id": 11113,
+    "name": "Crate of Foodstuffs"
+  },
+  "11114": {
+    "id": 11114,
+    "name": "Dinosaur Bone"
+  },
+  "11116": {
+    "id": 11116,
+    "name": "A Mangled Journal"
+  },
+  "11131": {
+    "id": 11131,
+    "name": "Hive Wall Sample"
+  },
+  "11184": {
+    "id": 11184,
+    "name": "Blue Power Crystal"
+  },
+  "11185": {
+    "id": 11185,
+    "name": "Green Power Crystal"
+  },
+  "11186": {
+    "id": 11186,
+    "name": "Red Power Crystal"
+  },
+  "11188": {
+    "id": 11188,
+    "name": "Yellow Power Crystal"
+  },
+  "11476": {
+    "id": 11476,
+    "name": "U'cha's Pelt"
+  },
+  "11478": {
+    "id": 11478,
+    "name": "Un'Goro Gorilla Pelt"
+  },
+  "11479": {
+    "id": 11479,
+    "name": "Un'Goro Stomper Pelt"
+  },
+  "11480": {
+    "id": 11480,
+    "name": "Un'Goro Thunderer Pelt"
+  },
+  "11504": {
+    "id": 11504,
+    "name": "Piece of Threshadon Carcass"
+  },
+  "11509": {
+    "id": 11509,
+    "name": "Ravasaur Pheromone Gland"
+  },
+  "11510": {
+    "id": 11510,
+    "name": "Lar'korwi's Head"
+  },
+  "12402": {
+    "id": 12402,
+    "name": "Ancient Egg"
+  },
+  "12472": {
+    "id": 12472,
+    "name": "Krakle's Thermometer"
+  },
+  "12558": {
+    "id": 12558,
+    "name": "Blue-feathered Necklace"
+  },
+  "12567": {
+    "id": 12567,
+    "name": "Filled Flasket"
+  },
+  "12627": {
+    "id": 12627,
+    "name": "Temporal Displacer"
+  },
+  "12663": {
+    "id": 12663,
+    "name": "Glyphed Oaken Branch"
+  },
+  "12721": {
+    "id": 12721,
+    "name": "Good Luck Half-Charm"
+  },
+  "12723": {
+    "id": 12723,
+    "name": "Good Luck Charm"
+  },
+  "12724": {
+    "id": 12724,
+    "name": "Janice's Parcel"
+  },
+  "12738": {
+    "id": 12738,
+    "name": "Dalson Outhouse Key"
+  },
+  "12739": {
+    "id": 12739,
+    "name": "Dalson Cabinet Key"
+  },
+  "12771": {
+    "id": 12771,
+    "name": "Empty Firewater Flask"
+  },
+  "12842": {
+    "id": 12842,
+    "name": "Crudely-written Log"
+  },
+  "12885": {
+    "id": 12885,
+    "name": "Pamela's Doll"
+  },
+  "12894": {
+    "id": 12894,
+    "name": "Joseph's Wedding Ring"
+  },
+  "12900": {
+    "id": 12900,
+    "name": "Annals of Darrowshire"
+  },
+  "12906": {
+    "id": 12906,
+    "name": "Purified Moonwell Water"
+  },
+  "12907": {
+    "id": 12907,
+    "name": "Corrupt Moonwell Water"
+  },
+  "12954": {
+    "id": 12954,
+    "name": "Davil's Libram"
+  },
+  "12955": {
+    "id": 12955,
+    "name": "Redpath's Shield"
+  },
+  "12956": {
+    "id": 12956,
+    "name": "Skull of Horgus"
+  },
+  "12957": {
+    "id": 12957,
+    "name": "Shattered Sword of Marduk"
+  },
+  "13140": {
+    "id": 13140,
+    "name": "Blood Red Key"
+  },
+  "13186": {
+    "id": 13186,
+    "name": "Empty Felstone Field Bottle"
+  },
+  "13187": {
+    "id": 13187,
+    "name": "Empty Dalson's Tears Bottle"
+  },
+  "13188": {
+    "id": 13188,
+    "name": "Empty Writhing Haunt Bottle"
+  },
+  "13189": {
+    "id": 13189,
+    "name": "Empty Gahrron's Withering Bottle"
+  },
+  "13190": {
+    "id": 13190,
+    "name": "Filled Felstone Field Bottle"
+  },
+  "13191": {
+    "id": 13191,
+    "name": "Filled Dalson's Tears Bottle"
+  },
+  "13192": {
+    "id": 13192,
+    "name": "Filled Writhing Haunt Bottle"
+  },
+  "13193": {
+    "id": 13193,
+    "name": "Filled Gahrron's Withering Bottle"
+  },
+  "13194": {
+    "id": 13194,
+    "name": "Felstone Field Cauldron Key"
+  },
+  "13195": {
+    "id": 13195,
+    "name": "Dalson's Tears Cauldron Key"
+  },
+  "13196": {
+    "id": 13196,
+    "name": "Gahrron's Withering Cauldron Key"
+  },
+  "13197": {
+    "id": 13197,
+    "name": "Writhing Haunt Cauldron Key"
+  },
+  "13202": {
+    "id": 13202,
+    "name": "Extended Annals of Darrowshire"
+  },
+  "13207": {
+    "id": 13207,
+    "name": "Shadow Lord Fel'dan's Head"
+  },
+  "13853": {
+    "id": 13853,
+    "name": "Slab of Carrion Worm Meat"
+  },
+  "14613": {
+    "id": 14613,
+    "name": "Taelan's Hammer"
+  },
+  "14625": {
+    "id": 14625,
+    "name": "Symbol of Lost Honor"
+  },
+  "15785": {
+    "id": 15785,
+    "name": "Zaeldarr's Head"
+  },
+  "15879": {
+    "id": 15879,
+    "name": "Overlord Ror's Claw"
+  },
+  "20741": {
+    "id": 20741,
+    "name": "Deadwood Ritual Totem"
+  },
+  "20742": {
+    "id": 20742,
+    "name": "Winterfall Ritual Totem"
+  },
+  "246888": {
+    "id": 246888,
+    "name": "Humongous Crystal"
+  },
+  "249698": {
+    "id": 249698,
+    "name": "Feathered Charm Necklace"
+  },
+  "277973": {
+    "id": 277973,
+    "name": "Stag Lord's Bauble"
+  },
+  "280459": {
+    "id": 280459,
+    "name": "Crystal Infused Scale"
+  },
+  "12814": {
+    "id": 12814,
+    "name": "Flame in a Bottle"
+  }
+}

@@ -1,0 +1,105 @@
+guide five-friends-43-48/05-searing-gorge
+title 05 - Searing Gorge (45-46)
+faction Horde
+levels 45-46
+zone map 1427
+coords live
+category Leveling
+folder Five Friends 43-48
+keywords group, horde, dungeon, five friends
+version 3
+Five-player quest route. Level band 45-46 is an estimate, not a grind requirement.
+next five-friends-43-48/06-hinterlands
+
+step Level gate for Thorium Point
+  tip The lowest member must be 45 for the Thorium Point package. If a member is slightly short, Caught! and Divine Retribution/Flawless Flame are available below 45; do those first and then return to this gate.
+  level 45
+  task "Bring 15 Silk Cloth per player; keep room for the Thorium Point and Windblade quests"
+
+step Thorium Point pickups
+  accept 7729 "JOB OPPORTUNITY: Culling the Competition" lvl 45 @37.6,26.5 -- Wanted board.
+  accept 7701 "WANTED: Overseer Maltorius" lvl 45 @37.6,26.5 -- Wanted board.
+  accept 7723 "Curse These Fat Fingers" lvl 45 @38.6,27.8 -- Hansel Heavyhands.
+  accept 7724 "Fiery Menace!" lvl 45 @38.6,27.8 -- Hansel.
+  accept 7727 "Incendosaurs? Whateverosaur is More Like It" lvl 45 @38.6,27.8 -- Hansel.
+  accept 7722 "What the Flux?" lvl 45 @38.8,28.5 -- Master Smith Burninate.
+
+step Windblade introduction
+  accept 3441 "Divine Retribution" lvl 40 @39.0,39.0 -- Velarok Windblade; older databases call him Kalaran.
+
+step Listen to Windblade
+  complete 3441 "Divine Retribution" @39.0,39.0 -- Finish his dialogue.
+  turnin 3441 "Divine Retribution" xp 440 @39.0,39.0
+  accept 3442 "The Flawless Flame" lvl 40 @39.0,39.0
+
+step Caught pickup
+  accept 4449 "Caught!" lvl 43 @65.6,62.2 -- Wooden Outhouse; have the Silk Cloth ready.
+
+step First basin pass
+  tip Flawless Flame is a chain exception for Set Them Ablaze. Keep the unfinished Thorium Point kill quests; complete them across the remaining circuit.
+  complete 3442 "The Flawless Flame" -- Gather four Hearts of Flame and four Golem Oil per player; the Heavy War Golem kills also advance Fat Fingers.
+  note "OPTIONAL OBJECT CHECK: /mappin 1427 65.9 46.1. If your eastern basin route passes the Head of the Obliterator, inspect its assembly interaction. It needs one left arm, right arm, left foot and right foot. Keep visible parts encountered during normal questing. Skip an absent or unusable head." @65.9,46.1 map 1427
+
+step Forging the Shaft pickup
+  turnin 3442 "The Flawless Flame" xp 4400 @39.0,39.0 -- Windblade.
+  accept 3443 "Forging the Shaft" lvl 40 @39.0,39.0 -- Accept before the main Dark Iron kills.
+
+step Dark Iron and Cauldron circuit
+  tip Maltorius and his nearby elites are a group priority. Check everyone's plans and head before descending or leaving.
+  complete 3443 "Forging the Shaft" -- Collect eight Thorium Plated Daggers per player while killing Dark Irons.
+  complete 4449 "Caught!" -- Kill eight Dark Iron Geologists and provide the 15 Silk Cloth.
+  complete 7729 "JOB OPPORTUNITY: Culling the Competition" -- Kill 15 Dark Iron Taskmasters and 15 Slavers.
+  complete 7727 "Incendosaurs? Whateverosaur is More Like It" -- Kill 20 Incendosaurs inside the Cauldron.
+  complete 7701 "WANTED: Overseer Maltorius" group 5 -- Kill Overseer Maltorius and collect the head.
+  complete 7722 "What the Flux?" -- Pick up the Secret Plans: Fiery Flux near Maltorius.
+  note "OPTIONAL EVENT PARTS: Keep any Left/Right Arm and Left/Right Foot of the Obliterator found during the scheduled mine circuit. Exact live part locations are unverified. No extra tunnels, farming or waiting; carry on with the regular objectives."
+
+step The Flame's Casing pickup
+  turnin 3443 "Forging the Shaft" xp 4400 @39.0,39.0 -- Windblade.
+  accept 3452 "The Flame's Casing" lvl 40 @39.0,39.0
+
+step Twilight elites and remaining surface kills
+  complete 3452 "The Flame's Casing" group 5 -- Kill Twilight elites for a Symbol of Ragnaros per player.
+  complete 7723 "Curse These Fat Fingers" -- Finish 20 Heavy War Golems.
+  complete 7724 "Fiery Menace!" -- Finish 20 Searing Lava Spiders, formerly named Greater Lava Spiders.
+  note "OPTIONAL EVENT IF READY: With all four limbs and a willing group, inspect the head at /mappin 1427 65.9 46.1 and use the available rebuild interaction. Iodax is a level-50 elite. If defeated, everyone checks for Heart of the Obliterator and uses it if looted. Party-wide heart loot is unverified; skip if parts are missing." @65.9,46.1 map 1427
+
+step Create the torch
+  turnin 3452 "The Flame's Casing" xp 4700 @39.0,39.0 -- Windblade.
+  accept 3453 "The Torch of Retribution" lvl 40 @39.0,39.0 -- Stay for the event.
+
+step Torch event
+  complete 3453 "The Torch of Retribution" @39.0,39.0 -- Let Windblade finish the torch event.
+  turnin 3453 "The Torch of Retribution" xp 470 @39.0,39.0
+  accept 3454 "The Torch of Retribution" lvl 40 @39.0,39.0
+
+step Collect the torch
+  complete 3454 "The Torch of Retribution" @39.0,39.0 -- Take the Torch of Retribution from the quest object.
+  turnin 3454 "The Torch of Retribution" xp 4700 @39.0,39.0 -- Complete the hand-in at the Torch of Retribution object.
+  accept 3462 "Squire Maltrake" lvl 40 @39.0,39.0 -- Windblade sends you to Squire Maltrake.
+
+step Squire Maltrake
+  turnin 3462 "Squire Maltrake" xp 470 @39.0,39.0 -- Squire Maltrake beside Windblade.
+  accept 3463 "Set Them Ablaze!" lvl 40 @39.0,39.0 -- Everyone accepts Set Them Ablaze before starting.
+
+step Set Them Ablaze
+  tip Tower search points: 33.3,54.5; 35.7,60.7; 44.0,60.9; 50.1,54.8. An already-lit brazier can require a few minutes to become available again on a busy server.
+  complete 3463 "Set Them Ablaze!" group 5 -- EQUIP the Torch of Retribution, then right-click each small tower brazier. Check all four credits on every character.
+
+step Maltrake's reward
+  turnin 3463 "Set Them Ablaze!" xp 7600 @39.0,39.0 -- Squire Maltrake.
+  accept 3481 "Trinkets..." lvl 40 @39.0,39.0 -- Use the hoard chest after the event.
+  turnin 3481 "Trinkets..." xp 470 @39.0,39.0 -- Open the chest and complete its reward interaction.
+
+step Caught reward
+  turnin 4449 "Caught!" xp 3900 @65.6,62.2 -- Wooden Outhouse.
+
+step Thorium Point rewards
+  tip A naturally dropped Grimesilt Outhouse Key can add The Key to Freedom, but it is not required or counted. Continue north to the Hinterlands.
+  turnin 7729 "JOB OPPORTUNITY: Culling the Competition" xp 4400 @38.9,27.7 -- Taskmaster Scrange at Thorium Point.
+  turnin 7701 "WANTED: Overseer Maltorius" xp 4700 @37.7,26.7 -- Lookout Captain Lolo Longstriker at Thorium Point.
+  turnin 7723 "Curse These Fat Fingers" xp 4550 @38.6,27.8 -- Hansel.
+  turnin 7724 "Fiery Menace!" xp 4550 @38.6,27.8 -- Hansel.
+  turnin 7727 "Incendosaurs? Whateverosaur is More Like It" xp 4550 @38.6,27.8 -- Hansel.
+  turnin 7722 "What the Flux?" xp 4700 @38.8,28.5 -- Burninate.
+  note "OPTIONAL REWARD IF HELD: Use Heart of the Obliterator to start its quest. While already in Thorium Point, follow that quest's hand-in marker. The exact recipient is not verified, so the existing hub pin is not a claim about the recipient's position."

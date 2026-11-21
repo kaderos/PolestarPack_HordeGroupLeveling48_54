@@ -1,0 +1,135 @@
+guide five-friends-43-48/03-shendralas
+title 04 - Shen'dralas & Maraudon Prep (45-45)
+faction Horde
+levels 45-45
+zone map 2652
+coords live
+category Leveling
+folder Five Friends 43-48
+keywords group, horde, dungeon, five friends
+version 3
+Five-player quest route. Level band 45-45 is an estimate, not a grind requirement.
+next five-friends-43-48/05-searing-gorge
+
+step Shen'dralas entry
+  tip No centaur reputation grind is planned here. This chapter unlocks Rot and Regret before the eventual Maraudon clear.
+  task "Enter Shen'dralas from the Valley of Bones in southern Desolace"
+  note "OPTIONAL STARTER LOOT: /mappin 2652 23.3 22.6 marks an Outcast Necromancer area on the entrance route. Loot necromancers you already kill. If a Tattered Journal drops, use it and deliver it on the next Mordent visit. No extra kills or waiting for five books." @23.3,22.6 map 2652
+
+step Strange Pylons
+  accept 92914 "Strange Pylons" lvl 35 @43.7,34.4 -- Click the western Shen'dralar Pylon; each player accepts at the object.
+  note "OPTIONAL STARTER LOOT: Magram Necromancers are also recorded around /mappin 2652 40.1 29.5. Only loot them if your group is already fighting them; do not make a detour or attack friendly centaurs just for Tattered Journal." @40.1,29.5 map 2652
+  note "OPTIONAL ELITE CHECK: /mappin 2652 44.9 33.4. Beside the western pylon, watch for rumbling earth from Corpsefeeder. If nearby, approach and defeat it together; everyone checks for Corpsefeeder's Carapace and uses their own starter. This is a patrol check area; continue if absent." @44.9,33.4 map 2652
+  note "EXISTING ROUTE OBJECT: /mappin 2652 43.7 34.4. Click the western Shen'dralar Pylon to start Strange Pylons on each character. This begins the scheduled access chain used before the collar turn-in." @43.7,34.4 map 2652
+
+step Investigate the pylons and temple
+  complete 92914 "Strange Pylons" -- Visit the western pylon 43.6,34.8, eastern pylon 73.5,23.0, and temple 47.4,77.7.
+  note "OPTIONAL ELITE CHECK on the eastern-pylon leg: /mappin 2652 69.8 30.4. Watch for Corpsefeeder's rumbling-earth patrol while crossing near Bristleback Retreat. If absent, keep going; no patrol lap or respawn wait." @69.8,30.4 map 2652
+  note "OPTIONAL REWARD IF HELD: Use Corpsefeeder's Carapace, then visit Kog'thug the Brave at /mappin 2652 72.6 31.4 while already on this eastern leg. Only make this stop if you have the item or quest." @72.6,31.4 map 2652
+  note "OPTIONAL BUSH CHECK on the temple approach: /mappin 2652 46.9 63.4. Check nearby red-eye bushes only if visible while passing. A Prowler can drop Partially Digested Collar; keep it even if Liranne is not yet visible." @46.9,63.4 map 2652
+
+step Mordent's investigation
+  turnin 92914 "Strange Pylons" xp 3600 @35.0,46.7 -- Mordent Evenshade.
+  accept 96010 "Fragments of the Pylons" lvl 35 @35.0,46.7 -- Mordent.
+  note "OPTIONAL REWARD IF HELD: Use any Tattered Journal in your bags, then hand its quest to Mordent here: /mappin 2652 35.0 46.7. Only characters with the journal/quest have this extra reward." @35.0,46.7 map 2652
+  note "OPTIONAL BUSH CHECK: /mappin 2652 34.5 44.4. Near Mordent, look for glowing red eyes in bushes. Walk through a visible eye-bush to reveal a Prowler; loot a Partially Digested Collar if it drops and keep it for Liranne. This is a recorded Prowler area, not a fixed bush. No farming." @34.5,44.4 map 2652
+
+step Desolace pylon pieces
+  zone map 1443
+  tip These are ground objects. Return to Shen'dralas after both are credited to everyone; there is no reputation objective.
+  complete 96010 "Fragments of the Pylons" -- Collect one Pylon Fragment at Magram Village 67.9,78.9 and one Pylon Shard at Gelkis Village 36.2,85.9.
+  note "OPTIONAL STARTER LOOT: /mappin 1443 64.0 79.2 is an Outcast Necromancer area near this fragment trip. Loot incidental kills for Tattered Journal and take any book to Mordent on the scheduled return. Skip if the route does not pass them." @64.0,79.2 map 1443
+
+step Return to Mordent
+  zone map 2652
+  turnin 96010 "Fragments of the Pylons" xp 2450 @35.0,46.7 -- Mordent Evenshade.
+  accept 96018 "Powering the Pylons" lvl 35 @35.0,46.7 -- Mordent.
+  note "OPTIONAL REWARD IF HELD: Use any Tattered Journal in your bags, then hand its quest to Mordent here: /mappin 2652 35.0 46.7. Only characters with the journal/quest have this extra reward." @35.0,46.7 map 2652
+
+step Power the pylons
+  tip Western repair site 43.5,34.2; eastern 73.0,23.3. The repaired-pylon credit is shared, but verify every party member's quest before leaving.
+  complete 96018 "Powering the Pylons" -- Take the Mana Sieve at the temple's upper floor 46.1,78.1; gather eight crystals from floating orbs. Use the Pile of Pylon Parts to repair both pylons, four crystals each.
+  note "OPTIONAL ELITE CHECK on the eastern-pylon leg: /mappin 2652 69.8 30.4. Watch for Corpsefeeder's rumbling-earth patrol while crossing near Bristleback Retreat. If absent, keep going; no patrol lap or respawn wait." @69.8,30.4 map 2652
+  note "OPTIONAL REWARD IF HELD: Use Corpsefeeder's Carapace, then visit Kog'thug the Brave at /mappin 2652 72.6 31.4 while already on this eastern leg. Only make this stop if you have the item or quest." @72.6,31.4 map 2652
+
+step History lesson
+  turnin 96018 "Powering the Pylons" xp 3600 @35.0,46.7 -- Mordent.
+  accept 93016 "A Brief History Lesson" lvl 35 @35.0,46.7 -- Mordent.
+  note "OPTIONAL REWARD IF HELD: Use any Tattered Journal in your bags, then hand its quest to Mordent here: /mappin 2652 35.0 46.7. Only characters with the journal/quest have this extra reward." @35.0,46.7 map 2652
+
+step Hear the history
+  complete 93016 "A Brief History Lesson" -- Complete Mordent's requested dialogue, following the quest prompt.
+  turnin 93016 "A Brief History Lesson" xp 360 @35.0,46.7 -- Mordent.
+  accept 93394 "Meeting the Magister" lvl 35 @35.0,46.7 -- Mordent.
+  note "OPTIONAL REWARD IF HELD: Use any Tattered Journal in your bags, then hand its quest to Mordent here: /mappin 2652 35.0 46.7. Only characters with the journal/quest have this extra reward." @35.0,46.7 map 2652
+
+step Meet the Magister
+  turnin 93394 "Meeting the Magister" xp 360 @47.3,76.2 -- Magister Kirandis in the temple.
+  note "OPTIONAL REWARD IF HELD: After Meeting the Magister, take Partially Digested Collar to Liranne at /mappin 2652 47.3 65.6 on your next pass north of the temple. Use the collar to accept first. If Liranne is unavailable, keep it for later; no waiting." @47.3,65.6 map 2652
+
+step Replacement XP: A Heart of Crystal
+  tip This branch replaces the removed reagent-run XP without adding another zone visit. All five should accept it before killing the protector.
+  accept 99257 "A Heart of Crystal" lvl 35 @46.0,78.2 -- Historian Biraxas in the temple.
+
+step Depleted Crystal Heart
+  complete 99257 "A Heart of Crystal" group 5 -- Kill a Decrepit Pylon Protector and loot a Depleted Crystal Heart on every character.
+
+step Mana Mania pickup
+  turnin 99257 "A Heart of Crystal" xp 3600 @46.0,78.2 -- Historian Biraxas.
+  accept 99258 "Mana Mania" lvl 35 @46.0,78.2 -- Each player must accept personally; this follow-up is not shareable.
+
+step Mana Mania party check
+  task "All five have Mana Mania before the heart is used at the Unstable Mana Rift"
+
+step Mana Mania event
+  tip A live player report places a usable rift on the platform around 42.5,59.7; treat this as a search hint, not a guaranteed fixed spawn. Each character checks their own quest credit.
+  complete 99258 "Mana Mania" group 5 -- Use the supplied Depleted Crystal Heart at an Unstable Mana Rift; defeat the resulting Nascent Pylon Protector for quest credit.
+
+step Mana Mania reward
+  turnin 99258 "Mana Mania" xp 4450 @46.0,78.2 -- Historian Biraxas.
+
+step Vindael's phantasmal work
+  accept 93450 "Phantasmal Problems" lvl 35 @42.0,79.0 -- Vindael.
+
+step Phantasmal Problems
+  tip This quest specifically requires becoming a released spirit. A combat resurrection before releasing does not perform that step. Plan the corpse recovery together.
+  complete 93450 "Phantasmal Problems" -- Loot Vindael's unfinished sword from his anvil, die and RELEASE SPIRIT so it transforms, then recover your corpse.
+  turnin 93450 "Phantasmal Problems" xp 860 @42.0,79.0 -- Return alive to Vindael.
+  accept 93546 "Spectral Iron Ore" lvl 35 @42.0,79.0 -- Vindael gives Spectral Iron Ore.
+
+step Spectral Iron Ore
+  complete 93546 "Spectral Iron Ore" -- Keep the Spectral Pickaxe in your bags to reveal the deposits. Right-click the ground deposits near the temple hillsides until you have 10 Spectral Iron Ore.
+
+step Tempered Expectations pickup
+  turnin 93546 "Spectral Iron Ore" xp 2550 @42.0,79.0 -- Vindael.
+  accept 96060 "Tempered Expectations" lvl 35 @42.0,79.0 -- Vindael; accept before returning to the wildlife.
+
+step Test the blade
+  complete 96060 "Tempered Expectations" -- Lower eligible wildlife to 20% health or less, then use the Phantasmal Blade for eight execution credits. Normal kills alone do not count.
+  note "OPTIONAL REWARD IF HELD: After Meeting the Magister, take Partially Digested Collar to Liranne at /mappin 2652 47.3 65.6 on your next pass north of the temple. Use the collar to accept first. If Liranne is unavailable, keep it for later; no waiting." @47.3,65.6 map 2652
+
+step Return Vindael's work
+  turnin 96060 "Tempered Expectations" xp 3450 @42.0,79.0 -- Vindael.
+
+step Forlorn Gardens pickup
+  accept 93341 "Forlorn Gardens" lvl 35 @53.1,75.8 -- Mithera.
+
+step Inspect the garden shrine
+  complete 93341 "Forlorn Gardens" @70.0,80.0 -- Inspect the blue pedestal in the shrine.
+
+step Mithera's referral
+  turnin 93341 "Forlorn Gardens" xp 1800 @53.1,75.8 -- Mithera.
+  accept 93594 "Word of the Woods" lvl 35 @53.1,75.9 -- Mithera.
+
+step Woodwyrd and the Maraudon quest
+  turnin 93594 "Word of the Woods" xp 360 @69.5,71.9 -- Woodwyrd.
+  accept 93404 "Rot and Regret" lvl 35 @69.5,71.9 -- Keep Rot and Regret until Maraudon.
+
+step Orgrimmar delivery
+  zone map 1454
+  turnin 7732 "Zukk'ash Report" xp 4400 -- Zilzibin Drumlore: Zukk'ash Report.
+
+step Booty Bay delivery
+  zone map 1434
+  tip Use the Ratchet-Booty Bay connection as convenient. Head to Searing Gorge next; the Uldaman necklace chain was completed in chapter 02.
+  turnin 2874 "Deliver to MacKinley" xp 3900 @27.8,77.1 -- Sea Wolf MacKinley: Stoley's delivery.

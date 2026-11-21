@@ -1,0 +1,99 @@
+guide five-friends-43-48/08-maraudon-finish
+title 08 - Maraudon & Final Rewards (48-49)
+faction Horde
+levels 48-49
+zone map 1443
+coords live
+category Leveling
+folder Five Friends 43-48
+keywords group, horde, dungeon, five friends
+version 3
+Five-player quest route. Level band 48-49 is an estimate, not a grind requirement.
+
+step Maraudon quest pickups
+  accept 7067 "The Pariah's Instructions" lvl 39 -- Centaur Pariah, roaming southern Desolace: The Pariah's Instructions.
+  accept 7029 "Vyletongue Corruption" lvl 41 @23.2,70.2 -- Vark Battlescar in Shadowprey Village: Vyletongue Corruption.
+  accept 7028 "Twisted Evils" lvl 41 @62.1,39.6 -- Willow at Kormek's Hut: Twisted Evils.
+  accept 7064 "Corruption of Earth and Seed" lvl 45 @26.9,77.7 -- Selendra near Shadowprey: Horde Corruption of Earth and Seed, requires level 45.
+
+step Maraudon entrance pickup
+  accept 7044 "Legends of Maraudon" lvl 41 -- Cavindra in the orange-side exterior caverns: Legends of Maraudon.
+
+step Exterior preparation
+  tip Cavindra and the first three khans are outside the instance. Keep the filled Coated Cerulean Vial for the orange-wing plants. The two remaining khans are inside, one in each wing.
+  complete 7068 "Shadowshard Fragments" -- Collect 10 Shadowshard Fragments per player in the purple-side exterior caverns.
+  task "Kill the Nameless Prophet for the Amulet of Spirits; use it on Kolk in the central exterior, Gelk in the purple exterior, and Magra in the orange exterior; loot all three gems"
+  task "Fill Vark's empty vial at the orange-entrance pool before going inside"
+
+step Maraudon readiness
+  tip This is a full orange wing + purple wing + Princess clear. Do not use a Princess-only shortcut. Keep bag space for the khan gems, scepter pieces, quest loot, and Rotgrip/Princess water.
+  task "All five have Legends, Pariah, Vyletongue, Twisted Evils, Corruption, Rot and Regret, An'she's Radiance and Shadowshards as applicable"
+
+step Orange wing
+  tip The vial quest counts the resulting healing credits; it does not require eight distinct plants. Collect Theradric Crystal Carvings from eligible dungeon enemies throughout the run.
+  complete 7029 "Vyletongue Corruption" -- Use the filled vial at the red Vylestem plants; defeat the spawned Noxxious Scions until all eight healing credits are recorded.
+  task "Kill Noxxion for the Celebrian Rod, and reveal/defeat Veng, the Fifth Khan, in the orange wing for his gem"
+
+step Purple wing and the khan gems
+  tip Finish both wings before moving through Celebras toward the inner dungeon. Do not discard the scepter pieces.
+  task "Kill Lord Vyletongue for the Celebrian Diamond and reveal/defeat Maraudos, the Fourth Khan, in the purple wing"
+  complete 7067 "The Pariah's Instructions" -- With all five khan gems and the Amulet of Spirits, right-click a gem to combine them into the Amulet of Union.
+
+step Celebras
+  complete 7044 "Legends of Maraudon" -- Bring the Celebrian Rod and Celebrian Diamond, defeat Celebras the Cursed, then speak to Celebras the Redeemed.
+  turnin 7044 "Legends of Maraudon" xp 6650 -- Celebras the Redeemed.
+  accept 7046 "The Scepter of Celebras" lvl 41 -- Take The Scepter of Celebras.
+
+step Scepter ritual
+  complete 7046 "The Scepter of Celebras" -- Follow Celebras's dialogue and ritual; everyone obtains their quest credit.
+  turnin 7046 "The Scepter of Celebras" xp 11100 -- Celebras the Redeemed.
+
+step Inner Maraudon bosses
+  tip After the Princess dies, accept Seed of Life below BEFORE dropping into the pool for Rotgrip and the water.
+  complete 96776 "An'she's Radiance" -- Loot An'she's Radiance from the FIXED CRYSTAL beside Landslide in the inner crystal chamber; it is not his ordinary boss loot.
+  complete 7064 "Corruption of Earth and Seed" group 5 -- Kill Princess Theradras.
+
+step Seed of Life pickup
+  accept 7066 "Seed of Life" lvl 39 -- Zaetar's Spirit in the Princess area; accept before leaving the instance.
+
+step Rotgrip water and final collection check
+  tip Rot and Regret is not complete in the dungeon. Its remaining objective is to use the water on the burning treant back in Shen'dralas.
+  collect 258296 "Vial of Earth Song Water" x1 quest 93404.1 -- Loot the geyser in the eastern Rotgrip pool under the stone bridge; keep it for the burning treant.
+  complete 7028 "Twisted Evils" -- Finish 25 Theradric Crystal Carvings per player.
+  task "Finish the full clear, kill Rotgrip, and confirm every player has the water, An'she's Radiance, scepter, amulet and Seed of Life"
+
+step Desolace hand-ins
+  tip At the 13% assumption the lowest member should reach 48 around this block. The remaining deliveries provide the margin and are needed in the 3% sensitivity case.
+  turnin 7067 "The Pariah's Instructions" xp 10650 -- Centaur Pariah.
+  turnin 7029 "Vyletongue Corruption" xp 10250 @23.2,70.2 -- Vark Battlescar, Shadowprey Village.
+  turnin 7028 "Twisted Evils" xp 10250 @62.1,39.6 -- Willow, Kormek's Hut.
+  turnin 7064 "Corruption of Earth and Seed" xp 11900 @26.9,77.7 -- Selendra near Shadowprey.
+
+step Restore the tree
+  zone map 2652
+  complete 93404 "Rot and Regret" -- Return to Shen'dralas and use Earth Song Water on the massive burning treant beside Woodwyrd before reporting to him.
+
+step Rot and Regret reward
+  tip Corpsefeeder's Carapace is an optional bonus from an elite encounter. Use any already-held starter and deliver it to Kog'thug when convenient; no extra search or respawn wait is part of this route.
+  turnin 93404 "Rot and Regret" xp 11100 @69.5,71.9 -- Woodwyrd.
+
+step An'she's Radiance reward
+  zone map 1412
+  turnin 96776 "An'she's Radiance" xp 11900 @32.6,24.1 -- Olana Brighthoof, Skywatcher Plateau.
+
+step Shadowshard reward
+  zone map 1454
+  turnin 7068 "Shadowshard Fragments" xp 6750 @39.0,86.1 -- Uthel'nay, Orgrimmar.
+
+step The Spider God reward
+  zone map 1411
+  turnin 2936 "The Spider God" xp 9700 @55.9,74.7 -- Master Gadrin, Sen'jin Village.
+
+step Seed of Life delivery
+  zone map 1450
+  tip Use a known travel route or a mage portal as available. The group is not assumed to share the druid's Teleport: Moonglade. Count this XP only when each player reaches Remulos and hands it in.
+  turnin 7066 "Seed of Life" xp 11900 -- Keeper Remulos, Moonglade.
+
+step All planned quest rewards complete
+  tip Finish every scheduled quest hand-in and dungeon reward. The level band is approximate: do not grind solely to reach a displayed number before completing this guide. Optional quest starters and incidental kills can change the result.
+  task "Finished: every required group objective, dungeon quest and reward delivery checked"

@@ -1,0 +1,4159 @@
+{
+  "3601": {
+    "id": 3601,
+    "title": "Kim'jael Indeed!",
+    "level": 53,
+    "minLevel": 47,
+    "xp": 6550,
+    "start": {
+      "npc": [
+        8420
+      ]
+    },
+    "end": {
+      "npc": [
+        8420
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10717,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 10715,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 10722,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 10718,
+        "count": 1
+      }
+    ],
+    "preAny": [],
+    "zone": 1447
+  },
+  "6162": {
+    "id": 6162,
+    "title": "A Husband's Last Battle",
+    "level": 51,
+    "minLevel": 46,
+    "xp": 4900,
+    "start": {
+      "npc": [
+        9620
+      ]
+    },
+    "end": {
+      "npc": [
+        9620
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 15879,
+        "count": 1
+      }
+    ],
+    "preAny": [],
+    "zone": 1448
+  },
+  "5142": {
+    "id": 5142,
+    "title": "Little Pamela",
+    "level": 55,
+    "minLevel": 50,
+    "xp": 2800,
+    "start": {
+      "npc": [
+        10927
+      ]
+    },
+    "end": {
+      "npc": [
+        10926
+      ]
+    },
+    "preAll": [],
+    "zone": 1422
+  },
+  "5149": {
+    "id": 5149,
+    "title": "Pamela's Doll",
+    "level": 55,
+    "minLevel": 50,
+    "xp": 2800,
+    "start": {
+      "npc": [
+        10926
+      ]
+    },
+    "end": {
+      "npc": [
+        10926
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12885,
+        "count": 1
+      }
+    ],
+    "preAll": [],
+    "zone": 1423
+  },
+  "5152": {
+    "id": 5152,
+    "title": "Auntie Marlene",
+    "level": 56,
+    "minLevel": 50,
+    "xp": 2900,
+    "start": {
+      "npc": [
+        10926
+      ]
+    },
+    "end": {
+      "npc": [
+        10927
+      ]
+    },
+    "preAny": [
+      5149
+    ],
+    "zone": 1423
+  },
+  "5153": {
+    "id": 5153,
+    "title": "A Strange Historian",
+    "level": 56,
+    "minLevel": 50,
+    "xp": 4350,
+    "start": {
+      "npc": [
+        10927
+      ]
+    },
+    "end": {
+      "npc": [
+        10667
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12894,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5152
+    ],
+    "zone": 1422
+  },
+  "5154": {
+    "id": 5154,
+    "title": "The Annals of Darrowshire",
+    "level": 56,
+    "minLevel": 50,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        10667
+      ]
+    },
+    "end": {
+      "npc": [
+        10667
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12900,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5153
+    ],
+    "zone": 1422
+  },
+  "5155": {
+    "id": 5155,
+    "title": "Forces of Jaedenar",
+    "level": 51,
+    "minLevel": 48,
+    "xp": 4900,
+    "start": {
+      "npc": [
+        10922
+      ]
+    },
+    "end": {
+      "npc": [
+        10922
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 7125,
+        "count": 4
+      },
+      {
+        "type": "kill",
+        "id": 7113,
+        "count": 4
+      },
+      {
+        "type": "kill",
+        "id": 7115,
+        "count": 6
+      },
+      {
+        "type": "kill",
+        "id": 7112,
+        "count": 6
+      }
+    ],
+    "preAny": [],
+    "zone": 1448
+  },
+  "5156": {
+    "id": 5156,
+    "title": "Verifying the Corruption",
+    "level": 54,
+    "minLevel": 48,
+    "xp": 6800,
+    "start": {
+      "npc": [
+        10921
+      ]
+    },
+    "end": {
+      "npc": [
+        10921
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 9878,
+        "count": 2
+      },
+      {
+        "type": "kill",
+        "id": 9879,
+        "count": 2
+      },
+      {
+        "type": "event",
+        "id": null,
+        "count": null
+      }
+    ],
+    "preAny": [],
+    "zone": 1448
+  },
+  "5157": {
+    "id": 5157,
+    "title": "Collection of the Corrupt Water",
+    "level": 52,
+    "minLevel": 48,
+    "xp": 3800,
+    "start": {
+      "npc": [
+        10922
+      ]
+    },
+    "end": {
+      "npc": [
+        10922
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12907,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5155
+    ],
+    "zone": 1448
+  },
+  "5158": {
+    "id": 5158,
+    "title": "Seeking Spiritual Aid",
+    "level": 52,
+    "minLevel": 48,
+    "xp": 2550,
+    "start": {
+      "npc": [
+        10922
+      ]
+    },
+    "end": {
+      "npc": [
+        5901
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12907,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5157
+    ],
+    "zone": 1448
+  },
+  "5159": {
+    "id": 5159,
+    "title": "Cleansed Water Returns to Felwood",
+    "level": 54,
+    "minLevel": 48,
+    "xp": 2700,
+    "start": {
+      "npc": [
+        5901
+      ]
+    },
+    "end": {
+      "npc": [
+        10922
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12906,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5158
+    ],
+    "zone": 1413
+  },
+  "5165": {
+    "id": 5165,
+    "title": "Dousing the Flames of Protection",
+    "level": 55,
+    "minLevel": 48,
+    "xp": 5650,
+    "start": {
+      "npc": [
+        10922
+      ]
+    },
+    "end": {
+      "npc": [
+        10922
+      ]
+    },
+    "objectives": [
+      {
+        "type": "object",
+        "id": 176158,
+        "count": 1
+      },
+      {
+        "type": "object",
+        "id": 176159,
+        "count": 1
+      },
+      {
+        "type": "object",
+        "id": 176160,
+        "count": 1
+      },
+      {
+        "type": "object",
+        "id": 176161,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5159
+    ],
+    "zone": 1448
+  },
+  "5168": {
+    "id": 5168,
+    "title": "Heroes of Darrowshire",
+    "level": 56,
+    "minLevel": 50,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        11063
+      ]
+    },
+    "end": {
+      "npc": [
+        11063
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12954,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 12955,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5210
+    ],
+    "zone": 1423
+  },
+  "4145": {
+    "id": 4145,
+    "title": "Larion and Muigin",
+    "level": 52,
+    "minLevel": 47,
+    "xp": 5100,
+    "start": {
+      "npc": [
+        9118
+      ]
+    },
+    "end": {
+      "npc": [
+        9118
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 6509,
+        "count": 5
+      },
+      {
+        "type": "kill",
+        "id": 6512,
+        "count": 5
+      },
+      {
+        "type": "kill",
+        "id": 6510,
+        "count": 5
+      },
+      {
+        "type": "kill",
+        "id": 6511,
+        "count": 5
+      }
+    ],
+    "preAny": [],
+    "zone": 1449
+  },
+  "95283": {
+    "id": 95283,
+    "title": "The Missing Kor'kron",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 1300,
+    "start": {
+      "npc": [],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [],
+      "object": []
+    },
+    "preAny": [],
+    "zone": 1454
+  },
+  "95284": {
+    "id": 95284,
+    "title": "The Elite of the Elite",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 1300,
+    "start": {
+      "npc": [],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [],
+      "object": []
+    },
+    "preAny": [
+      95283
+    ],
+    "zone": 1445
+  },
+  "95285": {
+    "id": 95285,
+    "title": "Right Place, Wrong Time",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 1300,
+    "start": {
+      "npc": [],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [],
+      "object": []
+    },
+    "preAny": [
+      95284
+    ],
+    "zone": 1445
+  },
+  "2621": {
+    "id": 2621,
+    "title": "The Disgraced One",
+    "level": 50,
+    "minLevel": 45,
+    "xp": 1200,
+    "start": {
+      "npc": [
+        7572
+      ]
+    },
+    "end": {
+      "npc": [
+        7623
+      ]
+    },
+    "preAny": [
+      2784
+    ],
+    "zone": 1419
+  },
+  "2622": {
+    "id": 2622,
+    "title": "The Missing Orders",
+    "level": 50,
+    "minLevel": 45,
+    "xp": 1200,
+    "start": {
+      "npc": [
+        7623
+      ]
+    },
+    "end": {
+      "npc": [
+        7643
+      ]
+    },
+    "preAny": [
+      2621
+    ],
+    "zone": 1435
+  },
+  "2623": {
+    "id": 2623,
+    "title": "The Swamp Talker",
+    "level": 55,
+    "minLevel": 45,
+    "xp": 5650,
+    "start": {
+      "npc": [
+        7643
+      ]
+    },
+    "end": {
+      "npc": [
+        7572
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 8463,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      2622
+    ],
+    "zone": 1435
+  },
+  "5181": {
+    "id": 5181,
+    "title": "Villains of Darrowshire",
+    "level": 57,
+    "minLevel": 50,
+    "xp": 6000,
+    "start": {
+      "npc": [
+        11063
+      ]
+    },
+    "end": {
+      "npc": [
+        11063
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12956,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 12957,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5210
+    ],
+    "zone": 1423
+  },
+  "96332": {
+    "id": 96332,
+    "title": "A Little Payback",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 9700,
+    "start": {
+      "npc": [],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [],
+      "object": []
+    },
+    "preAny": [
+      95285
+    ],
+    "zone": 1445
+  },
+  "95309": {
+    "id": 95309,
+    "title": "No Orc Left Behind",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 12100,
+    "start": {
+      "npc": [],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [],
+      "object": []
+    },
+    "preAny": [
+      95285
+    ],
+    "zone": 1445
+  },
+  "96335": {
+    "id": 96335,
+    "title": "The Man in the Iron Chains",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 2850,
+    "start": {
+      "npc": [],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [],
+      "object": []
+    },
+    "preAny": [],
+    "zone": 1445
+  },
+  "96337": {
+    "id": 96337,
+    "title": "More Valuable Than Gold",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 11550,
+    "start": {
+      "npc": [],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [],
+      "object": []
+    },
+    "preAny": [
+      96335
+    ],
+    "zone": 1445
+  },
+  "86612": {
+    "id": 86612,
+    "title": "Stag Lord's Bauble",
+    "level": 55,
+    "minLevel": 48,
+    "xp": 2800,
+    "start": {
+      "object": [
+        661778
+      ]
+    },
+    "end": {
+      "npc": [
+        9996
+      ]
+    },
+    "preAny": [],
+    "zone": 1448
+  },
+  "5210": {
+    "id": 5210,
+    "title": "Brother Carlin",
+    "level": 56,
+    "minLevel": 50,
+    "xp": 2900,
+    "start": {
+      "npc": [
+        10667
+      ]
+    },
+    "end": {
+      "npc": [
+        11063
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 13202,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5154
+    ],
+    "zone": 1422
+  },
+  "5228": {
+    "id": 5228,
+    "title": "The Scourge Cauldrons",
+    "level": 53,
+    "minLevel": 50,
+    "xp": 530,
+    "start": {
+      "npc": [
+        10837
+      ]
+    },
+    "end": {
+      "npc": [
+        11055
+      ]
+    },
+    "preAny": [
+      5096
+    ],
+    "zone": 1422
+  },
+  "5229": {
+    "id": 5229,
+    "title": "Target: Felstone Field",
+    "level": 53,
+    "minLevel": 50,
+    "xp": 5250,
+    "start": {
+      "npc": [
+        11055
+      ]
+    },
+    "end": {
+      "object": [
+        176361
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 13194,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 13186,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5228
+    ],
+    "zone": 1422
+  },
+  "5230": {
+    "id": 5230,
+    "title": "Return to the Bulwark",
+    "level": 53,
+    "minLevel": 50,
+    "xp": 2650,
+    "start": {
+      "object": [
+        176361
+      ]
+    },
+    "end": {
+      "npc": [
+        11055
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 13190,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5229
+    ],
+    "zone": 1422
+  },
+  "5231": {
+    "id": 5231,
+    "title": "Target: Dalson's Tears",
+    "level": 55,
+    "minLevel": 50,
+    "xp": 5650,
+    "start": {
+      "npc": [
+        11055
+      ]
+    },
+    "end": {
+      "object": [
+        177289
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 13195,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 13187,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5230
+    ],
+    "zone": 1422
+  },
+  "5232": {
+    "id": 5232,
+    "title": "Return to the Bulwark",
+    "level": 55,
+    "minLevel": 50,
+    "xp": 2800,
+    "start": {
+      "object": [
+        177289
+      ]
+    },
+    "end": {
+      "npc": [
+        11055
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 13191,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5231
+    ],
+    "zone": 1422
+  },
+  "96369": {
+    "id": 96369,
+    "title": "Bad News for Folkar",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 2400,
+    "start": {
+      "npc": [],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [],
+      "object": []
+    },
+    "preAny": [
+      95454
+    ],
+    "zone": 1445
+  },
+  "5233": {
+    "id": 5233,
+    "title": "Target: Writhing Haunt",
+    "level": 55,
+    "minLevel": 50,
+    "xp": 5650,
+    "start": {
+      "npc": [
+        11055
+      ]
+    },
+    "end": {
+      "object": [
+        176393
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 13197,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 13188,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5232
+    ],
+    "zone": 1422
+  },
+  "5234": {
+    "id": 5234,
+    "title": "Return to the Bulwark",
+    "level": 55,
+    "minLevel": 50,
+    "xp": 2800,
+    "start": {
+      "object": [
+        176393
+      ]
+    },
+    "end": {
+      "npc": [
+        11055
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 13192,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5233
+    ],
+    "zone": 1422
+  },
+  "5235": {
+    "id": 5235,
+    "title": "Target: Gahrron's Withering",
+    "level": 58,
+    "minLevel": 50,
+    "xp": 6200,
+    "start": {
+      "npc": [
+        11055
+      ]
+    },
+    "end": {
+      "object": [
+        176392
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 13196,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 13189,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5234
+    ],
+    "zone": 1422
+  },
+  "5236": {
+    "id": 5236,
+    "title": "Return to the Bulwark",
+    "level": 58,
+    "minLevel": 50,
+    "xp": 3100,
+    "start": {
+      "object": [
+        176392
+      ]
+    },
+    "end": {
+      "npc": [
+        11055
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 13193,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5235
+    ],
+    "zone": 1422
+  },
+  "5238": {
+    "id": 5238,
+    "title": "Mission Accomplished!",
+    "level": 58,
+    "minLevel": 50,
+    "xp": 9300,
+    "start": {
+      "npc": [
+        10837
+      ]
+    },
+    "end": {
+      "npc": [
+        10837
+      ]
+    },
+    "preAny": [
+      5236
+    ],
+    "zone": 1422
+  },
+  "5742": {
+    "id": 5742,
+    "title": "Redemption",
+    "level": 56,
+    "minLevel": 52,
+    "xp": 580,
+    "start": {
+      "npc": [
+        1855
+      ]
+    },
+    "end": {
+      "npc": [
+        1855
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 1855,
+        "count": null
+      }
+    ],
+    "preAll": [
+      5542,
+      5543,
+      5544
+    ],
+    "zone": 1423
+  },
+  "4721": {
+    "id": 4721,
+    "title": "Wild Guardians",
+    "level": 59,
+    "minLevel": 52,
+    "xp": 6400,
+    "start": {
+      "npc": [
+        10306
+      ]
+    },
+    "end": {
+      "npc": [
+        10306
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 7454,
+        "count": 10
+      }
+    ],
+    "preAny": [
+      4741
+    ],
+    "zone": 1448
+  },
+  "2681": {
+    "id": 2681,
+    "title": "The Stones That Bind Us",
+    "level": 57,
+    "minLevel": 45,
+    "xp": 7550,
+    "start": {
+      "npc": [
+        7572
+      ]
+    },
+    "end": {
+      "npc": [
+        7572
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 7668,
+        "count": 9
+      },
+      {
+        "type": "kill",
+        "id": 7669,
+        "count": 3
+      },
+      {
+        "type": "kill",
+        "id": 7670,
+        "count": 3
+      },
+      {
+        "type": "kill",
+        "id": 7671,
+        "count": 3
+      }
+    ],
+    "preAny": [
+      2801
+    ],
+    "zone": 1419
+  },
+  "5241": {
+    "id": 5241,
+    "title": "Uncle Carlin",
+    "level": 56,
+    "minLevel": 50,
+    "xp": 2900,
+    "start": {
+      "npc": [
+        10926
+      ]
+    },
+    "end": {
+      "npc": [
+        11063
+      ]
+    },
+    "preAny": [
+      5149
+    ],
+    "zone": 1423
+  },
+  "96379": {
+    "id": 96379,
+    "title": "State Secrets",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 6550,
+    "start": {
+      "npc": [],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [],
+      "object": []
+    },
+    "preAny": [
+      96337
+    ],
+    "zone": 1434
+  },
+  "5242": {
+    "id": 5242,
+    "title": "A Final Blow",
+    "level": 58,
+    "minLevel": 48,
+    "xp": 9300,
+    "start": {
+      "npc": [
+        10922
+      ]
+    },
+    "end": {
+      "npc": [
+        10922
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 9861,
+        "count": 1
+      },
+      {
+        "type": "kill",
+        "id": 9860,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 13207,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5165
+    ],
+    "zone": 1448
+  },
+  "4741": {
+    "id": 4741,
+    "title": "Wild Guardians",
+    "level": 58,
+    "minLevel": 52,
+    "xp": 6200,
+    "start": {
+      "npc": [
+        10306
+      ]
+    },
+    "end": {
+      "npc": [
+        10306
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 7453,
+        "count": 13
+      }
+    ],
+    "preAny": [
+      4521
+    ],
+    "zone": 1448
+  },
+  "2701": {
+    "id": 2701,
+    "title": "Heroes of Old",
+    "level": 57,
+    "minLevel": 45,
+    "xp": 6000,
+    "start": {
+      "npc": [
+        7750
+      ]
+    },
+    "end": {
+      "object": [
+        141980
+      ]
+    },
+    "preAny": [
+      2702
+    ],
+    "zone": 1419
+  },
+  "2702": {
+    "id": 2702,
+    "title": "Heroes of Old",
+    "level": 57,
+    "minLevel": 45,
+    "xp": 3000,
+    "start": {
+      "npc": [
+        7572
+      ]
+    },
+    "end": {
+      "npc": [
+        7750
+      ]
+    },
+    "preAny": [
+      2681
+    ],
+    "zone": 1419
+  },
+  "5781": {
+    "id": 5781,
+    "title": "Of Forgotten Memories",
+    "level": 57,
+    "minLevel": 52,
+    "xp": 6000,
+    "start": {
+      "npc": [
+        1855
+      ]
+    },
+    "end": {
+      "npc": [
+        1855
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 14613,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5742
+    ],
+    "zone": 1423
+  },
+  "2721": {
+    "id": 2721,
+    "title": "Kirith",
+    "level": 58,
+    "minLevel": 45,
+    "xp": 6200,
+    "start": {
+      "npc": [
+        7572
+      ]
+    },
+    "end": {
+      "npc": [
+        7729
+      ]
+    },
+    "preAny": [
+      2701
+    ],
+    "zone": 1419
+  },
+  "4787": {
+    "id": 4787,
+    "title": "The Ancient Egg",
+    "level": 50,
+    "minLevel": 40,
+    "xp": 5900,
+    "start": {
+      "npc": [
+        8579
+      ]
+    },
+    "end": {
+      "npc": [
+        8579
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12402,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      3527
+    ],
+    "zone": 1446
+  },
+  "2743": {
+    "id": 2743,
+    "title": "The Cover of Darkness",
+    "level": 60,
+    "minLevel": 45,
+    "xp": 3300,
+    "start": {
+      "npc": [
+        7729
+      ]
+    },
+    "end": {
+      "npc": [
+        7572
+      ]
+    },
+    "preAny": [
+      2721
+    ],
+    "zone": 1419
+  },
+  "4284": {
+    "id": 4284,
+    "title": "Crystals of Power",
+    "level": 53,
+    "minLevel": 47,
+    "xp": 5250,
+    "start": {
+      "npc": [
+        9117
+      ]
+    },
+    "end": {
+      "npc": [
+        9117
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 11186,
+        "count": 7
+      },
+      {
+        "type": "item",
+        "id": 11188,
+        "count": 7
+      },
+      {
+        "type": "item",
+        "id": 11185,
+        "count": 7
+      },
+      {
+        "type": "item",
+        "id": 11184,
+        "count": 7
+      }
+    ],
+    "preAny": [],
+    "zone": 1449
+  },
+  "4285": {
+    "id": 4285,
+    "title": "The Northern Pylon",
+    "level": 53,
+    "minLevel": 47,
+    "xp": 3950,
+    "start": {
+      "npc": [
+        9117
+      ]
+    },
+    "end": {
+      "npc": [
+        9117
+      ]
+    },
+    "objectives": [
+      {
+        "type": "object",
+        "id": 164955,
+        "count": null
+      }
+    ],
+    "preAny": [
+      4284
+    ],
+    "zone": 1449
+  },
+  "4287": {
+    "id": 4287,
+    "title": "The Eastern Pylon",
+    "level": 53,
+    "minLevel": 47,
+    "xp": 3950,
+    "start": {
+      "npc": [
+        9117
+      ]
+    },
+    "end": {
+      "npc": [
+        9117
+      ]
+    },
+    "objectives": [
+      {
+        "type": "object",
+        "id": 164957,
+        "count": null
+      }
+    ],
+    "preAny": [
+      4284
+    ],
+    "zone": 1449
+  },
+  "4288": {
+    "id": 4288,
+    "title": "The Western Pylon",
+    "level": 53,
+    "minLevel": 47,
+    "xp": 3950,
+    "start": {
+      "npc": [
+        9117
+      ]
+    },
+    "end": {
+      "npc": [
+        9117
+      ]
+    },
+    "objectives": [
+      {
+        "type": "object",
+        "id": 164956,
+        "count": null
+      }
+    ],
+    "preAny": [
+      4284
+    ],
+    "zone": 1449
+  },
+  "4289": {
+    "id": 4289,
+    "title": "The Apes of Un'Goro",
+    "level": 55,
+    "minLevel": 47,
+    "xp": 5650,
+    "start": {
+      "npc": [
+        9619
+      ]
+    },
+    "end": {
+      "npc": [
+        9619
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 11478,
+        "count": 2
+      },
+      {
+        "type": "item",
+        "id": 11479,
+        "count": 2
+      },
+      {
+        "type": "item",
+        "id": 11480,
+        "count": 2
+      }
+    ],
+    "preAny": [],
+    "zone": 1449
+  },
+  "4290": {
+    "id": 4290,
+    "title": "The Fare of Lar'korwi",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 5250,
+    "start": {
+      "npc": [
+        9619
+      ]
+    },
+    "end": {
+      "npc": [
+        9619
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 11504,
+        "count": 1
+      }
+    ],
+    "preAny": [],
+    "zone": 1449
+  },
+  "4291": {
+    "id": 4291,
+    "title": "The Scent of Lar'korwi",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 5250,
+    "start": {
+      "npc": [
+        9619
+      ]
+    },
+    "end": {
+      "npc": [
+        9619
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 11509,
+        "count": 2
+      }
+    ],
+    "preAny": [
+      4290
+    ],
+    "zone": 1449
+  },
+  "4292": {
+    "id": 4292,
+    "title": "The Bait for Lar'korwi",
+    "level": 56,
+    "minLevel": 48,
+    "xp": 7300,
+    "start": {
+      "npc": [
+        9619
+      ]
+    },
+    "end": {
+      "npc": [
+        9619
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 11510,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      4291
+    ],
+    "zone": 1449
+  },
+  "97986": {
+    "id": 97986,
+    "title": "Argent Arbiter",
+    "level": 57,
+    "minLevel": 53,
+    "xp": 600,
+    "start": {
+      "npc": [
+        16284
+      ]
+    },
+    "end": {
+      "npc": [
+        16284
+      ]
+    },
+    "preAll": [
+      8152
+    ],
+    "zone": 1423
+  },
+  "97988": {
+    "id": 97988,
+    "title": "Orgrimmar's Windshapers",
+    "level": 57,
+    "minLevel": 53,
+    "xp": 6000,
+    "start": {
+      "npc": [
+        11706
+      ]
+    },
+    "end": {
+      "npc": [
+        255679
+      ]
+    },
+    "preAll": [
+      98109
+    ],
+    "zone": 1423
+  },
+  "4301": {
+    "id": 4301,
+    "title": "The Mighty U'cha",
+    "level": 55,
+    "minLevel": 50,
+    "xp": 5650,
+    "start": {
+      "npc": [
+        9619
+      ]
+    },
+    "end": {
+      "npc": [
+        9619
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 11476,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      4289
+    ],
+    "zone": 1449
+  },
+  "5845": {
+    "id": 5845,
+    "title": "Of Lost Honor",
+    "level": 58,
+    "minLevel": 52,
+    "xp": 6200,
+    "start": {
+      "npc": [
+        1855
+      ]
+    },
+    "end": {
+      "npc": [
+        1855
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 14625,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5781
+    ],
+    "zone": 1423
+  },
+  "5846": {
+    "id": 5846,
+    "title": "Of Love and Family",
+    "level": 58,
+    "minLevel": 52,
+    "xp": 6200,
+    "start": {
+      "npc": [
+        1855
+      ]
+    },
+    "end": {
+      "npc": [
+        11936
+      ]
+    },
+    "preAny": [
+      5845
+    ],
+    "zone": 1423
+  },
+  "86746": {
+    "id": 86746,
+    "title": "The Legashi Threat",
+    "level": 53,
+    "minLevel": 47,
+    "xp": 5250,
+    "start": {
+      "npc": [
+        235903
+      ]
+    },
+    "end": {
+      "npc": [
+        235903
+      ]
+    },
+    "preAny": [],
+    "zone": 1447
+  },
+  "95454": {
+    "id": 95454,
+    "title": "The Honor of the Kor'kron",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 12100,
+    "start": {
+      "npc": [],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [],
+      "object": []
+    },
+    "preAny": [
+      95309
+    ],
+    "zone": 1445
+  },
+  "2784": {
+    "id": 2784,
+    "title": "Fall From Grace",
+    "level": 50,
+    "minLevel": 45,
+    "xp": 470,
+    "start": {
+      "npc": [
+        7572
+      ]
+    },
+    "end": {
+      "npc": [
+        7572
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 7572,
+        "count": null
+      }
+    ],
+    "preAll": [],
+    "zone": 1419
+  },
+  "4321": {
+    "id": 4321,
+    "title": "Making Sense of It",
+    "level": 53,
+    "minLevel": 47,
+    "xp": 530,
+    "start": {
+      "npc": [
+        9117
+      ]
+    },
+    "end": {
+      "npc": [
+        9117
+      ]
+    },
+    "preAll": [
+      4285,
+      4287,
+      4288
+    ],
+    "zone": 1449
+  },
+  "5863": {
+    "id": 5863,
+    "title": "The Dunemaul Compound",
+    "level": 49,
+    "minLevel": 44,
+    "xp": 4550,
+    "start": {
+      "npc": [
+        11758
+      ]
+    },
+    "end": {
+      "npc": [
+        11758
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 5474,
+        "count": 10
+      },
+      {
+        "type": "kill",
+        "id": 5472,
+        "count": 10
+      },
+      {
+        "type": "kill",
+        "id": 12046,
+        "count": 1
+      }
+    ],
+    "preAny": [],
+    "zone": 1446
+  },
+  "4842": {
+    "id": 4842,
+    "title": "Strange Sources",
+    "level": 56,
+    "minLevel": 51,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        9298
+      ]
+    },
+    "end": {
+      "npc": [
+        9298
+      ]
+    },
+    "objectives": [
+      {
+        "type": "event",
+        "id": 2327,
+        "count": null
+      }
+    ],
+    "preAny": [
+      980
+    ],
+    "zone": 1452
+  },
+  "2801": {
+    "id": 2801,
+    "title": "A Tale of Sorrow",
+    "level": 57,
+    "minLevel": 45,
+    "xp": 600,
+    "start": {
+      "npc": [
+        7572
+      ]
+    },
+    "end": {
+      "npc": [
+        7572
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 7572,
+        "count": null
+      }
+    ],
+    "preAll": [
+      2623
+    ],
+    "zone": 1419
+  },
+  "95483": {
+    "id": 95483,
+    "title": "Thrall Needs to Know",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 2400,
+    "start": {
+      "npc": [],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [
+        4949
+      ]
+    },
+    "preAny": [
+      96369
+    ],
+    "zone": 1445
+  },
+  "3844": {
+    "id": 3844,
+    "title": "It's a Secret to Everybody",
+    "level": 52,
+    "minLevel": 47,
+    "xp": 1250,
+    "start": {
+      "object": [
+        161505
+      ]
+    },
+    "end": {
+      "object": [
+        161504
+      ]
+    },
+    "preAny": [],
+    "zone": 1449
+  },
+  "3845": {
+    "id": 3845,
+    "title": "It's a Secret to Everybody",
+    "level": 52,
+    "minLevel": 47,
+    "xp": 5100,
+    "start": {
+      "object": [
+        161504
+      ]
+    },
+    "end": {
+      "npc": [
+        8737
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 11104,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 11105,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 11106,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      3844
+    ],
+    "zone": 1449
+  },
+  "8460": {
+    "id": 8460,
+    "title": "Timbermaw Ally",
+    "level": 48,
+    "minLevel": 45,
+    "xp": 4400,
+    "start": {
+      "npc": [
+        11554
+      ]
+    },
+    "end": {
+      "npc": [
+        11554
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 7153,
+        "count": 6
+      },
+      {
+        "type": "kill",
+        "id": 7155,
+        "count": 6
+      },
+      {
+        "type": "kill",
+        "id": 7154,
+        "count": 6
+      }
+    ],
+    "preAny": [],
+    "zone": 1448
+  },
+  "8461": {
+    "id": 8461,
+    "title": "Deadwood of the North",
+    "level": 55,
+    "minLevel": 45,
+    "xp": 5650,
+    "start": {
+      "npc": [
+        15395
+      ]
+    },
+    "end": {
+      "npc": [
+        15395
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 7156,
+        "count": 6
+      },
+      {
+        "type": "kill",
+        "id": 7157,
+        "count": 6
+      },
+      {
+        "type": "kill",
+        "id": 7158,
+        "count": 6
+      }
+    ],
+    "preAny": [],
+    "zone": 1448
+  },
+  "8462": {
+    "id": 8462,
+    "title": "Speak to Nafien",
+    "level": 55,
+    "minLevel": 45,
+    "xp": 560,
+    "start": {
+      "npc": [
+        11554
+      ]
+    },
+    "end": {
+      "npc": [
+        15395
+      ]
+    },
+    "preAny": [
+      8460
+    ],
+    "zone": 1448
+  },
+  "8464": {
+    "id": 8464,
+    "title": "Winterfall Activity",
+    "level": 58,
+    "minLevel": 45,
+    "xp": 6200,
+    "start": {
+      "npc": [
+        11556
+      ]
+    },
+    "end": {
+      "npc": [
+        11556
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 7439,
+        "count": 8
+      },
+      {
+        "type": "kill",
+        "id": 7440,
+        "count": 8
+      },
+      {
+        "type": "kill",
+        "id": 7438,
+        "count": 8
+      }
+    ],
+    "preAny": [],
+    "zone": 1452
+  },
+  "8465": {
+    "id": 8465,
+    "title": "Speak to Salfa",
+    "level": 55,
+    "minLevel": 45,
+    "xp": 560,
+    "start": {
+      "npc": [
+        15395
+      ]
+    },
+    "end": {
+      "npc": [
+        11556
+      ]
+    },
+    "preAny": [
+      8461
+    ],
+    "zone": 1448
+  },
+  "7790": {
+    "id": 7790,
+    "title": "River Ends",
+    "level": 57,
+    "minLevel": 53,
+    "xp": 600,
+    "start": {
+      "npc": [
+        270191
+      ]
+    },
+    "end": {
+      "npc": [
+        270307
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 14732,
+        "count": 1
+      }
+    ],
+    "preAll": [],
+    "zone": 1422
+  },
+  "5405": {
+    "id": 5405,
+    "title": "Argent Dawn Commission",
+    "level": 55,
+    "minLevel": 50,
+    "xp": 560,
+    "start": {
+      "npc": [
+        10839
+      ]
+    },
+    "end": {
+      "npc": [
+        10839
+      ]
+    },
+    "preAll": [],
+    "zone": 1422
+  },
+  "3362": {
+    "id": 3362,
+    "title": "Thistleshrub Valley",
+    "level": 50,
+    "minLevel": 45,
+    "xp": 4700,
+    "start": {
+      "npc": [
+        7876
+      ]
+    },
+    "end": {
+      "npc": [
+        7876
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 5490,
+        "count": 8
+      },
+      {
+        "type": "kill",
+        "id": 5485,
+        "count": 8
+      }
+    ],
+    "preAny": [],
+    "zone": 1446
+  },
+  "3881": {
+    "id": 3881,
+    "title": "Expedition Salvation",
+    "level": 53,
+    "minLevel": 48,
+    "xp": 5250,
+    "start": {
+      "npc": [
+        9270
+      ]
+    },
+    "end": {
+      "npc": [
+        9270
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 11113,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 11112,
+        "count": 1
+      }
+    ],
+    "preAny": [],
+    "zone": 1449
+  },
+  "3882": {
+    "id": 3882,
+    "title": "Roll the Bones",
+    "level": 51,
+    "minLevel": 49,
+    "xp": 4900,
+    "start": {
+      "npc": [
+        9272
+      ]
+    },
+    "end": {
+      "npc": [
+        9272
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 11114,
+        "count": 8
+      }
+    ],
+    "preAny": [],
+    "zone": 1449
+  },
+  "3883": {
+    "id": 3883,
+    "title": "Alien Ecology",
+    "level": 52,
+    "minLevel": 48,
+    "xp": 5100,
+    "start": {
+      "npc": [
+        9271
+      ]
+    },
+    "end": {
+      "npc": [
+        9271
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 11131,
+        "count": 1
+      }
+    ],
+    "preAny": [],
+    "zone": 1449
+  },
+  "3373": {
+    "id": 3373,
+    "title": "The Essence of Eranikus",
+    "level": 55,
+    "minLevel": 48,
+    "xp": 5450,
+    "start": {
+      "item": [
+        10454
+      ]
+    },
+    "end": {
+      "object": [
+        148512
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10454,
+        "count": 1
+      }
+    ],
+    "preAny": [],
+    "zone": 1435
+  },
+  "3380": {
+    "id": 3380,
+    "title": "The Sunken Temple",
+    "level": 51,
+    "minLevel": 46,
+    "xp": 3650,
+    "start": {
+      "npc": [
+        8115
+      ]
+    },
+    "end": {
+      "npc": [
+        7771
+      ]
+    },
+    "preAny": [],
+    "zone": 1444
+  },
+  "98109": {
+    "id": 98109,
+    "title": "Bleeding Edge",
+    "level": 57,
+    "minLevel": 53,
+    "xp": 600,
+    "start": {
+      "npc": [
+        16284
+      ]
+    },
+    "end": {
+      "npc": [
+        11706
+      ]
+    },
+    "preAll": [
+      97986
+    ],
+    "zone": 1423
+  },
+  "91497": {
+    "id": 91497,
+    "title": "Seals of the Sin'dorei",
+    "level": 53,
+    "minLevel": 44,
+    "xp": 5250,
+    "start": {
+      "npc": [
+        247449
+      ]
+    },
+    "end": {
+      "npc": [
+        247449
+      ]
+    },
+    "preAny": [
+      3505
+    ],
+    "zone": 1447
+  },
+  "4971": {
+    "id": 4971,
+    "title": "A Matter of Time",
+    "level": 56,
+    "minLevel": 53,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        10667
+      ]
+    },
+    "end": {
+      "npc": [
+        10667
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 10717,
+        "count": 15
+      },
+      {
+        "type": "item",
+        "id": 12627,
+        "count": 1
+      }
+    ],
+    "preAll": [],
+    "zone": 1422
+  },
+  "91500": {
+    "id": 91500,
+    "title": "An Explosive Gambit",
+    "level": 55,
+    "minLevel": 44,
+    "xp": 4200,
+    "start": {
+      "npc": [
+        247449
+      ]
+    },
+    "end": {
+      "npc": [
+        8576
+      ]
+    },
+    "preAny": [
+      91497
+    ],
+    "zone": 1447
+  },
+  "3444": {
+    "id": 3444,
+    "title": "The Stone Circle",
+    "level": 51,
+    "minLevel": 46,
+    "xp": 4900,
+    "start": {
+      "npc": [
+        7771
+      ]
+    },
+    "end": {
+      "npc": [
+        7771
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10556,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      3380
+    ],
+    "zone": 1446
+  },
+  "6004": {
+    "id": 6004,
+    "title": "Unfinished Business",
+    "level": 56,
+    "minLevel": 50,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        11610
+      ]
+    },
+    "end": {
+      "npc": [
+        11610
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 10605,
+        "count": 2
+      },
+      {
+        "type": "kill",
+        "id": 1831,
+        "count": 2
+      },
+      {
+        "type": "kill",
+        "id": 1826,
+        "count": 2
+      },
+      {
+        "type": "kill",
+        "id": 1833,
+        "count": 2
+      }
+    ],
+    "preAll": [],
+    "zone": 1422
+  },
+  "3446": {
+    "id": 3446,
+    "title": "Into the Depths",
+    "level": 51,
+    "minLevel": 46,
+    "xp": 9550,
+    "start": {
+      "npc": [
+        7771
+      ]
+    },
+    "end": {
+      "object": [
+        148836
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10466,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      3444
+    ],
+    "zone": 1446
+  },
+  "3447": {
+    "id": 3447,
+    "title": "Secret of the Circle",
+    "level": 51,
+    "minLevel": 46,
+    "xp": 11900,
+    "start": {
+      "npc": [
+        7771
+      ]
+    },
+    "end": {
+      "object": [
+        148838
+      ]
+    },
+    "preAny": [
+      3444
+    ],
+    "zone": 1446
+  },
+  "4984": {
+    "id": 4984,
+    "title": "The Wildlife Suffers Too",
+    "level": 54,
+    "minLevel": 51,
+    "xp": 4100,
+    "start": {
+      "npc": [
+        10739
+      ]
+    },
+    "end": {
+      "npc": [
+        10739
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 1817,
+        "count": 8
+      }
+    ],
+    "preAll": [],
+    "zone": 1422
+  },
+  "4985": {
+    "id": 4985,
+    "title": "The Wildlife Suffers Too",
+    "level": 56,
+    "minLevel": 51,
+    "xp": 4350,
+    "start": {
+      "npc": [
+        10739
+      ]
+    },
+    "end": {
+      "npc": [
+        10739
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 1816,
+        "count": 8
+      }
+    ],
+    "preAny": [
+      4984
+    ],
+    "zone": 1422
+  },
+  "4987": {
+    "id": 4987,
+    "title": "Glyphed Oaken Branch",
+    "level": 56,
+    "minLevel": 51,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        10739
+      ]
+    },
+    "end": {
+      "npc": [
+        5770
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12663,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      4985
+    ],
+    "zone": 1422
+  },
+  "6021": {
+    "id": 6021,
+    "title": "Zaeldarr the Outcast",
+    "level": 55,
+    "minLevel": 50,
+    "xp": 4200,
+    "start": {
+      "npc": [
+        11038
+      ]
+    },
+    "end": {
+      "npc": [
+        11038
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 15785,
+        "count": 1
+      }
+    ],
+    "preAll": [],
+    "zone": 1423
+  },
+  "6023": {
+    "id": 6023,
+    "title": "Unfinished Business",
+    "level": 57,
+    "minLevel": 50,
+    "xp": 6000,
+    "start": {
+      "npc": [
+        11610
+      ]
+    },
+    "end": {
+      "npc": [
+        11610
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 11613,
+        "count": 1
+      },
+      {
+        "type": "kill",
+        "id": 11611,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      6004
+    ],
+    "zone": 1422
+  },
+  "2440": {
+    "id": 2440,
+    "title": "The Platinum Discs",
+    "level": 47,
+    "minLevel": 40,
+    "xp": 420,
+    "start": {
+      "npc": [
+        3978
+      ],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [
+        3009
+      ],
+      "object": []
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 8070,
+        "count": 1
+      }
+    ]
+  },
+  "6025": {
+    "id": 6025,
+    "title": "Unfinished Business",
+    "level": 58,
+    "minLevel": 50,
+    "xp": 6200,
+    "start": {
+      "npc": [
+        11610
+      ]
+    },
+    "end": {
+      "npc": [
+        11610
+      ]
+    },
+    "objectives": [
+      {
+        "type": "event",
+        "id": 3366,
+        "count": null
+      }
+    ],
+    "preAny": [
+      6023
+    ],
+    "zone": 1422
+  },
+  "2954": {
+    "id": 2954,
+    "title": "The Stone Watcher",
+    "level": 50,
+    "minLevel": 45,
+    "xp": 4700,
+    "start": {
+      "npc": [
+        7918
+      ],
+      "object": [
+        142343
+      ],
+      "item": []
+    },
+    "end": {
+      "object": [
+        142343
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 7918,
+        "count": null
+      }
+    ],
+    "preAny": [
+      2966
+    ],
+    "zone": 1446
+  },
+  "91531": {
+    "id": 91531,
+    "title": "Revenge Exacted",
+    "level": 55,
+    "minLevel": 44,
+    "xp": 5650,
+    "start": {
+      "npc": [
+        8576
+      ]
+    },
+    "end": {
+      "npc": [],
+      "object": []
+    },
+    "preAny": [
+      91500
+    ],
+    "zone": 1447
+  },
+  "91538": {
+    "id": 91538,
+    "title": "Sin'dorei Tome of Summoning",
+    "level": 55,
+    "minLevel": 44,
+    "xp": 560,
+    "start": {
+      "npc": [
+        247449
+      ]
+    },
+    "end": {
+      "npc": [
+        8587
+      ]
+    },
+    "preAny": [
+      91500
+    ],
+    "zone": 1447
+  },
+  "2965": {
+    "id": 2965,
+    "title": "Portents of Uldum",
+    "level": 50,
+    "minLevel": 45,
+    "xp": 470,
+    "start": {
+      "npc": [
+        3978
+      ]
+    },
+    "end": {
+      "npc": [
+        5770
+      ]
+    },
+    "preAny": [
+      2440
+    ],
+    "zone": 1456
+  },
+  "2966": {
+    "id": 2966,
+    "title": "Seeing What Happens",
+    "level": 50,
+    "minLevel": 45,
+    "xp": 4700,
+    "start": {
+      "npc": [
+        5770
+      ]
+    },
+    "end": {
+      "object": [
+        142343
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 6064,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      2965
+    ],
+    "zone": 1456
+  },
+  "4501": {
+    "id": 4501,
+    "title": "Beware of Pterrordax",
+    "level": 55,
+    "minLevel": 49,
+    "xp": 5650,
+    "start": {
+      "object": [
+        174682
+      ]
+    },
+    "end": {
+      "npc": [
+        9997
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 9166,
+        "count": 10
+      },
+      {
+        "type": "kill",
+        "id": 9167,
+        "count": 15
+      }
+    ],
+    "preAny": [],
+    "zone": 1449
+  },
+  "2967": {
+    "id": 2967,
+    "title": "Return to Thunder Bluff",
+    "level": 50,
+    "minLevel": 45,
+    "xp": 470,
+    "start": {
+      "object": [
+        142343
+      ]
+    },
+    "end": {
+      "npc": [
+        5770
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 6064,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      2954
+    ],
+    "zone": 1446
+  },
+  "4505": {
+    "id": 4505,
+    "title": "Well of Corruption",
+    "level": 54,
+    "minLevel": 49,
+    "xp": 5450,
+    "start": {
+      "npc": [
+        9996
+      ]
+    },
+    "end": {
+      "npc": [
+        9996
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12567,
+        "count": 1
+      }
+    ],
+    "preAny": [],
+    "zone": 1448
+  },
+  "4506": {
+    "id": 4506,
+    "title": "Corrupted Sabers",
+    "level": 54,
+    "minLevel": 49,
+    "xp": 5450,
+    "start": {
+      "npc": [
+        9996
+      ]
+    },
+    "end": {
+      "npc": [
+        9996
+      ]
+    },
+    "objectives": [
+      {
+        "type": "event",
+        "id": null,
+        "count": null
+      }
+    ],
+    "preAny": [
+      4505
+    ],
+    "zone": 1448
+  },
+  "91547": {
+    "id": 91547,
+    "title": "Sin'dorei Tome of Summoning",
+    "level": 55,
+    "minLevel": 44,
+    "xp": 560,
+    "start": {
+      "npc": [
+        8587
+      ]
+    },
+    "end": {
+      "npc": [
+        3326
+      ]
+    },
+    "preAny": [
+      91538
+    ],
+    "zone": 1447
+  },
+  "91548": {
+    "id": 91548,
+    "title": "Vek'zol",
+    "level": 55,
+    "minLevel": 44,
+    "xp": 7050,
+    "start": {
+      "npc": [
+        3326
+      ]
+    },
+    "end": {
+      "npc": [
+        3326
+      ]
+    },
+    "preAll": [
+      91547
+    ],
+    "zone": 1454
+  },
+  "5021": {
+    "id": 5021,
+    "title": "Better Late Than Never",
+    "level": 52,
+    "minLevel": 50,
+    "xp": 2550,
+    "start": {
+      "npc": [
+        10778
+      ]
+    },
+    "end": {
+      "object": [
+        175894
+      ]
+    },
+    "preAll": [],
+    "zone": 1422
+  },
+  "2968": {
+    "id": 2968,
+    "title": "A Future Task",
+    "level": 50,
+    "minLevel": 45,
+    "xp": 4700,
+    "start": {
+      "npc": [
+        5770
+      ]
+    },
+    "end": {
+      "npc": [
+        3978
+      ]
+    },
+    "preAny": [
+      2967
+    ],
+    "zone": 1456
+  },
+  "5535": {
+    "id": 5535,
+    "title": "Spiritual Unrest",
+    "level": 47,
+    "minLevel": 45,
+    "xp": 4200,
+    "start": {
+      "npc": [
+        11548
+      ]
+    },
+    "end": {
+      "npc": [
+        11548
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 6116,
+        "count": 6
+      },
+      {
+        "type": "kill",
+        "id": 6117,
+        "count": 6
+      }
+    ],
+    "preAny": [],
+    "zone": 1447
+  },
+  "5536": {
+    "id": 5536,
+    "title": "A Land Filled with Hatred",
+    "level": 47,
+    "minLevel": 45,
+    "xp": 4200,
+    "start": {
+      "npc": [
+        11548
+      ]
+    },
+    "end": {
+      "npc": [
+        11548
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 6125,
+        "count": 6
+      },
+      {
+        "type": "kill",
+        "id": 6126,
+        "count": 2
+      },
+      {
+        "type": "kill",
+        "id": 6127,
+        "count": 2
+      }
+    ],
+    "preAny": [],
+    "zone": 1447
+  },
+  "5023": {
+    "id": 5023,
+    "title": "Better Late Than Never",
+    "level": 52,
+    "minLevel": 50,
+    "xp": 2550,
+    "start": {
+      "object": [
+        175894
+      ]
+    },
+    "end": {
+      "npc": [
+        10781
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12724,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5021
+    ],
+    "zone": 1422
+  },
+  "1446": {
+    "id": 1446,
+    "title": "Jammal'an the Prophet",
+    "level": 53,
+    "minLevel": 38,
+    "xp": 12750,
+    "start": {
+      "npc": [
+        5598
+      ]
+    },
+    "end": {
+      "npc": [
+        5598
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 6212,
+        "count": 1
+      }
+    ],
+    "preAny": [],
+    "zone": 1425
+  },
+  "5542": {
+    "id": 5542,
+    "title": "Demon Dogs",
+    "level": 56,
+    "minLevel": 52,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        1855
+      ]
+    },
+    "end": {
+      "npc": [
+        1855
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 8596,
+        "count": 20
+      },
+      {
+        "type": "kill",
+        "id": 8597,
+        "count": 5
+      },
+      {
+        "type": "kill",
+        "id": 8598,
+        "count": 5
+      }
+    ],
+    "preAll": [],
+    "zone": 1423
+  },
+  "5543": {
+    "id": 5543,
+    "title": "Blood Tinged Skies",
+    "level": 56,
+    "minLevel": 52,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        1855
+      ]
+    },
+    "end": {
+      "npc": [
+        1855
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 8600,
+        "count": 30
+      }
+    ],
+    "preAll": [],
+    "zone": 1423
+  },
+  "5544": {
+    "id": 5544,
+    "title": "Carrion Grubbage",
+    "level": 56,
+    "minLevel": 52,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        1855
+      ]
+    },
+    "end": {
+      "npc": [
+        1855
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 13853,
+        "count": 15
+      }
+    ],
+    "preAll": [],
+    "zone": 1423
+  },
+  "4521": {
+    "id": 4521,
+    "title": "Wild Guardians",
+    "level": 56,
+    "minLevel": 52,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        10306
+      ]
+    },
+    "end": {
+      "npc": [
+        10306
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 7451,
+        "count": 15
+      },
+      {
+        "type": "kill",
+        "id": 7450,
+        "count": 15
+      }
+    ],
+    "preAny": [],
+    "zone": 1448
+  },
+  "91568": {
+    "id": 91568,
+    "title": "Long Walks on the Beach",
+    "level": 51,
+    "minLevel": 45,
+    "xp": 4900,
+    "start": {
+      "npc": [
+        247473
+      ]
+    },
+    "end": {
+      "npc": [
+        247473
+      ]
+    },
+    "preAny": [],
+    "zone": 1447
+  },
+  "3505": {
+    "id": 3505,
+    "title": "Betrayed",
+    "level": 53,
+    "minLevel": 44,
+    "xp": 3950,
+    "start": {
+      "npc": [
+        8576
+      ]
+    },
+    "end": {
+      "npc": [
+        247449
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 6199,
+        "count": 6
+      },
+      {
+        "type": "kill",
+        "id": 6198,
+        "count": 6
+      },
+      {
+        "type": "event",
+        "id": 1387,
+        "count": null
+      }
+    ],
+    "preAny": [],
+    "zone": 1447
+  },
+  "5049": {
+    "id": 5049,
+    "title": "The Jeremiah Blues",
+    "level": 52,
+    "minLevel": 50,
+    "xp": 5100,
+    "start": {
+      "npc": [
+        10781
+      ]
+    },
+    "end": {
+      "npc": [
+        8403
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12724,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5023
+    ],
+    "zone": 1458
+  },
+  "5050": {
+    "id": 5050,
+    "title": "Good Luck Charm",
+    "level": 52,
+    "minLevel": 50,
+    "xp": 2550,
+    "start": {
+      "npc": [
+        8403
+      ]
+    },
+    "end": {
+      "npc": [
+        10778
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12721,
+        "count": 1
+      }
+    ],
+    "preAll": [
+      5049
+    ],
+    "zone": 1458
+  },
+  "5051": {
+    "id": 5051,
+    "title": "Two Halves Become One",
+    "level": 54,
+    "minLevel": 50,
+    "xp": 5450,
+    "start": {
+      "npc": [
+        10778
+      ]
+    },
+    "end": {
+      "npc": [
+        10778
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12723,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5050
+    ],
+    "zone": 1422
+  },
+  "3517": {
+    "id": 3517,
+    "title": "Stealing Knowledge",
+    "level": 52,
+    "minLevel": 45,
+    "xp": 5100,
+    "start": {
+      "npc": [
+        8587
+      ]
+    },
+    "end": {
+      "npc": [
+        8587
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10538,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 10539,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 10540,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 10541,
+        "count": 1
+      }
+    ],
+    "preAny": [],
+    "zone": 1447
+  },
+  "3518": {
+    "id": 3518,
+    "title": "Delivery to Magatha Grimtotem",
+    "level": 52,
+    "minLevel": 45,
+    "xp": 2550,
+    "start": {
+      "npc": [
+        8587
+      ]
+    },
+    "end": {
+      "npc": [
+        4046
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10538,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      3517
+    ],
+    "zone": 1447
+  },
+  "5054": {
+    "id": 5054,
+    "title": "Ursius of the Shardtooth",
+    "level": 56,
+    "minLevel": 53,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        10303
+      ]
+    },
+    "end": {
+      "npc": [
+        10303
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 10806,
+        "count": 1
+      }
+    ],
+    "preAny": [],
+    "zone": 1452
+  },
+  "5055": {
+    "id": 5055,
+    "title": "Brumeran of the Chillwind",
+    "level": 58,
+    "minLevel": 53,
+    "xp": 6200,
+    "start": {
+      "npc": [
+        10303
+      ]
+    },
+    "end": {
+      "npc": [
+        10303
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 10807,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5054
+    ],
+    "zone": 1452
+  },
+  "5058": {
+    "id": 5058,
+    "title": "Mrs. Dalson's Diary",
+    "level": 55,
+    "minLevel": 52,
+    "xp": 0,
+    "start": {
+      "npc": [],
+      "object": [
+        175926
+      ],
+      "item": []
+    },
+    "end": {
+      "object": [
+        175926
+      ]
+    },
+    "preAll": []
+  },
+  "5059": {
+    "id": 5059,
+    "title": "Locked Away",
+    "level": 55,
+    "minLevel": 52,
+    "xp": 0,
+    "start": {
+      "npc": [],
+      "object": [
+        175925
+      ],
+      "item": []
+    },
+    "end": {
+      "object": [
+        175925
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12738,
+        "count": 1
+      }
+    ],
+    "preAll": [
+      5058
+    ]
+  },
+  "87492": {
+    "id": 87492,
+    "title": "Uncanny Crystal",
+    "level": 55,
+    "minLevel": 50,
+    "xp": 5650,
+    "start": {
+      "npc": [
+        9619
+      ]
+    },
+    "end": {
+      "npc": [
+        9619
+      ]
+    },
+    "preAny": [],
+    "zone": 1449
+  },
+  "5060": {
+    "id": 5060,
+    "title": "Locked Away",
+    "level": 55,
+    "minLevel": 52,
+    "xp": 7050,
+    "start": {
+      "npc": [],
+      "object": [
+        175924
+      ],
+      "item": []
+    },
+    "end": {
+      "object": [
+        175924
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 12739,
+        "count": 1
+      }
+    ],
+    "preAll": [],
+    "accessNote": "Per-player Dalson Cabinet Key. Repeatable outhouse summon5059 is not required as a turned-in flag for every group member."
+  },
+  "3527": {
+    "id": 3527,
+    "title": "The Prophecy of Mosh'aru",
+    "level": 47,
+    "minLevel": 40,
+    "xp": 5250,
+    "start": {
+      "npc": [
+        8579
+      ],
+      "object": [],
+      "item": []
+    },
+    "end": {
+      "npc": [
+        8579
+      ],
+      "object": []
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10660,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 10661,
+        "count": 1
+      }
+    ]
+  },
+  "3528": {
+    "id": 3528,
+    "title": "The God Hakkar",
+    "level": 53,
+    "minLevel": 40,
+    "xp": 15400,
+    "start": {
+      "npc": [
+        8579
+      ]
+    },
+    "end": {
+      "npc": [
+        8579
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10662,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      4787
+    ],
+    "zone": 1446
+  },
+  "974": {
+    "id": 974,
+    "title": "Finding the Source",
+    "level": 55,
+    "minLevel": 51,
+    "xp": 5650,
+    "start": {
+      "npc": [
+        10302
+      ]
+    },
+    "end": {
+      "npc": [
+        10302
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 10541,
+        "count": 1
+      },
+      {
+        "type": "item",
+        "id": 12472,
+        "count": 1
+      }
+    ],
+    "preAny": [],
+    "zone": 1449
+  },
+  "980": {
+    "id": 980,
+    "title": "The New Springs",
+    "level": 55,
+    "minLevel": 51,
+    "xp": 2800,
+    "start": {
+      "npc": [
+        10302
+      ]
+    },
+    "end": {
+      "npc": [
+        9298
+      ]
+    },
+    "preAny": [
+      974
+    ],
+    "zone": 1449
+  },
+  "3541": {
+    "id": 3541,
+    "title": "Delivery to Jes'rimon",
+    "level": 52,
+    "minLevel": 45,
+    "xp": 2550,
+    "start": {
+      "npc": [
+        8587
+      ]
+    },
+    "end": {
+      "npc": [
+        8659
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10539,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      3517
+    ],
+    "zone": 1447
+  },
+  "3542": {
+    "id": 3542,
+    "title": "Delivery to Andron Gant",
+    "level": 52,
+    "minLevel": 45,
+    "xp": 2550,
+    "start": {
+      "npc": [
+        8587
+      ]
+    },
+    "end": {
+      "npc": [
+        6522
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10540,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      3517
+    ],
+    "zone": 1447
+  },
+  "8152": {
+    "id": 8152,
+    "title": "Rapid Escape",
+    "level": 57,
+    "minLevel": 53,
+    "xp": 3000,
+    "start": {
+      "npc": [
+        270307
+      ]
+    },
+    "end": {
+      "npc": [
+        16284
+      ]
+    },
+    "preAll": [
+      7790
+    ],
+    "zone": 1423
+  },
+  "5082": {
+    "id": 5082,
+    "title": "Threat of the Winterfall",
+    "level": 56,
+    "minLevel": 52,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        9298
+      ]
+    },
+    "end": {
+      "npc": [
+        9298
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 7442,
+        "count": 8
+      },
+      {
+        "type": "kill",
+        "id": 7440,
+        "count": 8
+      },
+      {
+        "type": "kill",
+        "id": 7441,
+        "count": 8
+      }
+    ],
+    "preAny": [],
+    "zone": 1452
+  },
+  "5093": {
+    "id": 5093,
+    "title": "A Call to Arms: The Plaguelands!",
+    "level": 50,
+    "minLevel": 50,
+    "xp": 470,
+    "start": {
+      "npc": [
+        10880
+      ]
+    },
+    "end": {
+      "npc": [
+        10837
+      ]
+    },
+    "preAll": [],
+    "zone": 1454
+  },
+  "5096": {
+    "id": 5096,
+    "title": "Scarlet Diversions",
+    "level": 53,
+    "minLevel": 50,
+    "xp": 5250,
+    "start": {
+      "npc": [
+        10837
+      ]
+    },
+    "end": {
+      "npc": [
+        10837
+      ]
+    },
+    "objectives": [
+      {
+        "type": "event",
+        "id": null,
+        "count": null
+      }
+    ],
+    "preAll": [],
+    "zone": 1422
+  },
+  "3561": {
+    "id": 3561,
+    "title": "Delivery to Archmage Xylem",
+    "level": 52,
+    "minLevel": 45,
+    "xp": 2550,
+    "start": {
+      "npc": [
+        8587
+      ]
+    },
+    "end": {
+      "npc": [
+        8379
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10541,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      3517
+    ],
+    "zone": 1447
+  },
+  "5098": {
+    "id": 5098,
+    "title": "All Along the Watchtowers",
+    "level": 56,
+    "minLevel": 50,
+    "xp": 5800,
+    "start": {
+      "npc": [
+        10837
+      ]
+    },
+    "end": {
+      "npc": [
+        10837
+      ]
+    },
+    "objectives": [
+      {
+        "type": "kill",
+        "id": 10902,
+        "count": 1
+      },
+      {
+        "type": "kill",
+        "id": 10903,
+        "count": 1
+      },
+      {
+        "type": "kill",
+        "id": 10904,
+        "count": 1
+      },
+      {
+        "type": "kill",
+        "id": 10905,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      5096
+    ],
+    "zone": 1422
+  },
+  "3562": {
+    "id": 3562,
+    "title": "Magatha's Payment to Jediga",
+    "level": 52,
+    "minLevel": 45,
+    "xp": 6350,
+    "start": {
+      "npc": [
+        4046
+      ]
+    },
+    "end": {
+      "npc": [
+        8587
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10678,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      3518
+    ],
+    "zone": 1456
+  },
+  "3563": {
+    "id": 3563,
+    "title": "Jes'rimon's Payment to Jediga",
+    "level": 52,
+    "minLevel": 45,
+    "xp": 6350,
+    "start": {
+      "npc": [
+        8659
+      ]
+    },
+    "end": {
+      "npc": [
+        8587
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10680,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      3541
+    ],
+    "zone": 1454
+  },
+  "3565": {
+    "id": 3565,
+    "title": "Xylem's Payment to Jediga",
+    "level": 52,
+    "minLevel": 45,
+    "xp": 3800,
+    "start": {
+      "npc": [
+        8379
+      ]
+    },
+    "end": {
+      "npc": [
+        8587
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10681,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      3561
+    ],
+    "zone": 1447
+  },
+  "3564": {
+    "id": 3564,
+    "title": "Andron's Payment to Jediga",
+    "level": 52,
+    "minLevel": 45,
+    "xp": 6350,
+    "start": {
+      "npc": [
+        6522
+      ]
+    },
+    "end": {
+      "npc": [
+        8587
+      ]
+    },
+    "objectives": [
+      {
+        "type": "item",
+        "id": 10679,
+        "count": 1
+      }
+    ],
+    "preAny": [
+      3542
+    ],
+    "zone": 1458
+  }
+}

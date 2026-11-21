@@ -1,0 +1,133 @@
+guide five-friends-43-48/02-tanaris-feralas
+title 03 - Tanaris & Feralas (44-45)
+faction Horde
+levels 44-45
+zone map 1446
+coords live
+category Leveling
+folder Five Friends 43-48
+keywords group, horde, dungeon, five friends
+version 3
+Five-player quest route. Level band 44-45 is an estimate, not a grind requirement.
+next five-friends-43-48/03-shendralas
+
+step Gadgetzan pickups
+  tip Save Zul'Farrak itself for the later chapter; its remote prerequisites are still being prepared.
+  accept 1690 "Wastewander Justice" lvl 40 @52.5,28.5 -- Chief Engineer Bilgewhizzle.
+  accept 2781 "WANTED: Caliph Scorpidsting" lvl 39 -- Wanted poster in Gadgetzan.
+  accept 97534 "Gritty Business" lvl 40 @51.1,27.9 -- Quinn.
+  accept 992 "Gadgetzan Water Survey" lvl 38 @50.2,27.5 -- Senior Surveyor Fizzledowser.
+
+step First Wastewander pass
+  complete 1690 "Wastewander Justice" -- Kill 10 Wastewander Bandits and 10 Thieves.
+  complete 97534 "Gritty Business" -- Pick up seven Desert Debris ground objects per player.
+  complete 992 "Gadgetzan Water Survey" -- Use the supplied testing gadget at the quest's fixed water pool.
+
+step Gadgetzan follow-up
+  turnin 1690 "Wastewander Justice" xp 3600 @52.5,28.5 -- Chief Engineer Bilgewhizzle.
+  accept 1691 "More Wastewander Justice" lvl 40 @52.5,28.5
+  turnin 97534 "Gritty Business" xp 2900 @51.1,27.9 -- Quinn.
+  turnin 992 "Gadgetzan Water Survey" xp 3050 @50.2,27.5 -- Fizzledowser.
+
+step Second Wastewander pass
+  complete 1691 "More Wastewander Justice" -- Kill 10 Shadow Mages, 8 Rogues and 6 Assassins.
+  complete 2781 "WANTED: Caliph Scorpidsting" group 5 -- Kill Caliph Scorpidsting and loot his head; every player checks credit.
+
+step Wastewander rewards
+  turnin 1691 "More Wastewander Justice" xp 3750 @52.5,28.5 -- Chief Engineer Bilgewhizzle.
+  turnin 2781 "WANTED: Caliph Scorpidsting" xp 5050 @52.5,28.5 -- Chief Engineer Bilgewhizzle.
+
+step Steamwheedle setup
+  turnin 2872 "Stoley's Debt" xp 390 @67.1,24.0 -- Stoley.
+  accept 2873 "Stoley's Shipment" lvl 40 @67.1,24.0 -- Stoley.
+  accept 8366 "Southsea Shakedown" lvl 40 @67.1,23.9 -- Security Chief Bilgewhizzle.
+  accept 2875 "WANTED: Andre Firebeard" lvl 40 @66.8,22.3 -- Wanted poster.
+  accept 3520 "Screecher Spirits" lvl 40 @67.0,22.4 -- Yeh'kinya; take his bramble to Feralas.
+
+step Lost Rigger Cove
+  tip Ship Schedules is only a bonus if the starter naturally drops; it is not required or budgeted. No farming it for the group.
+  complete 8366 "Southsea Shakedown" -- Kill 10 Pirates, 10 Freebooters, 10 Dock Workers and 10 Swashbucklers.
+  complete 2873 "Stoley's Shipment" -- Loot Stoley's shipment from its ground crate in the building.
+  complete 2875 "WANTED: Andre Firebeard" group 5 -- Kill Andre Firebeard and collect the head.
+
+step Steamwheedle rewards
+  turnin 8366 "Southsea Shakedown" xp 3900 @67.1,23.9 -- Security Chief Bilgewhizzle.
+  turnin 2873 "Stoley's Shipment" xp 3900 @67.1,24.0 -- Stoley.
+  accept 2874 "Deliver to MacKinley" lvl 40 @67.1,24.0 -- Keep the delivery for Booty Bay.
+  turnin 2875 "WANTED: Andre Firebeard" xp 3900 @67.1,23.9 -- Security Chief Bilgewhizzle.
+
+step Camp Mojache introduction
+  zone map 1444
+  turnin 2981 "A Threat in Feralas" xp 890 @75.8,43.6 -- Rok Orhan.
+  accept 2975 "The Ogres of Feralas" lvl 38 @75.8,43.6 -- Rok Orhan.
+  accept 2987 "Gordunni Cobalt" lvl 38 @75.7,44.3 -- Orwin Gizzmick; keep the shovel.
+  accept 92878 "Lost for Words" lvl 36 @74.9,44.0 -- Blaise Montgomery.
+  accept 2862 "War on the Woodpaw" lvl 39 @74.9,42.5 -- Hadoken Swiftstrider.
+
+step Gordunni Outpost
+  complete 2975 "The Ogres of Feralas" -- Kill 10 Gordunni Ogres, 10 Ogre-Magi and 5 Brutes.
+  complete 2987 "Gordunni Cobalt" -- Use the supplied shovel on cobalt ground mounds; 12 cobalt per player.
+  accept 2978 "The Gordunni Scroll" lvl 38 @80.5,34.3 -- Loot the ground scroll near the training dummies, then right-click it in your bags to accept.
+
+step Northern named target
+  complete 92878 "Lost for Words" group 5 -- Kill Namida Grimtotem around 68,39 and collect Namida's Hoof.
+  note "OPTIONAL OBJECT CHECK: /mappin 1444 69.6 43.3. While near the Grimtotem camp, check the Grimtotem Chest by the diseased shaman remains for a Grimtotem Necklace. Keep it for the Broken Woodpaw Staff. The location is in current Forever data; if the container is absent or unusable, continue." @69.6,43.3 map 1444
+
+step Camp Mojache northern rewards
+  tip Do not extend the scroll into the unverified-drop Dark Ceremony/Orb branch for this route.
+  turnin 2975 "The Ogres of Feralas" xp 2700 @75.8,43.6 -- Rok Orhan.
+  accept 2980 "The Ogres of Feralas" lvl 38 @75.8,43.6 -- Rok Orhan.
+  turnin 2987 "Gordunni Cobalt" xp 3600 @75.7,44.3 -- Orwin Gizzmick.
+  turnin 2978 "The Gordunni Scroll" xp 1800 @75.8,43.6 -- Rok Orhan.
+  turnin 92878 "Lost for Words" xp 4450 @74.9,44.0 -- Blaise Montgomery.
+
+step The Old Key starter
+  accept 95599 "The Old Key" lvl 35 @76.6,48.0 -- Open the Old Crate beside the tent, then click the key in your bags to accept.
+  note "EXISTING ROUTE OBJECT: /mappin 1444 76.6 48.0. Open the Old Crate beside the tent; each player uses their own Old Key to accept. This is the same scheduled quest, not another pickup." @76.6,48.0 map 1444
+
+step The Old Key chest
+  turnin 95599 "The Old Key" xp 3450 @79.2,49.4 -- Open the submerged Old Chest; be ready for the elemental ambush.
+  note "EXISTING ROUTE OBJECT: /mappin 1444 79.2 49.4. The Old Chest is underwater. Current reports describe three elementals attacking after the hand-in; keep the party together." @79.2,49.4 map 1444
+
+step Woodpaw introduction collection
+  tip This collection is retained because it unlocks Alpha Strike, the battle-map chain, and Stinglasher. It is an explicit chain exception, not a claim of 80% drops.
+  complete 2862 "War on the Woodpaw" -- Gather 10 Woodpaw Gnoll Manes per player around the Woodpaw camps.
+  note "OPTIONAL OBJECT CHECK: /mappin 1444 66.4 50.9. If your Woodpaw circuit passes the dead diseased mystic, inspect the Woodpaw Bag for a Broken Woodpaw Staff. With a Grimtotem Necklace, combine the pieces out of combat into a Diseased Nature Staff and use it to start Corrupted Nature. The bag has a current map record; live loot and availability remain unverified. Skip if unavailable." @66.4,50.9 map 1444
+
+step Start the timed Alpha Strike
+  tip Alpha Strike has a one-hour timer. Do its five kills immediately before any other detour.
+  turnin 2862 "War on the Woodpaw" xp 2550 @74.9,42.5 -- Hadoken Swiftstrider.
+  accept 2863 "Alpha Strike" lvl 39 @74.9,42.5 -- Accept only when all five are ready.
+
+step Alpha Strike kills
+  complete 2863 "Alpha Strike" -- Kill five Woodpaw Alphas now.
+
+step Alpha Strike hand-in
+  turnin 2863 "Alpha Strike" xp 2700 @74.9,42.5 -- Hadoken.
+  accept 2902 "Woodpaw Investigation" lvl 39 @74.9,42.5 -- Hadoken.
+
+step Woodpaw battle map
+  turnin 2902 "Woodpaw Investigation" xp 1800 @71.6,55.9 -- The Woodpaw Battle Map.
+  accept 2903 "The Battle Plans" lvl 39 @71.6,55.9 -- Accept the delivery from the map.
+
+step Battle Plans and insect pickups
+  turnin 2903 "The Battle Plans" xp 3600 @74.9,42.5 -- Hadoken.
+  accept 7730 "Zukk'ash Infestation" lvl 39 @74.9,42.5 -- Hadoken.
+  accept 7731 "Stinglasher" lvl 39 @74.9,42.5 -- Hadoken.
+
+step Southern ogres and the Writhing Deep
+  tip Both insect quests are needed for Zukk'ash Report. Finish the carapaces while clearing to the named target; this is the second Feralas chain exception.
+  complete 2980 "The Ogres of Feralas" -- Kill 10 Gordunni Shamans, 10 Warlocks and 5 Maulers.
+  complete 7730 "Zukk'ash Infestation" -- Collect 20 Zukk'ash Carapaces per player.
+  complete 7731 "Stinglasher" group 5 -- Kill Stinglasher and loot the glands.
+
+step Southern Feralas rewards
+  turnin 2980 "The Ogres of Feralas" xp 3750 @75.8,43.6 -- Rok Orhan.
+  turnin 7730 "Zukk'ash Infestation" xp 3900 @74.9,42.5 -- Hadoken.
+  turnin 7731 "Stinglasher" xp 4200 @74.9,42.5 -- Hadoken.
+  accept 7732 "Zukk'ash Report" lvl 39 @74.9,42.5 -- Hold the report for Orgrimmar.
+  note "OPTIONAL BAG CHECK: If you found both Corrupted Nature components, combine the Grimtotem Necklace and Broken Woodpaw Staff out of combat, then use the Diseased Nature Staff. Follow any available in-game quest marker if you choose the extra event; its complete live sequence is not verified or required by this route."
+
+step Screecher Spirits before leaving Feralas
+  tip Do this before leaving for Desolace. Keep the completed quest until the pre-Zul'Farrak Steamwheedle visit. Continue through Desolace's Valley of Bones into Shen'dralas.
+  complete 3520 "Screecher Spirits" -- Kill three Vale Screechers on the western coast, use Yeh'kinya's Bramble on their corpses, and speak to the spirits.

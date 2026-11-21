@@ -1,0 +1,28 @@
+{
+  "quests": 153,
+  "npcs": 138,
+  "objects": 25,
+  "items": 90,
+  "coordinate_transform": "ui_x=(world_y-left)/(right-left)*100; ui_y=(world_x-top)/(bottom-top)*100; exact raw Forever ui_map bounds",
+  "limitations": [
+    "Focused cache, not full official generated reference database.",
+    "Core quest title, level, min_level, XP and prerequisite selection follow the researched route ledger, not stale prerequisites in raw data.",
+    "No class/race filtering or dungeon identity metadata is generated.",
+    "NPC/object placements without raw spawns remain unknown.",
+    "Live server availability, quest-drop sharing, spawn timing and encounter bugs are not verified by compilation."
+  ],
+  "source_urls": [
+    "https://github.com/fitzforge/polestar/tree/98243e6e1757931d9c1e536bcf10241c08d7fa39/forever-db/data",
+    "https://github.com/fitzforge/polestar/tree/98243e6e1757931d9c1e536bcf10241c08d7fa39/data/recorded",
+    "https://www.wowhead.com/forever/quest=86612"
+  ],
+  "corrections": [
+    "3505 current six kills per type; revised tome giver from current research.",
+    "Quest starter/ender IDs with explicit authored operands override stale/missing raw metadata.",
+    "661778 Statue of Malorne: current Wowhead quest/comment; absent from raw snapshot.",
+    "5060 uses Cabinet Key, not per-player repeatable5059 completion.",
+    "Unknown objectives omitted from reference instead of being falsely represented as an empty list.",
+    "980 verified title The New Springs.",
+    "Quest preferred maps follow authored acceptance zones. Directly routed NPC/object spawn maps restricted to researched source-map contexts; removed bounding-box overlaps recorded in evidence/map-context-corrections.json."
+  ]
+}
