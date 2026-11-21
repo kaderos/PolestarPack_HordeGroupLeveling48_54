@@ -1,107 +1,118 @@
 {
-  "status": "static checks only; NOT tested in WoW or Polestar runtime",
-  "version": "0.1.0-rc1",
-  "chapters": [
+  "version": "0.2.0-rc2",
+  "stats": [
     {
       "chapter": 1,
-      "id": "five-friends-48-54/01-mara-preparation",
-      "steps": 24,
-      "quests": 10,
-      "range": "levels 48-48"
+      "steps": 15,
+      "auto_accept_goals": 10,
+      "auto_complete_goals": 8,
+      "auto_turnin_goals": 10,
+      "manual_tasks": 0
     },
     {
       "chapter": 2,
-      "id": "five-friends-48-54/02-maraudon",
-      "steps": 19,
-      "quests": 6,
-      "range": "levels 48-48"
+      "steps": 7,
+      "auto_accept_goals": 6,
+      "auto_complete_goals": 6,
+      "auto_turnin_goals": 6,
+      "manual_tasks": 0
     },
     {
       "chapter": 3,
-      "id": "five-friends-48-54/03-feralas-azshara",
-      "steps": 36,
-      "quests": 22,
-      "range": "levels 48-49"
+      "steps": 26,
+      "auto_accept_goals": 22,
+      "auto_complete_goals": 22,
+      "auto_turnin_goals": 22,
+      "manual_tasks": 0
     },
     {
       "chapter": 4,
-      "id": "five-friends-48-54/04-alcaz",
-      "steps": 27,
-      "quests": 12,
-      "range": "levels 49-50"
+      "steps": 17,
+      "auto_accept_goals": 12,
+      "auto_complete_goals": 8,
+      "auto_turnin_goals": 12,
+      "manual_tasks": 0
     },
     {
       "chapter": 5,
-      "id": "five-friends-48-54/05-hinterlands",
-      "steps": 30,
-      "quests": 17,
-      "range": "levels 50-50"
+      "steps": 19,
+      "auto_accept_goals": 17,
+      "auto_complete_goals": 17,
+      "auto_turnin_goals": 17,
+      "manual_tasks": 0
     },
     {
       "chapter": 6,
-      "id": "five-friends-48-54/06-searing-gorge",
-      "steps": 27,
-      "quests": 16,
-      "range": "levels 50-51"
+      "steps": 17,
+      "auto_accept_goals": 16,
+      "auto_complete_goals": 16,
+      "auto_turnin_goals": 16,
+      "manual_tasks": 0
     },
     {
       "chapter": 7,
-      "id": "five-friends-48-54/07-tanaris",
-      "steps": 23,
-      "quests": 10,
-      "range": "levels 51-51"
+      "steps": 16,
+      "auto_accept_goals": 10,
+      "auto_complete_goals": 9,
+      "auto_turnin_goals": 10,
+      "manual_tasks": 0
     },
     {
       "chapter": 8,
-      "id": "five-friends-48-54/08-ungoro",
-      "steps": 32,
-      "quests": 19,
-      "range": "levels 51-52"
+      "steps": 22,
+      "auto_accept_goals": 19,
+      "auto_complete_goals": 19,
+      "auto_turnin_goals": 19,
+      "manual_tasks": 0
     },
     {
       "chapter": 9,
-      "id": "five-friends-48-54/09-felwood",
-      "steps": 25,
-      "quests": 11,
-      "range": "levels 52-52"
+      "steps": 16,
+      "auto_accept_goals": 11,
+      "auto_complete_goals": 9,
+      "auto_turnin_goals": 11,
+      "manual_tasks": 0
     },
     {
       "chapter": 10,
-      "id": "five-friends-48-54/10-kalimdor-rewards",
-      "steps": 17,
-      "quests": 6,
-      "range": "levels 52-52"
+      "steps": 8,
+      "auto_accept_goals": 6,
+      "auto_complete_goals": 6,
+      "auto_turnin_goals": 6,
+      "manual_tasks": 0
     },
     {
       "chapter": 11,
-      "id": "five-friends-48-54/11-western-plaguelands",
-      "steps": 38,
-      "quests": 24,
-      "range": "levels 52-53"
+      "steps": 26,
+      "auto_accept_goals": 24,
+      "auto_complete_goals": 24,
+      "auto_turnin_goals": 24,
+      "manual_tasks": 0
     },
     {
       "chapter": 12,
-      "id": "five-friends-48-54/12-blasted-lands",
-      "steps": 21,
-      "quests": 10,
-      "range": "levels 53-53"
+      "steps": 13,
+      "auto_accept_goals": 10,
+      "auto_complete_goals": 10,
+      "auto_turnin_goals": 10,
+      "manual_tasks": 0
     },
     {
       "chapter": 13,
-      "id": "five-friends-48-54/13-sunken-temple",
-      "steps": 19,
-      "quests": 7,
-      "range": "levels 53-54"
+      "steps": 10,
+      "auto_accept_goals": 7,
+      "auto_complete_goals": 7,
+      "auto_turnin_goals": 7,
+      "manual_tasks": 0
     }
   ],
-  "total_quest_rewards": 170,
-  "total_steps": 338,
-  "max_steps": 38,
-  "all_links_resolve": true,
-  "known_limitations": [
-    "Manual task acknowledgments, not automatic accept/complete/turnin goals",
-    "Quest-log occupancy not runtime tested",
-    "No upstream Polestar compiler available in this session",
-    "Live client registration not verified"
-  ]
+  "total": {
+    "steps": 212,
+    "accept": 170,
+    "complete": 161,
+    "turnin": 170,
+    "manual": 0
+  },
+  "limit": 60,
+  "notes": "Static goal validation. Upstream Forge compiler, native Lua runtime and in-client test not executed."
 }

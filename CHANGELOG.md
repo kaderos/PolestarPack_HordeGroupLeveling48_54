@@ -1,4 +1,7 @@
-## 0.1.0-rc1
-- Initial 13-section revised 48–54 route; Maraudon first, Alcaz and Sunken Temple included.
-- All 170 quest rewards represented in manually acknowledged checkpoints.
-- Source quest ledger and group routing notes included.
+# Changelog
+
+## 0.2.0-rc2
+- Replaced manual task checkpoints with quest-state goals for accept, objective completion and reward.
+- Moved narrative guidance into active tracked steps.
+- Preserved thirteen-chapter route and eight prerequisite/dungeon constraints from the route ledger.
+- Retained 40-quest-log-slot management from the plan.

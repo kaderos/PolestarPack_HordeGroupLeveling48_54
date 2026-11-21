@@ -1,17 +1,11 @@
-# Five Friends: Horde 48–54 (release candidate)
+# Five Friends Horde 48–54 — automatic quest goals
 
-A 13-chapter Polestar community addon based on the November 21 revised route. **This release candidate is NOT fully quest-automated.** It presents the verified planning instructions and quest reward checklist as manually acknowledged tasks. Do not publish as a stable release until the Polestar client registration and quest-tracking goals are tested.
+Release candidate 0.2.0-rc2. This replaces the manually acknowledged quest steps in v0.1.0-rc1 with Polestar native `accept`, `complete` and `turnin` goals. Route text is attached to the active quest step, not a manual blocking task.
 
-## Install
+Install the addon directory in `_forever_/Interface/AddOns/` and restart WoW. Do not install both v0.1.0 and v0.2.0 under distinct folders; overwrite the `PolestarPack_FiveFriends4854` directory.
 
-Extract the release ZIP directly into `World of Warcraft/_forever_/Interface/AddOns/`. It contains a single `PolestarPack_FiveFriends4854` directory. Enable the addon and Polestar; run `/polestar packs` and check that 13 guides are registered.
+**Warning:** This is statically validated, not in-game tested. Complex chain transitions may need corrections; report any quest where an accept goal remains blocked after its predecessor is rewarded. Some quests already accepted or completed in previous chapters can be automatically skipped.
 
-## Play
+## Rebuild from GitHub source
 
-The group has already cleared Zul'Farrak; Maraudon preparation is chapter 01, Maraudon chapter 02, Alcaz chapter 04, Sunken Temple chapter 13. The level ranges are estimates, not grind gates. Every player has 40 quest-log slots. Each manual checkpoint must be acknowledged after the whole party finishes it. Check the source `plan/route.json` for the full quest ledger and optional starter watchlist.
-
-## Limitations
-
-- Guide checkpoints use manual tasks rather than Polestar's automatic quest-state API.
-- This is a pre-release candidate, not yet tested in the live game.
-- No automatic GitHub release was created or published.
+Run `python scripts/build_auto.py` at the repository root. It reads `source/rc1-Guides.lua` and `evidence/route-ledger.json`, regenerates `addon/PolestarPack_FiveFriends4854/Guides.lua`, and refreshes the distributable ZIP. This script is included for auditability; Polestar Forge compilation and in-game validation remain separate.

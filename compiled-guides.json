@@ -1,0 +1,5172 @@
+[
+  {
+    "id": "five-friends-48-54/01-mara-preparation",
+    "pack": "five-friends-48-54",
+    "title": "01 - Shen'dralas and Maraudon preparation (48-48)",
+    "faction": "Horde",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 2652,
+    "next": "five-friends-48-54/02-maraudon",
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:92914": "Strange Pylons",
+      "quest:93016": "A Brief History Lesson",
+      "quest:93341": "Forlorn Gardens",
+      "quest:93362": "What They've Done to My Peonies",
+      "quest:93394": "Meeting the Magister",
+      "quest:93594": "Word of the Woods",
+      "quest:96010": "Fragments of the Pylons",
+      "quest:96018": "Powering the Pylons",
+      "quest:99257": "A Heart of Crystal",
+      "quest:99258": "Mana Mania"
+    },
+    "steps": [
+      {
+        "title": "Pick up: Strange Pylons",
+        "note": "Enter Shen'dralas from southern Desolace. Start Strange Pylons92914 at the western pylon, investigate the other pylon and temple, then report to Mordent.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 92914,
+            "title": "Strange Pylons",
+            "minLevel": 35,
+            "qlvl": 43,
+            "x": 43.5,
+            "y": 34.2,
+            "map": 2652
+          }
+        ]
+      },
+      {
+        "title": "Strange Pylons",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 92914,
+            "title": "Strange Pylons"
+          },
+          {
+            "t": "turnin",
+            "quest": 92914,
+            "title": "Strange Pylons",
+            "rewards": {
+              "xp": 3600
+            },
+            "x": 35,
+            "y": 46.4,
+            "map": 2652
+          }
+        ],
+        "note": "Visit Olana Brighthoof at Mulgore32.6,24.0 for An'she's Radiance96776. In Thunder Bluff check Melor Stonehoof for Mirrorscale97378, and take Portents of Uldum2965 if available. These pickups earn no XP yet. | Enter Shen'dralas from southern Desolace. Start Strange Pylons92914 at the western pylon, investigate the other pylon and temple, then report to Mordent. | Explore the eastern and temple pylons, then speak to Mordent. Start at the western Shen’dralar Pylon."
+      },
+      {
+        "title": "Pick up: Fragments of the Pylons",
+        "note": "Complete Fragments of the Pylons96010: collect the two fixed pieces in Magram and Gelkis villages in Desolace. Return to Mordent.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 96010,
+            "title": "Fragments of the Pylons",
+            "minLevel": 35,
+            "qlvl": 41,
+            "x": 35,
+            "y": 46.4,
+            "map": 2652
+          }
+        ]
+      },
+      {
+        "title": "Fragments of the Pylons",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 96010,
+            "title": "Fragments of the Pylons"
+          },
+          {
+            "t": "turnin",
+            "quest": 96010,
+            "title": "Fragments of the Pylons",
+            "rewards": {
+              "xp": 2450
+            },
+            "x": 35,
+            "y": 46.4,
+            "map": 2652
+          }
+        ],
+        "note": "Complete Fragments of the Pylons96010: collect the two fixed pieces in Magram and Gelkis villages in Desolace. Return to Mordent. | Collect one Pylon Fragment at Desolace 68.1,78.9 and one Pylon Shard at Desolace 36.2,85.7; return to Mordent."
+      },
+      {
+        "title": "Pick up: Powering the Pylons",
+        "note": "Complete Powering the Pylons96018, then A Brief History Lesson93016 and Meeting the Magister93394. Check every player's repair credit; the current hotfix shares repair objectives nearby.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 96018,
+            "title": "Powering the Pylons",
+            "minLevel": 35,
+            "qlvl": 43,
+            "x": 35,
+            "y": 46.4,
+            "map": 2652
+          }
+        ]
+      },
+      {
+        "title": "Powering the Pylons",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 96018,
+            "title": "Powering the Pylons"
+          },
+          {
+            "t": "turnin",
+            "quest": 96018,
+            "title": "Powering the Pylons",
+            "rewards": {
+              "xp": 3600
+            },
+            "x": 35,
+            "y": 46.4,
+            "map": 2652
+          }
+        ],
+        "note": "Complete Powering the Pylons96018, then A Brief History Lesson93016 and Meeting the Magister93394. Check every player's repair credit; the current hotfix shares repair objectives nearby. | Take the Mana Sieve from the temple upper floor, Shen’dralas 46.2,78.0. Gather eight mana crystals from the pulsing mana orbs for the player doing repairs. Repair west 43.6,34.8 and east 73.5,23.0 pylons. Check each player’s own objective count."
+      },
+      {
+        "title": "A Brief History Lesson",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 93016,
+            "title": "A Brief History Lesson",
+            "minLevel": 35,
+            "qlvl": 43,
+            "x": 35,
+            "y": 46.4,
+            "map": 2652
+          },
+          {
+            "t": "complete",
+            "quest": 93016,
+            "title": "A Brief History Lesson"
+          },
+          {
+            "t": "turnin",
+            "quest": 93016,
+            "title": "A Brief History Lesson",
+            "rewards": {
+              "xp": 360
+            },
+            "x": 35,
+            "y": 46.4,
+            "map": 2652
+          }
+        ],
+        "note": "Use all required dialogue with Mordent Evenshade."
+      },
+      {
+        "title": "Meeting the Magister",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 93394,
+            "title": "Meeting the Magister",
+            "minLevel": 35,
+            "qlvl": 43,
+            "x": 35,
+            "y": 46.4,
+            "map": 2652
+          },
+          {
+            "t": "turnin",
+            "quest": 93394,
+            "title": "Meeting the Magister",
+            "rewards": {
+              "xp": 360
+            },
+            "x": 47.4,
+            "y": 76.2,
+            "map": 2652
+          }
+        ],
+        "note": "Speak to Magister Kirandis inside the temple."
+      },
+      {
+        "title": "Pick up: A Heart of Crystal",
+        "note": "At the temple do A Heart of Crystal99257 then Mana Mania99258. All five accept before taking the heart or summoning the protector. The current hotfix shares the heart drop with eligible party members.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 99257,
+            "title": "A Heart of Crystal",
+            "minLevel": 35,
+            "qlvl": 43,
+            "x": 45.8,
+            "y": 78.2,
+            "map": 2652
+          }
+        ]
+      },
+      {
+        "title": "A Heart of Crystal",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 99257,
+            "title": "A Heart of Crystal"
+          },
+          {
+            "t": "turnin",
+            "quest": 99257,
+            "title": "A Heart of Crystal",
+            "rewards": {
+              "xp": 3600
+            },
+            "x": 45.8,
+            "y": 78.2,
+            "map": 2652
+          }
+        ],
+        "note": "At the temple do A Heart of Crystal99257 then Mana Mania99258. All five accept before taking the heart or summoning the protector. The current hotfix shares the heart drop with eligible party members. | After unlocking the temple hub, obtain a Depleted Crystal Heart from a Decrepit Pylon Protector at either repaired pylon; return to Historian Biraxas."
+      },
+      {
+        "title": "Mana Mania",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 99258,
+            "title": "Mana Mania",
+            "minLevel": 35,
+            "qlvl": 43,
+            "x": 45.8,
+            "y": 78.2,
+            "map": 2652
+          },
+          {
+            "t": "complete",
+            "quest": 99258,
+            "title": "Mana Mania"
+          },
+          {
+            "t": "turnin",
+            "quest": 99258,
+            "title": "Mana Mania",
+            "rewards": {
+              "xp": 4450
+            },
+            "x": 45.8,
+            "y": 78.2,
+            "map": 2652
+          }
+        ],
+        "note": "Use the supplied heart on an Unstable Mana Rift, kill the summoned Nascent Pylon Protector, and return to Biraxas. A reported nearby rift is at Shen’dralas 42.5,59.7."
+      },
+      {
+        "title": "Pick up: Forlorn Gardens",
+        "note": "Take Forlorn Gardens93341, inspect the garden shrine and return to Mithera to turn it in. THEN accept What They've Done to My Peonies93362, kill4RowdyRoses,4TerribleTulips,20Marigolds and return. Take Word of the Woods93594 when offered and deliver to Woodwyrd.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 93341,
+            "title": "Forlorn Gardens",
+            "minLevel": 35,
+            "qlvl": 43,
+            "x": 53.2,
+            "y": 75.8,
+            "map": 2652
+          }
+        ]
+      },
+      {
+        "title": "Forlorn Gardens",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 93341,
+            "title": "Forlorn Gardens"
+          },
+          {
+            "t": "turnin",
+            "quest": 93341,
+            "title": "Forlorn Gardens",
+            "rewards": {
+              "xp": 1800
+            },
+            "x": 53.2,
+            "y": 75.8,
+            "map": 2652
+          }
+        ],
+        "note": "Take Forlorn Gardens93341, inspect the garden shrine and return to Mithera to turn it in. THEN accept What They've Done to My Peonies93362, kill4RowdyRoses,4TerribleTulips,20Marigolds and return. Take Word of the Woods93594 when offered and deliver to Woodwyrd. | Investigate the blue brazier in the small stone building in Forlorn Gardens at Shen’dralas about 70,80; return to Mithera."
+      },
+      {
+        "title": "What They've Done to My Peonies",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 93362,
+            "title": "What They've Done to My Peonies",
+            "minLevel": 35,
+            "qlvl": 43,
+            "x": 53.2,
+            "y": 75.8,
+            "map": 2652
+          },
+          {
+            "t": "complete",
+            "quest": 93362,
+            "title": "What They've Done to My Peonies"
+          },
+          {
+            "t": "turnin",
+            "quest": 93362,
+            "title": "What They've Done to My Peonies",
+            "rewards": {
+              "xp": 3600
+            },
+            "x": 53.2,
+            "y": 75.8,
+            "map": 2652
+          }
+        ],
+        "note": "Kill four Rowdy Roses, four Terrible Tulips and twenty Malevolent Marigolds in Forlorn Gardens."
+      },
+      {
+        "title": "Word of the Woods",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 93594,
+            "title": "Word of the Woods",
+            "minLevel": 35,
+            "qlvl": 43,
+            "x": 53.2,
+            "y": 75.8,
+            "map": 2652
+          },
+          {
+            "t": "turnin",
+            "quest": 93594,
+            "title": "Word of the Woods",
+            "rewards": {
+              "xp": 360
+            },
+            "x": 69.4,
+            "y": 71.8,
+            "map": 2652
+          }
+        ],
+        "note": "Speak to Woodwyrd at Shen’dralas 69.4,71.8 and accept Rot and Regret. | If already completed, skip the quest and subtract its reward. Peonies handles a reported possible Word of the Woods gate while adding clean shared kills. | Corpsefeeder, Prowler bushes and incidental necromancer journals are watchlist opportunities, never waiting steps."
+      }
+    ]
+  },
+  {
+    "id": "five-friends-48-54/02-maraudon",
+    "pack": "five-friends-48-54",
+    "title": "02 - Maraudon full clear and local rewards (48-48)",
+    "faction": "Horde",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 280,
+    "next": "five-friends-48-54/03-feralas-azshara",
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:7029": "Vyletongue Corruption",
+      "quest:7044": "Legends of Maraudon",
+      "quest:7046": "The Scepter of Celebras",
+      "quest:7064": "Corruption of Earth and Seed",
+      "quest:7067": "The Pariah's Instructions",
+      "quest:93404": "Rot and Regret"
+    },
+    "steps": [
+      {
+        "title": "Pick up: Legends of Maraudon",
+        "note": "Outside the instance, take Legends of Maraudon7044 from Cavindra. Kill the Nameless Prophet, obtain the Amulet of Spirits and deal with the three exterior khans. Fill Vark's vial at the orange entrance pool.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7044,
+            "title": "Legends of Maraudon",
+            "minLevel": 41,
+            "qlvl": 49
+          }
+        ]
+      },
+      {
+        "title": "Legends of Maraudon",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 7044,
+            "title": "Legends of Maraudon"
+          },
+          {
+            "t": "turnin",
+            "quest": 7044,
+            "title": "Legends of Maraudon",
+            "rewards": {
+              "xp": 6650
+            }
+          }
+        ],
+        "note": "Outside the instance, take Legends of Maraudon7044 from Cavindra. Kill the Nameless Prophet, obtain the Amulet of Spirits and deal with the three exterior khans. Fill Vark's vial at the orange entrance pool. | Get Celebrian Rod from Noxxion and Celebrian Diamond from Lord Vyletongue, then kill Celebras the Cursed and turn in to his redeemed form."
+      },
+      {
+        "title": "The Scepter of Celebras",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7046,
+            "title": "The Scepter of Celebras",
+            "minLevel": 41,
+            "qlvl": 49
+          },
+          {
+            "t": "complete",
+            "quest": 7046,
+            "title": "The Scepter of Celebras"
+          },
+          {
+            "t": "turnin",
+            "quest": 7046,
+            "title": "The Scepter of Celebras",
+            "rewards": {
+              "xp": 11100
+            }
+          }
+        ],
+        "note": "Enter orange. Complete the Vylestem/scion objective, kill Noxxion for the Celebrian Rod, and handle the orange-wing khan. | Detour through purple for Lord Vyletongue's Celebrian Diamond and the purple-wing khan. Combine all five gems for The Pariah's Instructions. | Obtain Amulet of Spirits from The Nameless Prophet; use it to manifest the five Khan spirits and obtain each gem, then combine the gems into Amulet of Union."
+      },
+      {
+        "title": "The Pariah's Instructions",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7067,
+            "title": "The Pariah's Instructions",
+            "minLevel": 39,
+            "qlvl": 48,
+            "x": 50.4,
+            "y": 86.6,
+            "map": 1443
+          },
+          {
+            "t": "complete",
+            "quest": 7067,
+            "title": "The Pariah's Instructions"
+          },
+          {
+            "t": "turnin",
+            "quest": 7067,
+            "title": "The Pariah's Instructions",
+            "rewards": {
+              "xp": 10650
+            },
+            "x": 50.4,
+            "y": 86.6,
+            "map": 1443
+          }
+        ],
+        "note": "Kill Celebras the Cursed. Turn in Legends, accept The Scepter of Celebras7046, and finish the ritual before leaving the junction. | Accept from Celebras the Redeemed after Legends, assist the ritual, and receive the scepter before moving into inner Maraudon."
+      },
+      {
+        "title": "Vyletongue Corruption",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7029,
+            "title": "Vyletongue Corruption",
+            "minLevel": 41,
+            "qlvl": 47,
+            "x": 23.2,
+            "y": 70.2,
+            "map": 1443
+          },
+          {
+            "t": "complete",
+            "quest": 7029,
+            "title": "Vyletongue Corruption"
+          },
+          {
+            "t": "turnin",
+            "quest": 7029,
+            "title": "Vyletongue Corruption",
+            "rewards": {
+              "xp": 10250
+            },
+            "x": 23.2,
+            "y": 70.2,
+            "map": 1443
+          }
+        ],
+        "note": "Kill Rotgrip and collect Earth Song Water from the splash beneath the eastern stone bridge. Check every player's crystal, water, amulet and Seed of Life before leaving. | Hand in Pariah, Vyletongue and Corruption to their Desolace givers. Return to Shen'dralas, use the water on the burning tree beside Woodwyrd, and turn in Rot and Regret. | In Rotgrip’s pool below Princess, interact with Earth Song Splash, a geyser under the eastern stone bridge. Return to Woodwyrd and use the vial on the large burning tree next to him, then turn in."
+      },
+      {
+        "title": "Corruption of Earth and Seed",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7064,
+            "title": "Corruption of Earth and Seed",
+            "minLevel": 45,
+            "qlvl": 51,
+            "x": 26.8,
+            "y": 77.6,
+            "map": 1443
+          },
+          {
+            "t": "complete",
+            "quest": 7064,
+            "title": "Corruption of Earth and Seed"
+          },
+          {
+            "t": "turnin",
+            "quest": 7064,
+            "title": "Corruption of Earth and Seed",
+            "rewards": {
+              "xp": 11900
+            },
+            "x": 26.8,
+            "y": 77.6,
+            "map": 1443
+          }
+        ],
+        "note": "Carry An'she's Radiance for the scheduled Mulgore return and Seed of Life for Moonglade. Neither delayed reward is counted in this chapter. | Each player fills the provided vial at the orange crystal pool before entering. Use the filled vial at eight Vylestem Vines and kill the spawned Noxxious Scions."
+      },
+      {
+        "title": "Rot and Regret",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 93404,
+            "title": "Rot and Regret",
+            "minLevel": 35,
+            "qlvl": 49,
+            "x": 69.4,
+            "y": 71.8,
+            "map": 2652
+          },
+          {
+            "t": "complete",
+            "quest": 93404,
+            "title": "Rot and Regret"
+          },
+          {
+            "t": "turnin",
+            "quest": 93404,
+            "title": "Rot and Regret",
+            "rewards": {
+              "xp": 11100
+            },
+            "x": 69.4,
+            "y": 71.8,
+            "map": 2652
+          }
+        ],
+        "note": "Kill Princess Theradras and return to Selendra outside Shadowprey Village. | 150 kills is a planning allowance for the entire run and exterior approach, not a measured clear count; do not add the same boss kills again. | Loot carvings and fragments if already doing their objectives, but no reset or extra farming is needed to make the XP model work."
+      }
+    ]
+  },
+  {
+    "id": "five-friends-48-54/03-feralas-azshara",
+    "pack": "five-friends-48-54",
+    "title": "03 - Feralas, Felwood setup and Azshara (48-49)",
+    "faction": "Horde",
+    "minLevel": 48,
+    "maxLevel": 49,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 1444,
+    "next": "five-friends-48-54/04-alcaz",
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:3063": "Vengeance on the Northspring",
+      "quest:3505": "Betrayed",
+      "quest:3517": "Stealing Knowledge",
+      "quest:3541": "Delivery to Jes'rimon",
+      "quest:3561": "Delivery to Archmage Xylem",
+      "quest:3565": "Xylem's Payment to Jediga",
+      "quest:3601": "Kim'jael Indeed!",
+      "quest:5155": "Forces of Jaedenar",
+      "quest:5157": "Collection of the Corrupt Water",
+      "quest:5535": "Spiritual Unrest",
+      "quest:5536": "A Land Filled with Hatred",
+      "quest:6162": "A Husband's Last Battle",
+      "quest:8460": "Timbermaw Ally",
+      "quest:86746": "The Legashi Threat",
+      "quest:91497": "Seals of the Sin'dorei",
+      "quest:91500": "An Explosive Gambit",
+      "quest:91531": "Revenge Exacted",
+      "quest:91538": "Sin'dorei Tome of Summoning",
+      "quest:91547": "Sin'dorei Tome of Summoning",
+      "quest:91568": "Long Walks on the Beach",
+      "quest:96776": "An'she's Radiance",
+      "quest:97378": "Mirrorscale"
+    },
+    "steps": [
+      {
+        "title": "Pick up: Vengeance on the Northspring",
+        "note": "At Camp Mojache take Vengeance on the Northspring3063 and the conditional Dark Heart3062. Make a compact northwest circuit for the16harpy kills and Mirrorscale below the bridge west of Dire Maul.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3063,
+            "title": "Vengeance on the Northspring",
+            "minLevel": 45,
+            "qlvl": 50
+          }
+        ]
+      },
+      {
+        "title": "Vengeance on the Northspring",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 3063,
+            "title": "Vengeance on the Northspring"
+          },
+          {
+            "t": "turnin",
+            "quest": 3063,
+            "title": "Vengeance on the Northspring",
+            "rewards": {
+              "xp": 3550
+            }
+          }
+        ],
+        "note": "At Camp Mojache take Vengeance on the Northspring3063 and the conditional Dark Heart3062. Make a compact northwest circuit for the16harpy kills and Mirrorscale below the bridge west of Dire Maul."
+      },
+      {
+        "title": "Mirrorscale",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 97378,
+            "title": "Mirrorscale",
+            "minLevel": 45,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 97378,
+            "title": "Mirrorscale"
+          },
+          {
+            "t": "turnin",
+            "quest": 97378,
+            "title": "Mirrorscale",
+            "rewards": {
+              "xp": 4700
+            }
+          }
+        ]
+      },
+      {
+        "title": "An'she's Radiance",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 96776,
+            "title": "An'she's Radiance",
+            "minLevel": 43,
+            "qlvl": 51,
+            "x": 32.6,
+            "y": 24,
+            "map": 1412
+          },
+          {
+            "t": "complete",
+            "quest": 96776,
+            "title": "An'she's Radiance"
+          },
+          {
+            "t": "turnin",
+            "quest": 96776,
+            "title": "An'she's Radiance",
+            "rewards": {
+              "xp": 11900
+            },
+            "x": 32.6,
+            "y": 24,
+            "map": 1412
+          }
+        ],
+        "note": "Attempt Dark Heart only if the horn works; current Forever comments report failures. Do not wait for it or count its XP. Zapped Giants is an optional high-drop extension, not part of the forecast. | Return the harpy quest to Talo. Deliver Mirrorscale to Melor in Thunder Bluff and An'she's Radiance to Olana in Mulgore. Keep the Uldum introduction for the Tanaris leg. | Take An’she’s Radiance from the crystal behind/beside Landslide in inner Maraudon; return to Olana Brighthoof."
+      },
+      {
+        "title": "Pick up: Timbermaw Ally, A Husband's Last Battle, Forces of Jaedenar",
+        "note": "Travel through Ashenvale to southern Felwood first. Do Timbermaw Ally8460, A Husband's Last Battle6162 and Forces of Jaedenar5155. Return the kills, accept Collection of the Corrupt Water5157, collect the water and return for Seeking Spiritual Aid5158. Carry it for the upcoming Ratchet boat stop; this avoids a later dedicated Ratchet trip.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 8460,
+            "title": "Timbermaw Ally",
+            "minLevel": 45,
+            "qlvl": 48
+          },
+          {
+            "t": "accept",
+            "quest": 6162,
+            "title": "A Husband's Last Battle",
+            "minLevel": 46,
+            "qlvl": 51
+          },
+          {
+            "t": "accept",
+            "quest": 5155,
+            "title": "Forces of Jaedenar",
+            "minLevel": 48,
+            "qlvl": 51
+          }
+        ]
+      },
+      {
+        "title": "Timbermaw Ally",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 8460,
+            "title": "Timbermaw Ally"
+          },
+          {
+            "t": "turnin",
+            "quest": 8460,
+            "title": "Timbermaw Ally",
+            "rewards": {
+              "xp": 4400
+            }
+          }
+        ],
+        "note": "Travel through Ashenvale to southern Felwood first. Do Timbermaw Ally8460, A Husband's Last Battle6162 and Forces of Jaedenar5155. Return the kills, accept Collection of the Corrupt Water5157, collect the water and return for Seeking Spiritual Aid5158. Carry it for the upcoming Ratchet boat stop; this avoids a later dedicated Ratchet trip. | Timbermaw Ally Grazle wants you to prove yourself by killing 6 Deadwood Warriors , 6 Deadwood Pathfinders , and 6 Deadwood Gardeners . Return to him in southern Felwood near the Emerald Sanctuary when you are done. Deadwood Warrior slain ( 6 ) Deadwood Pathfinder slain ( 6 ) Deadwood Gardener slain ( 6 ) "
+      },
+      {
+        "title": "A Husband's Last Battle",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 6162,
+            "title": "A Husband's Last Battle"
+          },
+          {
+            "t": "turnin",
+            "quest": 6162,
+            "title": "A Husband's Last Battle",
+            "rewards": {
+              "xp": 4900
+            }
+          }
+        ],
+        "note": "A Husband's Last Battle Kill Overlord Ror and return his claw to Dreka'Sur at Bloodvenom Post in Felwood . Overlord Ror's Claw ( 1 ) "
+      },
+      {
+        "title": "Forces of Jaedenar",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 5155,
+            "title": "Forces of Jaedenar"
+          },
+          {
+            "t": "turnin",
+            "quest": 5155,
+            "title": "Forces of Jaedenar",
+            "rewards": {
+              "xp": 4900
+            }
+          }
+        ],
+        "note": "Forces of Jaedenar Enter Jaedenar and slay 4 Jaedenar Hounds , 4 Jaedenar Guardsmen, 6 Jaedenar Adepts , and 6 Jaedenar Cultists before returning to Greta Mosshoof in Felwood . Jaedenar Hound slain ( 4 ) Jaedenar Guardian slain ( 4 ) Jaedenar Adept slain ( 6 ) Jaedenar Cultist slain ( 6 ) "
+      },
+      {
+        "title": "Collection of the Corrupt Water",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5157,
+            "title": "Collection of the Corrupt Water",
+            "minLevel": 48,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 5157,
+            "title": "Collection of the Corrupt Water"
+          },
+          {
+            "t": "turnin",
+            "quest": 5157,
+            "title": "Collection of the Corrupt Water",
+            "rewards": {
+              "xp": 3800
+            }
+          }
+        ],
+        "note": "Collection of the Corrupt Water Take the Empty Canteen to the Moon Well in the center of Jaedenar and fill it before returning to Greta Mosshoof in Felwood . Corrupt Moonwell Water ( 1 ) Provided item: Empty Canteen ( 1 ) "
+      },
+      {
+        "title": "Pick up: Spiritual Unrest, A Land Filled with Hatred",
+        "note": "Return through Ashenvale to Azshara. Complete Loh'atu's Spiritual Unrest5535 and A Land Filled with Hatred5536 on entry.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5535,
+            "title": "Spiritual Unrest",
+            "minLevel": 45,
+            "qlvl": 47
+          },
+          {
+            "t": "accept",
+            "quest": 5536,
+            "title": "A Land Filled with Hatred",
+            "minLevel": 45,
+            "qlvl": 47
+          }
+        ]
+      },
+      {
+        "title": "Spiritual Unrest",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 5535,
+            "title": "Spiritual Unrest"
+          },
+          {
+            "t": "turnin",
+            "quest": 5535,
+            "title": "Spiritual Unrest",
+            "rewards": {
+              "xp": 4200
+            }
+          }
+        ],
+        "note": "Return through Ashenvale to Azshara. Complete Loh'atu's Spiritual Unrest5535 and A Land Filled with Hatred5536 on entry."
+      },
+      {
+        "title": "A Land Filled with Hatred",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 5536,
+            "title": "A Land Filled with Hatred"
+          },
+          {
+            "t": "turnin",
+            "quest": 5536,
+            "title": "A Land Filled with Hatred",
+            "rewards": {
+              "xp": 4200
+            }
+          }
+        ]
+      },
+      {
+        "title": "Pick up: Betrayed",
+        "note": "Start Betrayed3505 at Ag'tor, kill the required blood elves, and investigate the tome. Collect the three seals, do An Explosive Gambit91500 and defeat Magus Rimtori.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3505,
+            "title": "Betrayed",
+            "minLevel": 44,
+            "qlvl": 53
+          }
+        ]
+      },
+      {
+        "title": "Stealing Knowledge",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3517,
+            "title": "Stealing Knowledge",
+            "minLevel": 45,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 3517,
+            "title": "Stealing Knowledge"
+          },
+          {
+            "t": "turnin",
+            "quest": 3517,
+            "title": "Stealing Knowledge",
+            "rewards": {
+              "xp": 5100
+            }
+          }
+        ],
+        "note": "Collect the Valormok quests, then Ekkal's Legashi assignment in Eldarath. Combine beach objects, ancient tablets, Kim'jael's fixed supplies and the Legashi kills. | Start Betrayed3505 at Ag'tor, kill the required blood elves, and investigate the tome. Collect the three seals, do An Explosive Gambit91500 and defeat Magus Rimtori."
+      },
+      {
+        "title": "Long Walks on the Beach",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 91568,
+            "title": "Long Walks on the Beach",
+            "minLevel": 45,
+            "qlvl": 51
+          },
+          {
+            "t": "complete",
+            "quest": 91568,
+            "title": "Long Walks on the Beach"
+          },
+          {
+            "t": "turnin",
+            "quest": 91568,
+            "title": "Long Walks on the Beach",
+            "rewards": {
+              "xp": 4900
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Legashi Threat",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 86746,
+            "title": "The Legashi Threat",
+            "minLevel": 47,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 86746,
+            "title": "The Legashi Threat"
+          },
+          {
+            "t": "turnin",
+            "quest": 86746,
+            "title": "The Legashi Threat",
+            "rewards": {
+              "xp": 5250
+            }
+          }
+        ],
+        "note": "Complete the local Xylem tablet delivery and return payment to Jediga. Take the other three capital deliveries, close Revenge Exacted, and carry the Sin'dorei Tome to Zevrost in Orgrimmar."
+      },
+      {
+        "title": "Kim'jael Indeed!",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3601,
+            "title": "Kim'jael Indeed!",
+            "minLevel": 47,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 3601,
+            "title": "Kim'jael Indeed!"
+          },
+          {
+            "t": "turnin",
+            "quest": 3601,
+            "title": "Kim'jael Indeed!",
+            "rewards": {
+              "xp": 6550
+            }
+          }
+        ],
+        "note": "In Orgrimmar deliver Jes'rimon's tablet, take his payment back to Jediga, finish Zevrost's tome introduction and accept Vek'zol91548 for Blasted Lands. Take Eitrigg's Missing Kor'kron95283. If Ripple Recovery650 is unfinished and missing, take it from Malton Droffers after the short649introduction; skip its reward if already completed."
+      },
+      {
+        "title": "Betrayed",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 3505,
+            "title": "Betrayed"
+          },
+          {
+            "t": "turnin",
+            "quest": 3505,
+            "title": "Betrayed",
+            "rewards": {
+              "xp": 3950
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seals of the Sin'dorei",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 91497,
+            "title": "Seals of the Sin'dorei",
+            "minLevel": 44,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 91497,
+            "title": "Seals of the Sin'dorei"
+          },
+          {
+            "t": "turnin",
+            "quest": 91497,
+            "title": "Seals of the Sin'dorei",
+            "rewards": {
+              "xp": 5250
+            }
+          }
+        ]
+      },
+      {
+        "title": "An Explosive Gambit",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 91500,
+            "title": "An Explosive Gambit",
+            "minLevel": 44,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 91500,
+            "title": "An Explosive Gambit"
+          },
+          {
+            "t": "turnin",
+            "quest": 91500,
+            "title": "An Explosive Gambit",
+            "rewards": {
+              "xp": 4200
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sin'dorei Tome of Summoning",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 91538,
+            "title": "Sin'dorei Tome of Summoning",
+            "minLevel": 44,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 91538,
+            "title": "Sin'dorei Tome of Summoning"
+          },
+          {
+            "t": "turnin",
+            "quest": 91538,
+            "title": "Sin'dorei Tome of Summoning",
+            "rewards": {
+              "xp": 560
+            }
+          }
+        ]
+      },
+      {
+        "title": "Delivery to Archmage Xylem",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3561,
+            "title": "Delivery to Archmage Xylem",
+            "minLevel": 45,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 3561,
+            "title": "Delivery to Archmage Xylem"
+          },
+          {
+            "t": "turnin",
+            "quest": 3561,
+            "title": "Delivery to Archmage Xylem",
+            "rewards": {
+              "xp": 2550
+            }
+          }
+        ]
+      },
+      {
+        "title": "Xylem's Payment to Jediga",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3565,
+            "title": "Xylem's Payment to Jediga",
+            "minLevel": 45,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 3565,
+            "title": "Xylem's Payment to Jediga"
+          },
+          {
+            "t": "turnin",
+            "quest": 3565,
+            "title": "Xylem's Payment to Jediga",
+            "rewards": {
+              "xp": 3800
+            }
+          }
+        ]
+      },
+      {
+        "title": "Revenge Exacted",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 91531,
+            "title": "Revenge Exacted",
+            "minLevel": 44,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 91531,
+            "title": "Revenge Exacted"
+          },
+          {
+            "t": "turnin",
+            "quest": 91531,
+            "title": "Revenge Exacted",
+            "rewards": {
+              "xp": 5650
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sin'dorei Tome of Summoning",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 91547,
+            "title": "Sin'dorei Tome of Summoning",
+            "minLevel": 44,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 91547,
+            "title": "Sin'dorei Tome of Summoning"
+          },
+          {
+            "t": "turnin",
+            "quest": 91547,
+            "title": "Sin'dorei Tome of Summoning",
+            "rewards": {
+              "xp": 560
+            }
+          }
+        ]
+      },
+      {
+        "title": "Delivery to Jes'rimon",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3541,
+            "title": "Delivery to Jes'rimon",
+            "minLevel": 45,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 3541,
+            "title": "Delivery to Jes'rimon"
+          },
+          {
+            "t": "turnin",
+            "quest": 3541,
+            "title": "Delivery to Jes'rimon",
+            "rewards": {
+              "xp": 2550
+            }
+          }
+        ],
+        "note": " | The guide checks Mirrorscale availability during the existing city stop; no invented Steelsnap/Frostmaw prerequisite is inserted. | Do not re-run the old Woodpaw, Gordunni or northern Tanaris portions already completed."
+      }
+    ]
+  },
+  {
+    "id": "five-friends-48-54/04-alcaz",
+    "pack": "five-friends-48-54",
+    "title": "04 - Alcaz Prison and the eastern crossing (49-50)",
+    "faction": "Horde",
+    "minLevel": 49,
+    "maxLevel": 50,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 1445,
+    "next": "five-friends-48-54/05-hinterlands",
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:3380": "The Sunken Temple",
+      "quest:3542": "Delivery to Andron Gant",
+      "quest:5158": "Seeking Spiritual Aid",
+      "quest:95283": "The Missing Kor'kron",
+      "quest:95284": "The Elite of the Elite",
+      "quest:95285": "Right Place, Wrong Time",
+      "quest:95309": "No Orc Left Behind",
+      "quest:95454": "The Honor of the Kor'kron",
+      "quest:96332": "A Little Payback",
+      "quest:96335": "The Man in the Iron Chains",
+      "quest:96337": "More Valuable Than Gold",
+      "quest:96369": "Bad News for Folkar"
+    },
+    "steps": [
+      {
+        "title": "The Missing Kor'kron",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 95283,
+            "title": "The Missing Kor'kron",
+            "minLevel": 48,
+            "qlvl": 53
+          },
+          {
+            "t": "turnin",
+            "quest": 95283,
+            "title": "The Missing Kor'kron",
+            "rewards": {
+              "xp": 1300
+            }
+          }
+        ],
+        "note": "Deliver Eitrigg's introduction to Nazeer Bloodpike in Brackenwall, then report to Ulka on Alcaz Island. Finish The Elite of the Elite95284 and Right Place, Wrong Time95285. | Speak to Ulka at Alcaz Island."
+      },
+      {
+        "title": "The Elite of the Elite",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 95284,
+            "title": "The Elite of the Elite",
+            "minLevel": 48,
+            "qlvl": 53
+          },
+          {
+            "t": "turnin",
+            "quest": 95284,
+            "title": "The Elite of the Elite",
+            "rewards": {
+              "xp": 1300
+            }
+          }
+        ],
+        "note": "Speak with Ulka and hear the situation."
+      },
+      {
+        "title": "Right Place, Wrong Time",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 95285,
+            "title": "Right Place, Wrong Time",
+            "minLevel": 48,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 95285,
+            "title": "Right Place, Wrong Time"
+          },
+          {
+            "t": "turnin",
+            "quest": 95285,
+            "title": "Right Place, Wrong Time",
+            "rewards": {
+              "xp": 1300
+            }
+          }
+        ],
+        "note": "Take No Orc Left Behind95309 and A Little Payback96332. Blood Red Bandanas96334 is an optional overlap pickup; its recently increased rate is still not verified at80%+. | Find Commander Folkar inside Alcaz Prison."
+      },
+      {
+        "title": "No Orc Left Behind",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 95309,
+            "title": "No Orc Left Behind",
+            "minLevel": 48,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 95309,
+            "title": "No Orc Left Behind"
+          },
+          {
+            "t": "turnin",
+            "quest": 95309,
+            "title": "No Orc Left Behind",
+            "rewards": {
+              "xp": 12100
+            }
+          }
+        ],
+        "note": "Kill15Strashaz Soldiers and8Strashaz Enchantresses; loot Ca'zass's Head."
+      },
+      {
+        "title": "Pick up: The Honor of the Kor'kron",
+        "note": "Enter together and LEAVE THE QUESTIONER ALIVE. Find Commander Folkar, hand in No Orc Left Behind and accept The Honor of the Kor'kron95454 before advancing.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 95454,
+            "title": "The Honor of the Kor'kron",
+            "minLevel": 48,
+            "qlvl": 53
+          }
+        ]
+      },
+      {
+        "title": "The Honor of the Kor'kron",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 95454,
+            "title": "The Honor of the Kor'kron"
+          },
+          {
+            "t": "turnin",
+            "quest": 95454,
+            "title": "The Honor of the Kor'kron",
+            "rewards": {
+              "xp": 12100
+            }
+          }
+        ],
+        "note": "Enter together and LEAVE THE QUESTIONER ALIVE. Find Commander Folkar, hand in No Orc Left Behind and accept The Honor of the Kor'kron95454 before advancing. | Investigate the final prisoner and the note at the end of Alcaz Prison."
+      },
+      {
+        "title": "Pick up: Bad News for Folkar",
+        "note": "Finish the main prison route, including the required naga kills and Ca'zass's head. At the final note finish Honor and take Bad News for Folkar96369.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 96369,
+            "title": "Bad News for Folkar",
+            "minLevel": 48,
+            "qlvl": 53
+          }
+        ]
+      },
+      {
+        "title": "Bad News for Folkar",
+        "goals": [
+          {
+            "t": "turnin",
+            "quest": 96369,
+            "title": "Bad News for Folkar",
+            "rewards": {
+              "xp": 2400
+            }
+          }
+        ],
+        "note": "Finish the main prison route, including the required naga kills and Ca'zass's head. At the final note finish Honor and take Bad News for Folkar96369. | Return to Commander Folkar with the news."
+      },
+      {
+        "title": "Pick up: The Man in the Iron Chains",
+        "note": "Have all five accept The Man in the Iron Chains96335 from Mason. Only now backtrack, kill The Questioner, loot keys and return to Mason for More Valuable Than Gold96337.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 96335,
+            "title": "The Man in the Iron Chains",
+            "minLevel": 48,
+            "qlvl": 53
+          }
+        ]
+      },
+      {
+        "title": "The Man in the Iron Chains",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 96335,
+            "title": "The Man in the Iron Chains"
+          },
+          {
+            "t": "turnin",
+            "quest": 96335,
+            "title": "The Man in the Iron Chains",
+            "rewards": {
+              "xp": 2850
+            }
+          }
+        ],
+        "note": "Have all five accept The Man in the Iron Chains96335 from Mason. Only now backtrack, kill The Questioner, loot keys and return to Mason for More Valuable Than Gold96337. | Accept from Mason Connery after final boss; return to kill The Questioner and loot key."
+      },
+      {
+        "title": "A Little Payback",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 96332,
+            "title": "A Little Payback",
+            "minLevel": 48,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 96332,
+            "title": "A Little Payback"
+          },
+          {
+            "t": "turnin",
+            "quest": 96332,
+            "title": "A Little Payback",
+            "rewards": {
+              "xp": 9700
+            }
+          }
+        ],
+        "note": "Follow Mason's Note to Moonbrook inn's upstairs Loose Floorboards/Connery's Trunk in Westfall; take Document Box."
+      },
+      {
+        "title": "Pick up: The Sunken Temple",
+        "note": "Before the eastern crossing, visit Tanaris: complete The Sunken Temple3380 with Marvon and accept The Stone Circle3444. If3527 is completed, take The Ancient Egg4787 from Yeh'kinya. This is the first Temple-preparation visit, not the southern Tanaris quest circuit.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3380,
+            "title": "The Sunken Temple",
+            "minLevel": 46,
+            "qlvl": 51
+          }
+        ]
+      },
+      {
+        "title": "The Sunken Temple",
+        "goals": [
+          {
+            "t": "turnin",
+            "quest": 3380,
+            "title": "The Sunken Temple",
+            "rewards": {
+              "xp": 3650
+            }
+          }
+        ],
+        "note": "Return to Folkar BEFORE exiting, finish Bad News and take Thrall Needs to Know95483. Finish A Little Payback with Ulka outside. | Before the eastern crossing, visit Tanaris: complete The Sunken Temple3380 with Marvon and accept The Stone Circle3444. If3527 is completed, take The Ancient Egg4787 from Yeh'kinya. This is the first Temple-preparation visit, not the southern Tanaris quest circuit. | Speak to Marvon Rivetseeker in Tanaris."
+      },
+      {
+        "title": "Pick up: Seeking Spiritual Aid",
+        "note": "At Ratchet collect Marvon's Stone Circle from his chest. Visit Islen Waterseer on the coast to bless the Felwood water and finish Seeking Spiritual Aid5158; accept Cleansed Water Returns to Felwood5159. Carry both the circle and cleansed water, then take the Booty Bay boat.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5158,
+            "title": "Seeking Spiritual Aid",
+            "minLevel": 48,
+            "qlvl": 52
+          }
+        ]
+      },
+      {
+        "title": "Seeking Spiritual Aid",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 5158,
+            "title": "Seeking Spiritual Aid"
+          },
+          {
+            "t": "turnin",
+            "quest": 5158,
+            "title": "Seeking Spiritual Aid",
+            "rewards": {
+              "xp": 2550
+            }
+          }
+        ],
+        "note": "At Ratchet collect Marvon's Stone Circle from his chest. Visit Islen Waterseer on the coast to bless the Felwood water and finish Seeking Spiritual Aid5158; accept Cleansed Water Returns to Felwood5159. Carry both the circle and cleansed water, then take the Booty Bay boat. | Seeking Spiritual Aid Take the Corrupt Moon Well Water to Islen Waterseer in the Barrens. Corrupt Moonwell Water (Provided) ( 1 ) "
+      },
+      {
+        "title": "More Valuable Than Gold",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 96337,
+            "title": "More Valuable Than Gold",
+            "minLevel": 48,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 96337,
+            "title": "More Valuable Than Gold"
+          },
+          {
+            "t": "turnin",
+            "quest": 96337,
+            "title": "More Valuable Than Gold",
+            "rewards": {
+              "xp": 11550
+            }
+          }
+        ],
+        "note": "From Booty Bay go to Moonbrook, Westfall. Complete More Valuable Than Gold at the upstairs inn floorboards43.4,67.8. KEEP the Document Box for Nazgrel; no Booty Bay reward backtrack is required. | Use Grom'gol's Undercity connection. Deliver Andron's tablet, take his payment for Jediga, then continue to the Hinterlands. | Speak to Nazeer Bloodpike in Brackenwall Village."
+      },
+      {
+        "title": "Delivery to Andron Gant",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3542,
+            "title": "Delivery to Andron Gant",
+            "minLevel": 45,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 3542,
+            "title": "Delivery to Andron Gant"
+          },
+          {
+            "t": "turnin",
+            "quest": 3542,
+            "title": "Delivery to Andron Gant",
+            "rewards": {
+              "xp": 2550
+            }
+          }
+        ],
+        "note": " | State Secrets96376 is paid later in Orgrimmar. Do not also count the alternative Rix quest96379. | If ZF was cleared without Prophecy of Mosh'aru3527, mark the Egg/Hakkar branch unavailable; no ZF replay is hidden in this route."
+      }
+    ]
+  },
+  {
+    "id": "five-friends-48-54/05-hinterlands",
+    "pack": "five-friends-48-54",
+    "title": "05 - Hinterlands and one Jintha'Alor climb (50-50)",
+    "faction": "Horde",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 1425,
+    "next": "five-friends-48-54/06-searing-gorge",
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:650": "Ripple Recovery",
+      "quest:7815": "Snapjaws, Mon!",
+      "quest:7816": "Gammerita, Mon!",
+      "quest:7828": "Stalking the Stalkers",
+      "quest:7829": "Hunt the Savages",
+      "quest:7830": "Avenging the Fallen",
+      "quest:7839": "Vilebranch Hooligans",
+      "quest:7840": "Lard Lost His Lunch",
+      "quest:7844": "Cannibalistic Cousins",
+      "quest:7845": "Kidnapped Elder Torntusk!",
+      "quest:7846": "Recover the Key!",
+      "quest:7847": "Return to Primal Torntusk",
+      "quest:7849": "Separation Anxiety",
+      "quest:7850": "Dark Vessels",
+      "quest:7861": "WANTED: Vile Priestess Hexx and Her Minions",
+      "quest:7862": "Job Opening: Guard Captain of Revantusk Village",
+      "quest:98203": "Witch Doctor Ti'ik"
+    },
+    "steps": [
+      {
+        "title": "Pick up: Ripple Recovery",
+        "note": "If carrying Ripple Recovery650, deliver it to Gilveradin. Honey crates and their return delivery are optional because available respawn reports do not support a dependable five-player collection time.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 650,
+            "title": "Ripple Recovery",
+            "minLevel": 42,
+            "qlvl": 48
+          }
+        ]
+      },
+      {
+        "title": "Ripple Recovery",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 650,
+            "title": "Ripple Recovery"
+          },
+          {
+            "t": "turnin",
+            "quest": 650,
+            "title": "Ripple Recovery",
+            "rewards": {
+              "xp": 4400
+            }
+          }
+        ],
+        "note": "If carrying Ripple Recovery650, deliver it to Gilveradin. Honey crates and their return delivery are optional because available respawn reports do not support a dependable five-player collection time."
+      },
+      {
+        "title": "Pick up: Witch Doctor Ti'ik",
+        "note": "At Revantusk take the coast/forest kill bundle, Gammerita, Lard's lunch, Slagtree's tools, and all available Jintha'Alor assignments. Add the new Witch Doctor Ti'ik98203 from Qujo.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 98203,
+            "title": "Witch Doctor Ti'ik",
+            "minLevel": 45,
+            "qlvl": 49
+          }
+        ]
+      },
+      {
+        "title": "Stalking the Stalkers",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7828,
+            "title": "Stalking the Stalkers",
+            "minLevel": 44,
+            "qlvl": 48
+          },
+          {
+            "t": "complete",
+            "quest": 7828,
+            "title": "Stalking the Stalkers"
+          },
+          {
+            "t": "turnin",
+            "quest": 7828,
+            "title": "Stalking the Stalkers",
+            "rewards": {
+              "xp": 4400
+            }
+          }
+        ],
+        "note": "Take Jammal'an the Prophet1446 from the Atal'ai Exile at Shadra'Alor. Pool of Tears is not required for that quest; hold Jammal'an for Temple. | At Revantusk take the coast/forest kill bundle, Gammerita, Lard's lunch, Slagtree's tools, and all available Jintha'Alor assignments. Add the new Witch Doctor Ti'ik98203 from Qujo."
+      },
+      {
+        "title": "Hunt the Savages",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7829,
+            "title": "Hunt the Savages",
+            "minLevel": 44,
+            "qlvl": 48
+          },
+          {
+            "t": "complete",
+            "quest": 7829,
+            "title": "Hunt the Savages"
+          },
+          {
+            "t": "turnin",
+            "quest": 7829,
+            "title": "Hunt the Savages",
+            "rewards": {
+              "xp": 4400
+            }
+          }
+        ],
+        "note": "Complete Snapjaws, Gammerita and Lard's basket ambush on the coast. Combine wolves, savage owlbeasts, the named skylord and tools during the forest circuit. Cannibalistic Cousins specifically needs30Vilebranch Scalpers and15Vilebranch Soothsayers; Witherbark do not count for it."
+      },
+      {
+        "title": "Avenging the Fallen",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7830,
+            "title": "Avenging the Fallen",
+            "minLevel": 44,
+            "qlvl": 48
+          },
+          {
+            "t": "complete",
+            "quest": 7830,
+            "title": "Avenging the Fallen"
+          },
+          {
+            "t": "turnin",
+            "quest": 7830,
+            "title": "Avenging the Fallen",
+            "rewards": {
+              "xp": 4400
+            }
+          }
+        ],
+        "note": "Kill Ti'ik in his cave west of Hiri'watha. The November20hotfix supplies heads to multiple eligible party members. Check five quest logs before leaving. | Return the normal quests, then make one Jintha'Alor ascent: Guard Captain kill counts, Aman'zasi, Hexx and minions, dark vessels and Separation Anxiety objectives."
+      },
+      {
+        "title": "Gammerita, Mon!",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7816,
+            "title": "Gammerita, Mon!",
+            "minLevel": 44,
+            "qlvl": 48
+          },
+          {
+            "t": "complete",
+            "quest": 7816,
+            "title": "Gammerita, Mon!"
+          },
+          {
+            "t": "turnin",
+            "quest": 7816,
+            "title": "Gammerita, Mon!",
+            "rewards": {
+              "xp": 4400
+            }
+          }
+        ]
+      },
+      {
+        "title": "Snapjaws, Mon!",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7815,
+            "title": "Snapjaws, Mon!",
+            "minLevel": 44,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 7815,
+            "title": "Snapjaws, Mon!"
+          },
+          {
+            "t": "turnin",
+            "quest": 7815,
+            "title": "Snapjaws, Mon!",
+            "rewards": {
+              "xp": 4700
+            }
+          }
+        ],
+        "note": "Speak to Elder Torntusk and take Recover the Key7846 BEFORE killing Hitah'ya. Free the elder, finish the final return, and collect the Ancient Egg in the rear cave if the prerequisite branch is available."
+      },
+      {
+        "title": "Cannibalistic Cousins",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7844,
+            "title": "Cannibalistic Cousins",
+            "minLevel": 44,
+            "qlvl": 48
+          },
+          {
+            "t": "complete",
+            "quest": 7844,
+            "title": "Cannibalistic Cousins"
+          },
+          {
+            "t": "turnin",
+            "quest": 7844,
+            "title": "Cannibalistic Cousins",
+            "rewards": {
+              "xp": 4400
+            }
+          }
+        ],
+        "note": "Return all local rewards at Revantusk. Carry the Egg to Tanaris. No Sacred Mallet or Qiaga detour is scheduled because Zul'Farrak is already done."
+      },
+      {
+        "title": "Vilebranch Hooligans",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7839,
+            "title": "Vilebranch Hooligans",
+            "minLevel": 44,
+            "qlvl": 48
+          },
+          {
+            "t": "complete",
+            "quest": 7839,
+            "title": "Vilebranch Hooligans"
+          },
+          {
+            "t": "turnin",
+            "quest": 7839,
+            "title": "Vilebranch Hooligans",
+            "rewards": {
+              "xp": 4400
+            }
+          }
+        ]
+      },
+      {
+        "title": "Lard Lost His Lunch",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7840,
+            "title": "Lard Lost His Lunch",
+            "minLevel": 44,
+            "qlvl": 49
+          },
+          {
+            "t": "complete",
+            "quest": 7840,
+            "title": "Lard Lost His Lunch"
+          },
+          {
+            "t": "turnin",
+            "quest": 7840,
+            "title": "Lard Lost His Lunch",
+            "rewards": {
+              "xp": 4550
+            }
+          }
+        ]
+      },
+      {
+        "title": "Witch Doctor Ti'ik",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 98203,
+            "title": "Witch Doctor Ti'ik"
+          },
+          {
+            "t": "turnin",
+            "quest": 98203,
+            "title": "Witch Doctor Ti'ik",
+            "rewards": {
+              "xp": 5700
+            }
+          }
+        ]
+      },
+      {
+        "title": "Dark Vessels",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7850,
+            "title": "Dark Vessels",
+            "minLevel": 46,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 7850,
+            "title": "Dark Vessels"
+          },
+          {
+            "t": "turnin",
+            "quest": 7850,
+            "title": "Dark Vessels",
+            "rewards": {
+              "xp": 5900
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kidnapped Elder Torntusk!",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7845,
+            "title": "Kidnapped Elder Torntusk!",
+            "minLevel": 46,
+            "qlvl": 51
+          },
+          {
+            "t": "complete",
+            "quest": 7845,
+            "title": "Kidnapped Elder Torntusk!"
+          },
+          {
+            "t": "turnin",
+            "quest": 7845,
+            "title": "Kidnapped Elder Torntusk!",
+            "rewards": {
+              "xp": 4900
+            }
+          }
+        ]
+      },
+      {
+        "title": "Recover the Key!",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7846,
+            "title": "Recover the Key!",
+            "minLevel": 46,
+            "qlvl": 51
+          },
+          {
+            "t": "complete",
+            "quest": 7846,
+            "title": "Recover the Key!"
+          },
+          {
+            "t": "turnin",
+            "quest": 7846,
+            "title": "Recover the Key!",
+            "rewards": {
+              "xp": 6100
+            }
+          }
+        ]
+      },
+      {
+        "title": "Return to Primal Torntusk",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7847,
+            "title": "Return to Primal Torntusk",
+            "minLevel": 46,
+            "qlvl": 51
+          },
+          {
+            "t": "complete",
+            "quest": 7847,
+            "title": "Return to Primal Torntusk"
+          },
+          {
+            "t": "turnin",
+            "quest": 7847,
+            "title": "Return to Primal Torntusk",
+            "rewards": {
+              "xp": 4900
+            }
+          }
+        ]
+      },
+      {
+        "title": "Separation Anxiety",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7849,
+            "title": "Separation Anxiety",
+            "minLevel": 46,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 7849,
+            "title": "Separation Anxiety"
+          },
+          {
+            "t": "turnin",
+            "quest": 7849,
+            "title": "Separation Anxiety",
+            "rewards": {
+              "xp": 5900
+            }
+          }
+        ]
+      },
+      {
+        "title": "WANTED: Vile Priestess Hexx and Her Minions",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7861,
+            "title": "WANTED: Vile Priestess Hexx and Her Minions",
+            "minLevel": 46,
+            "qlvl": 51
+          },
+          {
+            "t": "complete",
+            "quest": 7861,
+            "title": "WANTED: Vile Priestess Hexx and Her Minions"
+          },
+          {
+            "t": "turnin",
+            "quest": 7861,
+            "title": "WANTED: Vile Priestess Hexx and Her Minions",
+            "rewards": {
+              "xp": 6100
+            }
+          }
+        ]
+      },
+      {
+        "title": "Job Opening: Guard Captain of Revantusk Village",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7862,
+            "title": "Job Opening: Guard Captain of Revantusk Village",
+            "minLevel": 46,
+            "qlvl": 51
+          },
+          {
+            "t": "complete",
+            "quest": 7862,
+            "title": "Job Opening: Guard Captain of Revantusk Village"
+          },
+          {
+            "t": "turnin",
+            "quest": 7862,
+            "title": "Job Opening: Guard Captain of Revantusk Village",
+            "rewards": {
+              "xp": 6100
+            }
+          }
+        ],
+        "note": " | Interactable vessel and tool availability can vary on a busy server. Finish them during the required climb/circuit; if blocked, use the later WPL capacity rather than camping. | Ti'ik is an NPC-given named-target quest, not a quest that starts by looting his head."
+      }
+    ]
+  },
+  {
+    "id": "five-friends-48-54/06-searing-gorge",
+    "pack": "five-friends-48-54",
+    "title": "06 - Searing Gorge group circuit (50-51)",
+    "faction": "Horde",
+    "minLevel": 50,
+    "maxLevel": 51,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 1427,
+    "next": "five-friends-48-54/07-tanaris",
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:3441": "Divine Retribution",
+      "quest:3442": "The Flawless Flame",
+      "quest:3443": "Forging the Shaft",
+      "quest:3452": "The Flame's Casing",
+      "quest:3453": "The Torch of Retribution",
+      "quest:3454": "The Torch of Retribution",
+      "quest:3462": "Squire Maltrake",
+      "quest:3463": "Set Them Ablaze!",
+      "quest:3481": "Trinkets...",
+      "quest:4449": "Caught!",
+      "quest:7701": "WANTED: Overseer Maltorius",
+      "quest:7722": "What the Flux?",
+      "quest:7723": "Curse These Fat Fingers",
+      "quest:7724": "Fiery Menace!",
+      "quest:7727": "Incendosaurs? Whateverosaur is More Like It",
+      "quest:7729": "JOB OPPORTUNITY: Culling the Competition"
+    },
+    "steps": [
+      {
+        "title": "Pick up: Divine Retribution, Caught!",
+        "note": "Speak to Velarok Windblade for Divine Retribution3441 and The Flawless Flame3442. Take Caught!4449 at the Grimesilt outhouse.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3441,
+            "title": "Divine Retribution",
+            "minLevel": 40,
+            "qlvl": 48
+          },
+          {
+            "t": "accept",
+            "quest": 4449,
+            "title": "Caught!",
+            "minLevel": 43,
+            "qlvl": 45
+          }
+        ]
+      },
+      {
+        "title": "Divine Retribution",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 3441,
+            "title": "Divine Retribution"
+          },
+          {
+            "t": "turnin",
+            "quest": 3441,
+            "title": "Divine Retribution",
+            "rewards": {
+              "xp": 440
+            }
+          }
+        ],
+        "note": "Bring15SilkCloth per person. At Thorium Point take the wanted/job board tasks, golem/spider/incendosaur kills and What the Flux. | Speak to Velarok Windblade for Divine Retribution3441 and The Flawless Flame3442. Take Caught!4449 at the Grimesilt outhouse."
+      },
+      {
+        "title": "The Flawless Flame",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3442,
+            "title": "The Flawless Flame",
+            "minLevel": 40,
+            "qlvl": 48
+          },
+          {
+            "t": "complete",
+            "quest": 3442,
+            "title": "The Flawless Flame"
+          },
+          {
+            "t": "turnin",
+            "quest": 3442,
+            "title": "The Flawless Flame",
+            "rewards": {
+              "xp": 4400
+            }
+          }
+        ]
+      },
+      {
+        "title": "Forging the Shaft",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3443,
+            "title": "Forging the Shaft",
+            "minLevel": 40,
+            "qlvl": 48
+          },
+          {
+            "t": "complete",
+            "quest": 3443,
+            "title": "Forging the Shaft"
+          },
+          {
+            "t": "turnin",
+            "quest": 3443,
+            "title": "Forging the Shaft",
+            "rewards": {
+              "xp": 4400
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Flame's Casing",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3452,
+            "title": "The Flame's Casing",
+            "minLevel": 40,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 3452,
+            "title": "The Flame's Casing"
+          },
+          {
+            "t": "turnin",
+            "quest": 3452,
+            "title": "The Flame's Casing",
+            "rewards": {
+              "xp": 4700
+            }
+          }
+        ],
+        "note": "Complete hearts/oil while doing the basin objectives. Return to Windblade and accept Forging the Shaft3443 BEFORE the main Dark Iron circuit."
+      },
+      {
+        "title": "The Torch of Retribution",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3453,
+            "title": "The Torch of Retribution",
+            "minLevel": 40,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 3453,
+            "title": "The Torch of Retribution"
+          },
+          {
+            "t": "turnin",
+            "quest": 3453,
+            "title": "The Torch of Retribution",
+            "rewards": {
+              "xp": 470
+            }
+          }
+        ],
+        "note": "Combine Dark Iron geologists, taskmasters/slavers, incendosaurs and daggers. Kill Overseer Maltorius and collect the nearby fixed Fiery Flux plans during the same mine visit. | Return to Windblade, take The Flame's Casing3452, and defeat Twilight elites for the symbol. Complete the torch creation/dialogue and Squire Maltrake referral."
+      },
+      {
+        "title": "The Torch of Retribution",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3454,
+            "title": "The Torch of Retribution",
+            "minLevel": 40,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 3454,
+            "title": "The Torch of Retribution"
+          },
+          {
+            "t": "turnin",
+            "quest": 3454,
+            "title": "The Torch of Retribution",
+            "rewards": {
+              "xp": 4700
+            }
+          }
+        ]
+      },
+      {
+        "title": "Squire Maltrake",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3462,
+            "title": "Squire Maltrake",
+            "minLevel": 40,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 3462,
+            "title": "Squire Maltrake"
+          },
+          {
+            "t": "turnin",
+            "quest": 3462,
+            "title": "Squire Maltrake",
+            "rewards": {
+              "xp": 470
+            }
+          }
+        ],
+        "note": "Do all four towers for Set Them Ablaze!3463. Finish Maltrake's reward and Trinkets..., then Caught! and the Thorium Point turn-ins."
+      },
+      {
+        "title": "Set Them Ablaze!",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3463,
+            "title": "Set Them Ablaze!",
+            "minLevel": 40,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 3463,
+            "title": "Set Them Ablaze!"
+          },
+          {
+            "t": "turnin",
+            "quest": 3463,
+            "title": "Set Them Ablaze!",
+            "rewards": {
+              "xp": 7600
+            }
+          }
+        ]
+      },
+      {
+        "title": "Trinkets...",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3481,
+            "title": "Trinkets...",
+            "minLevel": 40,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 3481,
+            "title": "Trinkets..."
+          },
+          {
+            "t": "turnin",
+            "quest": 3481,
+            "title": "Trinkets...",
+            "rewards": {
+              "xp": 470
+            }
+          }
+        ],
+        "note": "Check the Obliterator object only while passing; if the required pieces/event are unavailable, continue. Grimesilt Outhouse Key is incidental loot from the dwarves already being killed."
+      },
+      {
+        "title": "Caught!",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 4449,
+            "title": "Caught!"
+          },
+          {
+            "t": "turnin",
+            "quest": 4449,
+            "title": "Caught!",
+            "rewards": {
+              "xp": 3900
+            }
+          }
+        ]
+      },
+      {
+        "title": "JOB OPPORTUNITY: Culling the Competition",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7729,
+            "title": "JOB OPPORTUNITY: Culling the Competition",
+            "minLevel": 45,
+            "qlvl": 48
+          },
+          {
+            "t": "complete",
+            "quest": 7729,
+            "title": "JOB OPPORTUNITY: Culling the Competition"
+          },
+          {
+            "t": "turnin",
+            "quest": 7729,
+            "title": "JOB OPPORTUNITY: Culling the Competition",
+            "rewards": {
+              "xp": 4400
+            }
+          }
+        ]
+      },
+      {
+        "title": "WANTED: Overseer Maltorius",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7701,
+            "title": "WANTED: Overseer Maltorius",
+            "minLevel": 45,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 7701,
+            "title": "WANTED: Overseer Maltorius"
+          },
+          {
+            "t": "turnin",
+            "quest": 7701,
+            "title": "WANTED: Overseer Maltorius",
+            "rewards": {
+              "xp": 4700
+            }
+          }
+        ]
+      },
+      {
+        "title": "Curse These Fat Fingers",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7723,
+            "title": "Curse These Fat Fingers",
+            "minLevel": 45,
+            "qlvl": 49
+          },
+          {
+            "t": "complete",
+            "quest": 7723,
+            "title": "Curse These Fat Fingers"
+          },
+          {
+            "t": "turnin",
+            "quest": 7723,
+            "title": "Curse These Fat Fingers",
+            "rewards": {
+              "xp": 4550
+            }
+          }
+        ]
+      },
+      {
+        "title": "Fiery Menace!",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7724,
+            "title": "Fiery Menace!",
+            "minLevel": 45,
+            "qlvl": 49
+          },
+          {
+            "t": "complete",
+            "quest": 7724,
+            "title": "Fiery Menace!"
+          },
+          {
+            "t": "turnin",
+            "quest": 7724,
+            "title": "Fiery Menace!",
+            "rewards": {
+              "xp": 4550
+            }
+          }
+        ]
+      },
+      {
+        "title": "Incendosaurs? Whateverosaur is More Like It",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7727,
+            "title": "Incendosaurs? Whateverosaur is More Like It",
+            "minLevel": 45,
+            "qlvl": 49
+          },
+          {
+            "t": "complete",
+            "quest": 7727,
+            "title": "Incendosaurs? Whateverosaur is More Like It"
+          },
+          {
+            "t": "turnin",
+            "quest": 7727,
+            "title": "Incendosaurs? Whateverosaur is More Like It",
+            "rewards": {
+              "xp": 4550
+            }
+          }
+        ]
+      },
+      {
+        "title": "What the Flux?",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7722,
+            "title": "What the Flux?",
+            "minLevel": 45,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 7722,
+            "title": "What the Flux?"
+          },
+          {
+            "t": "turnin",
+            "quest": 7722,
+            "title": "What the Flux?",
+            "rewards": {
+              "xp": 4700
+            }
+          }
+        ],
+        "note": " | The hearts/oil, daggers and symbol are explicit collection exceptions because they unlock the group tower chain. No80%claim is made for them. | Smithing Tuyere and Lookout's Spyglass remain excluded because of collection/spawn bottlenecks."
+      }
+    ]
+  },
+  {
+    "id": "five-friends-48-54/07-tanaris",
+    "pack": "five-friends-48-54",
+    "title": "07 - Capital deliveries and southern Tanaris (51-51)",
+    "faction": "Horde",
+    "minLevel": 51,
+    "maxLevel": 51,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 1446,
+    "next": "five-friends-48-54/08-ungoro",
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:2954": "The Stone Watcher",
+      "quest:2965": "Portents of Uldum",
+      "quest:2966": "Seeing What Happens",
+      "quest:3362": "Thistleshrub Valley",
+      "quest:3444": "The Stone Circle",
+      "quest:3518": "Delivery to Magatha Grimtotem",
+      "quest:4787": "The Ancient Egg",
+      "quest:5863": "The Dunemaul Compound",
+      "quest:95483": "Thrall Needs to Know",
+      "quest:96376": "State Secrets"
+    },
+    "steps": [
+      {
+        "title": "Pick up: Thrall Needs to Know, State Secrets",
+        "note": "On the return to Kalimdor, deliver Thrall Needs to Know95483 and the Document Box to Nazgrel for State Secrets96376. Each player accepts that quest personally.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 95483,
+            "title": "Thrall Needs to Know",
+            "minLevel": 48,
+            "qlvl": 53
+          },
+          {
+            "t": "accept",
+            "quest": 96376,
+            "title": "State Secrets",
+            "minLevel": 48,
+            "qlvl": 53
+          }
+        ]
+      },
+      {
+        "title": "Thrall Needs to Know",
+        "goals": [
+          {
+            "t": "turnin",
+            "quest": 95483,
+            "title": "Thrall Needs to Know",
+            "rewards": {
+              "xp": 2400
+            }
+          }
+        ],
+        "note": "On the return to Kalimdor, deliver Thrall Needs to Know95483 and the Document Box to Nazgrel for State Secrets96376. Each player accepts that quest personally. | Report to Thrall in Orgrimmar."
+      },
+      {
+        "title": "State Secrets",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 96376,
+            "title": "State Secrets"
+          },
+          {
+            "t": "turnin",
+            "quest": 96376,
+            "title": "State Secrets",
+            "rewards": {
+              "xp": 6550
+            }
+          }
+        ],
+        "note": "Give Document Box to Nazgrel in Orgrimmar."
+      },
+      {
+        "title": "Pick up: Portents of Uldum",
+        "note": "Deliver Jediga's tablet to Magatha in Thunder Bluff and take Magatha's Payment3562. Progress Portents of Uldum2965; keep its actual Tanaris follow-up for the southern trip.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2965,
+            "title": "Portents of Uldum",
+            "minLevel": 45,
+            "qlvl": 50
+          }
+        ]
+      },
+      {
+        "title": "Delivery to Magatha Grimtotem",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3518,
+            "title": "Delivery to Magatha Grimtotem",
+            "minLevel": 45,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 3518,
+            "title": "Delivery to Magatha Grimtotem"
+          },
+          {
+            "t": "turnin",
+            "quest": 3518,
+            "title": "Delivery to Magatha Grimtotem",
+            "rewards": {
+              "xp": 2550
+            }
+          }
+        ],
+        "note": "Deliver Jediga's tablet to Magatha in Thunder Bluff and take Magatha's Payment3562. Progress Portents of Uldum2965; keep its actual Tanaris follow-up for the southern trip."
+      },
+      {
+        "title": "Pick up: The Stone Circle",
+        "note": "Return the carried Stone Circle3444 to Marvon in Tanaris. Accept Into the Depths3446 and Secret of the Circle3447 now, before the future Sunken Temple visit.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3444,
+            "title": "The Stone Circle",
+            "minLevel": 46,
+            "qlvl": 51
+          }
+        ]
+      },
+      {
+        "title": "Portents of Uldum",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 2965,
+            "title": "Portents of Uldum"
+          },
+          {
+            "t": "turnin",
+            "quest": 2965,
+            "title": "Portents of Uldum",
+            "rewards": {
+              "xp": 470
+            }
+          }
+        ],
+        "note": "Return the carried Stone Circle3444 to Marvon in Tanaris. Accept Into the Depths3446 and Secret of the Circle3447 now, before the future Sunken Temple visit. | Take Stone Circle from Marvon's Chest outside Ratchet workshop; return to Marvon in Tanaris."
+      },
+      {
+        "title": "Pick up: The Ancient Egg",
+        "note": "Return the Ancient Egg4787 to Yeh'kinya and accept The God Hakkar3528, if this chain is available. Set a useful hearth in Gadgetzan for later southern returns.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4787,
+            "title": "The Ancient Egg",
+            "minLevel": 40,
+            "qlvl": 50
+          }
+        ]
+      },
+      {
+        "title": "The Stone Circle",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 3444,
+            "title": "The Stone Circle"
+          },
+          {
+            "t": "turnin",
+            "quest": 3444,
+            "title": "The Stone Circle",
+            "rewards": {
+              "xp": 4900
+            }
+          }
+        ],
+        "note": "Return the Ancient Egg4787 to Yeh'kinya and accept The God Hakkar3528, if this chain is available. Set a useful hearth in Gadgetzan for later southern returns. | Collect Ancient Egg in Jintha'Alor upper cave; return to Yeh'kinya."
+      },
+      {
+        "title": "Pick up: The Dunemaul Compound",
+        "note": "Do The Dunemaul Compound5863 with its shared ogre kills and Gor'marok. Take the new Dunemaul Dues97530 before the same kills; finish only if its rare bangle drops naturally.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5863,
+            "title": "The Dunemaul Compound",
+            "minLevel": 44,
+            "qlvl": 49
+          }
+        ]
+      },
+      {
+        "title": "The Ancient Egg",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 4787,
+            "title": "The Ancient Egg"
+          },
+          {
+            "t": "turnin",
+            "quest": 4787,
+            "title": "The Ancient Egg",
+            "rewards": {
+              "xp": 5900
+            }
+          }
+        ],
+        "note": "Do The Dunemaul Compound5863 with its shared ogre kills and Gor'marok. Take the new Dunemaul Dues97530 before the same kills; finish only if its rare bangle drops naturally."
+      },
+      {
+        "title": "Pick up: Thistleshrub Valley, Seeing What Happens",
+        "note": "Combine Thistleshrub Valley3362 with the Uldum dialogue/objectives Seeing What Happens2966 and The Stone Watcher2954. Return rewards and keep Return to Thunder Bluff2967.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3362,
+            "title": "Thistleshrub Valley",
+            "minLevel": 45,
+            "qlvl": 50
+          },
+          {
+            "t": "accept",
+            "quest": 2966,
+            "title": "Seeing What Happens",
+            "minLevel": 45,
+            "qlvl": 50
+          }
+        ]
+      },
+      {
+        "title": "The Dunemaul Compound",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 5863,
+            "title": "The Dunemaul Compound"
+          },
+          {
+            "t": "turnin",
+            "quest": 5863,
+            "title": "The Dunemaul Compound",
+            "rewards": {
+              "xp": 4550
+            }
+          }
+        ],
+        "note": "Combine Thistleshrub Valley3362 with the Uldum dialogue/objectives Seeing What Happens2966 and The Stone Watcher2954. Return rewards and keep Return to Thunder Bluff2967."
+      },
+      {
+        "title": "Thistleshrub Valley",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 3362,
+            "title": "Thistleshrub Valley"
+          },
+          {
+            "t": "turnin",
+            "quest": 3362,
+            "title": "Thistleshrub Valley",
+            "rewards": {
+              "xp": 4700
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seeing What Happens",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 2966,
+            "title": "Seeing What Happens"
+          },
+          {
+            "t": "turnin",
+            "quest": 2966,
+            "title": "Seeing What Happens",
+            "rewards": {
+              "xp": 4700
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Stone Watcher",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2954,
+            "title": "The Stone Watcher",
+            "minLevel": 45,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 2954,
+            "title": "The Stone Watcher"
+          },
+          {
+            "t": "turnin",
+            "quest": 2954,
+            "title": "The Stone Watcher",
+            "rewards": {
+              "xp": 4700
+            }
+          }
+        ],
+        "note": "Optional overlap: Gahz'ridian ground piles if plentiful; Tooga only if immediately available, including the new Oasis interaction at the Dunemaul pool; OOX beacon only if it dropped naturally. | If Zukk'ash Report7732 is already complete and everyone is50, check Zilzibin for March of the Silithid4494 during the capital stop. Its queen branch is a clearly marked optional collection exception alongside Un'Goro, not required XP. | Do not use Noxious Lair as a mandatory XP patch. If the party deliberately chooses it to open the queen branch, its alternate chain and rewards are listed in the optional section. | No reward is credited merely because its quest was picked up."
+      }
+    ]
+  },
+  {
+    "id": "five-friends-48-54/08-ungoro",
+    "pack": "five-friends-48-54",
+    "title": "08 - Un'Goro fixed objects and named group targets (51-52)",
+    "faction": "Horde",
+    "minLevel": 51,
+    "maxLevel": 52,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 1449,
+    "next": "five-friends-48-54/09-felwood",
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:974": "Finding the Source",
+      "quest:3844": "It's a Secret to Everybody",
+      "quest:3845": "It's a Secret to Everybody",
+      "quest:3881": "Expedition Salvation",
+      "quest:3883": "Alien Ecology",
+      "quest:4145": "Larion and Muigin",
+      "quest:4284": "Crystals of Power",
+      "quest:4285": "The Northern Pylon",
+      "quest:4287": "The Eastern Pylon",
+      "quest:4288": "The Western Pylon",
+      "quest:4289": "The Apes of Un'Goro",
+      "quest:4290": "The Fare of Lar'korwi",
+      "quest:4291": "The Scent of Lar'korwi",
+      "quest:4292": "The Bait for Lar'korwi",
+      "quest:4301": "The Mighty U'cha",
+      "quest:4321": "Making Sense of It",
+      "quest:4492": "Lost!",
+      "quest:4501": "Beware of Pterrordax",
+      "quest:87492": "Uncanny Crystal"
+    },
+    "steps": [
+      {
+        "title": "Pick up: It's a Secret to Everybody, Lost!",
+        "note": "At the southeastern raft start It's a Secret to Everybody3844. Open the provided pack and deliver the follow-up3845 at Marshal's Refuge; stop before the long Linken continuation. Take Lost!4492 from Spraggle Frock before the Fire Plume trip.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3844,
+            "title": "It's a Secret to Everybody",
+            "minLevel": 47,
+            "qlvl": 52
+          },
+          {
+            "t": "accept",
+            "quest": 4492,
+            "title": "Lost!",
+            "minLevel": 50,
+            "qlvl": 55
+          }
+        ]
+      },
+      {
+        "title": "The Fare of Lar'korwi",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4290,
+            "title": "The Fare of Lar'korwi",
+            "minLevel": 48,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 4290,
+            "title": "The Fare of Lar'korwi"
+          },
+          {
+            "t": "turnin",
+            "quest": 4290,
+            "title": "The Fare of Lar'korwi",
+            "rewards": {
+              "xp": 5250
+            }
+          }
+        ],
+        "note": "At Torwa take Lar'korwi's chain. Complete the fixed carcass, then two scent glands per person and the named finale. The glands are a declared small collection exception, not guaranteed drops. | At the southeastern raft start It's a Secret to Everybody3844. Open the provided pack and deliver the follow-up3845 at Marshal's Refuge; stop before the long Linken continuation. Take Lost!4492 from Spraggle Frock before the Fire Plume trip. | It's a Secret to Everybody Look around in the pond for a clue about who this wrecked raft may belong to. "
+      },
+      {
+        "title": "The Scent of Lar'korwi",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4291,
+            "title": "The Scent of Lar'korwi",
+            "minLevel": 48,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 4291,
+            "title": "The Scent of Lar'korwi"
+          },
+          {
+            "t": "turnin",
+            "quest": 4291,
+            "title": "The Scent of Lar'korwi",
+            "rewards": {
+              "xp": 5250
+            }
+          }
+        ],
+        "note": "It's a Secret to Everybody Examine the items inside the pack and bring them to their owner. Large Compass ( 1 ) Curled Map Parchment ( 1 ) Lion-headed Key ( 1 ) Provided item: A Small Pack ( 1 ) "
+      },
+      {
+        "title": "The Bait for Lar'korwi",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4292,
+            "title": "The Bait for Lar'korwi",
+            "minLevel": 48,
+            "qlvl": 56
+          },
+          {
+            "t": "complete",
+            "quest": 4292,
+            "title": "The Bait for Lar'korwi"
+          },
+          {
+            "t": "turnin",
+            "quest": 4292,
+            "title": "The Bait for Lar'korwi",
+            "rewards": {
+              "xp": 7300
+            }
+          }
+        ],
+        "note": "Lost! Find Ringo at Fire Plume Ridge. Spraggle's Canteen (Provided) ( 1 ) "
+      },
+      {
+        "title": "Pick up: Crystals of Power, Expedition Salvation, Alien Ecology, Larion and Muigin, Beware of Pterrordax",
+        "note": "Collect Crystals of Power4284, Expedition Salvation3881, Alien Ecology3883, Larion and Muigin4145, Beware of Pterrordax4501 and the ape chain at the appropriate hubs.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4284,
+            "title": "Crystals of Power",
+            "minLevel": 47,
+            "qlvl": 53
+          },
+          {
+            "t": "accept",
+            "quest": 3881,
+            "title": "Expedition Salvation",
+            "minLevel": 48,
+            "qlvl": 53
+          },
+          {
+            "t": "accept",
+            "quest": 3883,
+            "title": "Alien Ecology",
+            "minLevel": 48,
+            "qlvl": 52
+          },
+          {
+            "t": "accept",
+            "quest": 4145,
+            "title": "Larion and Muigin",
+            "minLevel": 47,
+            "qlvl": 52
+          },
+          {
+            "t": "accept",
+            "quest": 4501,
+            "title": "Beware of Pterrordax",
+            "minLevel": 49,
+            "qlvl": 55
+          }
+        ]
+      },
+      {
+        "title": "Uncanny Crystal",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 87492,
+            "title": "Uncanny Crystal",
+            "minLevel": 50,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 87492,
+            "title": "Uncanny Crystal"
+          },
+          {
+            "t": "turnin",
+            "quest": 87492,
+            "title": "Uncanny Crystal",
+            "rewards": {
+              "xp": 5650
+            }
+          }
+        ],
+        "note": "Collect Crystals of Power4284, Expedition Salvation3881, Alien Ecology3883, Larion and Muigin4145, Beware of Pterrordax4501 and the ape chain at the appropriate hubs. | Crystals of Power Collect 7 Power Crystals of each color: red, blue, yellow, and green. Bring them to J.D. Collie at Marshal's Refuge. Red Power Crystal ( 7 ) Yellow Power Crystal ( 7 ) Green Power Crystal ( 7 ) Blue Power Crystal ( 7 ) "
+      },
+      {
+        "title": "It's a Secret to Everybody",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 3844,
+            "title": "It's a Secret to Everybody"
+          },
+          {
+            "t": "turnin",
+            "quest": 3844,
+            "title": "It's a Secret to Everybody",
+            "rewards": {
+              "xp": 1250
+            }
+          }
+        ],
+        "note": "Expedition Salvation Bring a Crate of Foodstuffs and Research Equipment to Williden Marshal in Un'Goro Crater . Crate of Foodstuffs ( 1 ) Research Equipment ( 1 ) "
+      },
+      {
+        "title": "It's a Secret to Everybody",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3845,
+            "title": "It's a Secret to Everybody",
+            "minLevel": 47,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 3845,
+            "title": "It's a Secret to Everybody"
+          },
+          {
+            "t": "turnin",
+            "quest": 3845,
+            "title": "It's a Secret to Everybody",
+            "rewards": {
+              "xp": 5100
+            }
+          }
+        ],
+        "note": "Alien Ecology Use the Scraping Vial to collect a Hive Wall Sample from one of the Gorishi hive hatcheries in Un'Goro Crater . Look for the chambers with the hanging larval spawns. Bring the Hive Wall Sample to Hol'anyee Marshal in Un'Goro Crater . Hive Wall Sample ( 1 ) Provided item: Unused Scraping Vial ( 1 ) "
+      },
+      {
+        "title": "Crystals of Power",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 4284,
+            "title": "Crystals of Power"
+          },
+          {
+            "t": "turnin",
+            "quest": 4284,
+            "title": "Crystals of Power",
+            "rewards": {
+              "xp": 5250
+            }
+          }
+        ],
+        "note": "Larion and Muigin Hunt 5 Bloodpetal Lashers , 5 Bloodpetal Threshers , 5 Bloodpetal Flayers and 5 Bloodpetal Trappers for Larion at Marshal's Refuge. Bloodpetal Lasher slain ( 5 ) Bloodpetal Trapper slain ( 5 ) Bloodpetal Flayer slain ( 5 ) Bloodpetal Thresher slain ( 5 ) "
+      },
+      {
+        "title": "The Northern Pylon",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4285,
+            "title": "The Northern Pylon",
+            "minLevel": 47,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 4285,
+            "title": "The Northern Pylon"
+          },
+          {
+            "t": "turnin",
+            "quest": 4285,
+            "title": "The Northern Pylon",
+            "rewards": {
+              "xp": 3950
+            }
+          }
+        ],
+        "note": "Beware of Pterrordax Kill 10 Pterrordax and 15 Frenzied Pterrordax , then speak to Spraggle Frock at Marshal's Refuge. Pterrordax slain ( 10 ) Frenzied Pterrordax slain ( 15 ) "
+      },
+      {
+        "title": "The Eastern Pylon",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4287,
+            "title": "The Eastern Pylon",
+            "minLevel": 47,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 4287,
+            "title": "The Eastern Pylon"
+          },
+          {
+            "t": "turnin",
+            "quest": 4287,
+            "title": "The Eastern Pylon",
+            "rewards": {
+              "xp": 3950
+            }
+          }
+        ],
+        "note": "Gather the crystals and return Crystals of Power4284 to J.D.Collie BEFORE accepting the three pylon follow-ups. Then combine their visits with fixed crates/research equipment and Bloodpetal/pterrordax kills. Return all three pylon quests, then finish Making Sense of It4321. | Making Sense of It Speak with J.D. Collie in a moment. "
+      },
+      {
+        "title": "Pick up: Finding the Source",
+        "note": "At the hot springs do Uncanny Crystal87492, available at50. On Fire Plume do Finding the Source974, available at51, and find Ringo for Lost!4492. The escort follow-up remains optional.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 974,
+            "title": "Finding the Source",
+            "minLevel": 51,
+            "qlvl": 55
+          }
+        ]
+      },
+      {
+        "title": "The Western Pylon",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4288,
+            "title": "The Western Pylon",
+            "minLevel": 47,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 4288,
+            "title": "The Western Pylon"
+          },
+          {
+            "t": "turnin",
+            "quest": 4288,
+            "title": "The Western Pylon",
+            "rewards": {
+              "xp": 3950
+            }
+          }
+        ],
+        "note": "Complete Alien Ecology in the southern hive using the current hanging-larva/Hive Wall Sample objective and supplied Scraping Vial. Optional Bungle scent glands overlap this visit only if that chain was prepared. | At the hot springs do Uncanny Crystal87492, available at50. On Fire Plume do Finding the Source974, available at51, and find Ringo for Lost!4492. The escort follow-up remains optional. | Uncanny Crystal Bring 1 Damaged Blue Crystal back to Torwa Pathfinder . Damaged Blue Crystal ( 1 ) "
+      },
+      {
+        "title": "Making Sense of It",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4321,
+            "title": "Making Sense of It",
+            "minLevel": 47,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 4321,
+            "title": "Making Sense of It"
+          },
+          {
+            "t": "turnin",
+            "quest": 4321,
+            "title": "Making Sense of It",
+            "rewards": {
+              "xp": 530
+            }
+          }
+        ],
+        "note": "Finding the Source Krakle in Un'Goro Crater wants you to find the hottest area of Fire Plume Ridge. Whenever you find a hot spot, right click the thermometer to check the temperature. Keep looking until you find the hottest one. Find the hottest area of Fire Plume Ridge ( 1 ) Krakle's Thermometer (Provided) ( 1 ) "
+      },
+      {
+        "title": "Expedition Salvation",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 3881,
+            "title": "Expedition Salvation"
+          },
+          {
+            "t": "turnin",
+            "quest": 3881,
+            "title": "Expedition Salvation",
+            "rewards": {
+              "xp": 5250
+            }
+          }
+        ],
+        "note": "Finish the ape pelts, return to Torwa, accept The Mighty U'cha4301, THEN go back to defeat U'cha. The pelts are a declared exception opening the named group target. | The Mighty U'cha Bring U'cha's Pelt to Torwa Pathfinder at the entrance of Un'Goro Crater . U'cha's Pelt ( 1 ) "
+      },
+      {
+        "title": "Alien Ecology",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 3883,
+            "title": "Alien Ecology"
+          },
+          {
+            "t": "turnin",
+            "quest": 3883,
+            "title": "Alien Ecology",
+            "rewards": {
+              "xp": 5100
+            }
+          }
+        ],
+        "note": "Finish all local hand-ins. Roll the Bones, random Crystal Infused Scale and Mangled Journal drops are bonuses, not baseline rewards. The New Springs is carried only if a later Winterspring visit is actually selected. | The Fare of Lar'korwi Find the carcass of Lar'korwi's freshest kill and steal a Piece of Threshadon Carcass before returning to Torwa Pathfinder in Un'Goro Crater . Piece of Threshadon Carcass ( 1 ) "
+      },
+      {
+        "title": "Larion and Muigin",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 4145,
+            "title": "Larion and Muigin"
+          },
+          {
+            "t": "turnin",
+            "quest": 4145,
+            "title": "Larion and Muigin",
+            "rewards": {
+              "xp": 5100
+            }
+          }
+        ],
+        "note": "The Scent of Lar'korwi Bring 2 Ravasaur Pheromone Glands to Torwa Pathfinder near the entrance to Un'Goro Crater . Ravasaur Pheromone Gland ( 2 ) "
+      },
+      {
+        "title": "Beware of Pterrordax",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 4501,
+            "title": "Beware of Pterrordax"
+          },
+          {
+            "t": "turnin",
+            "quest": 4501,
+            "title": "Beware of Pterrordax",
+            "rewards": {
+              "xp": 5650
+            }
+          }
+        ],
+        "note": "The Bait for Lar'korwi Using the contents of Torwa's Pouch , summon Lar'korwi and defeat him. Then bring Lar'korwi's Head to Torwa Pathfinder near the entrance to Un'Goro Crater . Lar'korwi's Head ( 1 ) Provided item: Torwa's Pouch ( 1 ) "
+      },
+      {
+        "title": "The Apes of Un'Goro",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4289,
+            "title": "The Apes of Un'Goro",
+            "minLevel": 47,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 4289,
+            "title": "The Apes of Un'Goro"
+          },
+          {
+            "t": "turnin",
+            "quest": 4289,
+            "title": "The Apes of Un'Goro",
+            "rewards": {
+              "xp": 5650
+            }
+          }
+        ],
+        "note": "The Northern Pylon Discover the location of the Northern Crystal Pylon in Un'Goro Crater . Discover and examine the Northern Crystal Pylon ( 1 ) "
+      },
+      {
+        "title": "The Mighty U'cha",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4301,
+            "title": "The Mighty U'cha",
+            "minLevel": 50,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 4301,
+            "title": "The Mighty U'cha"
+          },
+          {
+            "t": "turnin",
+            "quest": 4301,
+            "title": "The Mighty U'cha",
+            "rewards": {
+              "xp": 5650
+            }
+          }
+        ],
+        "note": "The Eastern Pylon Discover the location of the Eastern Crystal Pylon in Un'Goro Crater . Discover and examine the Eastern Crystal Pylon ( 1 ) "
+      },
+      {
+        "title": "Finding the Source",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 974,
+            "title": "Finding the Source"
+          },
+          {
+            "t": "turnin",
+            "quest": 974,
+            "title": "Finding the Source",
+            "rewards": {
+              "xp": 5650
+            }
+          }
+        ],
+        "note": "The Western Pylon Discover the location of the Western Crystal Pylon. Discover and examine the Western Crystal Pylon ( 1 ) "
+      },
+      {
+        "title": "Lost!",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 4492,
+            "title": "Lost!"
+          },
+          {
+            "t": "turnin",
+            "quest": 4492,
+            "title": "Lost!",
+            "rewards": {
+              "xp": 2800
+            }
+          }
+        ],
+        "note": "The Apes of Un'Goro Bring 2 Un'Goro Gorilla Pelts , 2 Un'Goro Stomper Pelts , and 2 Un'Goro Thunderer Pelts to Torwa Pathfinder at the entrance of Un'Goro Crater . Un'Goro Gorilla Pelt ( 2 ) Un'Goro Stomper Pelt ( 2 ) Un'Goro Thunderer Pelt ( 2 )  | The guide must not count a single kill twice when it satisfies more than one quest. | The optional queen chain needs a real Gadgetzan return between Bungle in the Jungle and Pawn Captures Queen; it cannot be completed on one uninterrupted hive visit."
+      }
+    ]
+  },
+  {
+    "id": "five-friends-48-54/09-felwood",
+    "pack": "five-friends-48-54",
+    "title": "09 - Felwood group quests and Moonglade (52-52)",
+    "faction": "Horde",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 1448,
+    "next": "five-friends-48-54/10-kalimdor-rewards",
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:4505": "Well of Corruption",
+      "quest:4506": "Corrupted Sabers",
+      "quest:5156": "Verifying the Corruption",
+      "quest:5159": "Cleansed Water Returns to Felwood",
+      "quest:5165": "Dousing the Flames of Protection",
+      "quest:5242": "A Final Blow",
+      "quest:7066": "Seed of Life",
+      "quest:8461": "Deadwood of the North",
+      "quest:8462": "Speak to Nafien",
+      "quest:8465": "Speak to Salfa",
+      "quest:86612": "Stag Lord's Bauble"
+    },
+    "steps": [
+      {
+        "title": "Pick up: Cleansed Water Returns to Felwood",
+        "note": "Deliver Cleansed Water Returns to Felwood5159, accept Dousing the Flames of Protection5165 and complete the Jaedenar brazier objectives.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5159,
+            "title": "Cleansed Water Returns to Felwood",
+            "minLevel": 48,
+            "qlvl": 54
+          }
+        ]
+      },
+      {
+        "title": "Cleansed Water Returns to Felwood",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 5159,
+            "title": "Cleansed Water Returns to Felwood"
+          },
+          {
+            "t": "turnin",
+            "quest": 5159,
+            "title": "Cleansed Water Returns to Felwood",
+            "rewards": {
+              "xp": 2700
+            }
+          }
+        ],
+        "note": "Return to Felwood with The Strength of Corruption4120 and the water blessed at Ratchet in chapter4. The southern Deadwood and first Jaedenar kills were completed in chapter3; do not repeat their XP. | Deliver Cleansed Water Returns to Felwood5159, accept Dousing the Flames of Protection5165 and complete the Jaedenar brazier objectives. | Cleansed Water Returns to Felwood Take the Purified Moon Well Water to Greta Mosshoof in Felwood . Purified Moonwell Water (Provided) ( 1 ) "
+      },
+      {
+        "title": "Dousing the Flames of Protection",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5165,
+            "title": "Dousing the Flames of Protection",
+            "minLevel": 48,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 5165,
+            "title": "Dousing the Flames of Protection"
+          },
+          {
+            "t": "turnin",
+            "quest": 5165,
+            "title": "Dousing the Flames of Protection",
+            "rewards": {
+              "xp": 5650
+            }
+          }
+        ],
+        "note": "Dousing the Flames of Protection Using the Purified Moon Well Water, douse the flames of the four braziers of protection within Shadow Hold in Felwood , then return to Greta Mosshoof in the Emerald Sanctuary. Extinguish the Brazier of Pain ( 1 ) Extinguish the Brazier of Malice ( 1 ) Extinguish the Brazier of Suffering ( 1 ) Extinguish the Brazier of Hatred ( 1 ) Provided item: Purified Moonwell Water ( 1 ) "
+      },
+      {
+        "title": "Pick up: Well of Corruption, Verifying the Corruption",
+        "note": "At Bloodvenom Post take Well of Corruption4505 and Verifying the Corruption5156. Do the moonwell bottle objective and the relevant wildlife/ooze kills on the circuit.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4505,
+            "title": "Well of Corruption",
+            "minLevel": 49,
+            "qlvl": 54
+          },
+          {
+            "t": "accept",
+            "quest": 5156,
+            "title": "Verifying the Corruption",
+            "minLevel": 48,
+            "qlvl": 54
+          }
+        ]
+      },
+      {
+        "title": "Well of Corruption",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 4505,
+            "title": "Well of Corruption"
+          },
+          {
+            "t": "turnin",
+            "quest": 4505,
+            "title": "Well of Corruption",
+            "rewards": {
+              "xp": 5450
+            }
+          }
+        ],
+        "note": "At Bloodvenom Post take Well of Corruption4505 and Verifying the Corruption5156. Do the moonwell bottle objective and the relevant wildlife/ooze kills on the circuit. | Well of Corruption Collect a sample of corrupted water from the Jadefire Satyrs' moonwell and bring it to Winna Hazzard at Bloodvenom Post. Filled Flasket ( 1 ) Provided item: Hardened Flasket ( 1 ) "
+      },
+      {
+        "title": "Corrupted Sabers",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4506,
+            "title": "Corrupted Sabers",
+            "minLevel": 49,
+            "qlvl": 54
+          },
+          {
+            "t": "complete",
+            "quest": 4506,
+            "title": "Corrupted Sabers"
+          },
+          {
+            "t": "turnin",
+            "quest": 4506,
+            "title": "Corrupted Sabers",
+            "rewards": {
+              "xp": 5450
+            }
+          }
+        ],
+        "note": "Verifying the Corruption Seek out and destroy 2 Entropic Beasts and 2 Entropic Horrors while exploring Shatter Scar Vale. After checking to see if the craters there are still filled with corrupt fel water, return to Taronn Redfeather in Felwood . Entropic Beast slain ( 2 ) Entropic Horror slain ( 2 ) Explore Zone ( 1 ) Explore the craters in Shatter Scar Vale ( 1 ) "
+      },
+      {
+        "title": "Verifying the Corruption",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 5156,
+            "title": "Verifying the Corruption"
+          },
+          {
+            "t": "turnin",
+            "quest": 5156,
+            "title": "Verifying the Corruption",
+            "rewards": {
+              "xp": 6800
+            }
+          }
+        ],
+        "note": "Return Well of Corruption4505 to Winna BEFORE accepting Corrupted Sabers4506. Make the second moonwell visit with the kitten, then escort the transformed saber back and release it as the quest requires. Combine this second circuit with any remaining Strength of Corruption kills. | Corrupted Sabers Take Winna's kitten to the corrupted moon well, release it, then bring it back to Winna. Once you have returned to Winna, click on the cat to release it to Winna. Return the corrupted cat to Winna Hazzard ( 1 ) Provided item: Winna's Kitten Carrier ( 1 ) "
+      },
+      {
+        "title": "Pick up: Stag Lord's Bauble",
+        "note": "Interact with the fixed Statue of Malorne at42.0,47.5 for Stag Lord's Bauble86612; deliver it to Winna on the next Bloodvenom Post turn-in.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 86612,
+            "title": "Stag Lord's Bauble",
+            "minLevel": 48,
+            "qlvl": 55
+          }
+        ]
+      },
+      {
+        "title": "Stag Lord's Bauble",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 86612,
+            "title": "Stag Lord's Bauble"
+          },
+          {
+            "t": "turnin",
+            "quest": 86612,
+            "title": "Stag Lord's Bauble",
+            "rewards": {
+              "xp": 2800
+            }
+          }
+        ],
+        "note": "Interact with the fixed Statue of Malorne at42.0,47.5 for Stag Lord's Bauble86612; deliver it to Winna on the next Bloodvenom Post turn-in. | Stag Lord's Bauble Take the Stag Lord's Bauble to someone in Bloodvenom Post who may know about it. Stag Lord's Bauble (Provided) ( 1 ) "
+      },
+      {
+        "title": "Pick up: A Final Blow",
+        "note": "After Dousing the Flames, take A Final Blow5242 and defeat Moora, Salia and Shadow Lord Fel'dan with the full group. These are higher-level targets; use crowd control and finish with everyone in credit range.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5242,
+            "title": "A Final Blow",
+            "minLevel": 48,
+            "qlvl": 58
+          }
+        ]
+      },
+      {
+        "title": "Speak to Nafien",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 8462,
+            "title": "Speak to Nafien",
+            "minLevel": 45,
+            "qlvl": 55
+          },
+          {
+            "t": "turnin",
+            "quest": 8462,
+            "title": "Speak to Nafien",
+            "rewards": {
+              "xp": 560
+            }
+          }
+        ],
+        "note": "After Dousing the Flames, take A Final Blow5242 and defeat Moora, Salia and Shadow Lord Fel'dan with the full group. These are higher-level targets; use crowd control and finish with everyone in credit range. | A Final Blow Kill Moora and Salia , and bring Shadow Lord Fel'dan's Head to Greta Mosshoof in Felwood . Moora slain ( 1 ) Salia slain ( 1 ) Shadow Lord Fel'dan's Head ( 1 ) "
+      },
+      {
+        "title": "Pick up: Deadwood of the North",
+        "note": "Complete Speak to Nafien8462 and Deadwood of the North8461. Finish Speak to Salfa8465 at the Winterspring side of the tunnel if traversable; no Neutral reputation grind is added.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 8461,
+            "title": "Deadwood of the North",
+            "minLevel": 45,
+            "qlvl": 55
+          }
+        ]
+      },
+      {
+        "title": "Deadwood of the North",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 8461,
+            "title": "Deadwood of the North"
+          },
+          {
+            "t": "turnin",
+            "quest": 8461,
+            "title": "Deadwood of the North",
+            "rewards": {
+              "xp": 5650
+            }
+          }
+        ],
+        "note": "Complete Speak to Nafien8462 and Deadwood of the North8461. Finish Speak to Salfa8465 at the Winterspring side of the tunnel if traversable; no Neutral reputation grind is added. | Speak to Nafien Travel north along the main road in Felwood and speak with the furbolg named Nafien . He stands guard outside the entrance to Timbermaw Hold. "
+      },
+      {
+        "title": "Speak to Salfa",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 8465,
+            "title": "Speak to Salfa",
+            "minLevel": 45,
+            "qlvl": 55
+          },
+          {
+            "t": "turnin",
+            "quest": 8465,
+            "title": "Speak to Salfa",
+            "rewards": {
+              "xp": 560
+            }
+          }
+        ],
+        "note": "[{'count': 6, 'kind': 'kill', 'n': 1, 'quest': 8461, 'target': 7156}, {'count': 6, 'kind': 'kill', 'n': 2, 'quest': 8461, 'target': 7157}, {'count': 6, 'kind': 'kill', 'n': 3, 'quest': 8461, 'target': 7158}]"
+      },
+      {
+        "title": "Seed of Life",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 7066,
+            "title": "Seed of Life",
+            "minLevel": 39,
+            "qlvl": 51
+          },
+          {
+            "t": "complete",
+            "quest": 7066,
+            "title": "Seed of Life"
+          },
+          {
+            "t": "turnin",
+            "quest": 7066,
+            "title": "Seed of Life",
+            "rewards": {
+              "xp": 11900
+            },
+            "x": 36.2,
+            "y": 41.8,
+            "map": 1450
+          }
+        ],
+        "note": "Speak to Salfa Travel through Timbermaw Hold and exit into Winterspring. Speak with Salfa , who stands guard outside the entrance to Timbermaw Hold. "
+      },
+      {
+        "title": "A Final Blow",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 5242,
+            "title": "A Final Blow"
+          },
+          {
+            "t": "turnin",
+            "quest": 5242,
+            "title": "A Final Blow",
+            "rewards": {
+              "xp": 9300
+            }
+          }
+        ],
+        "note": "On the Moonglade branch, every player delivers Seed of Life7066 to Keeper Remulos. This is the deferred Mara reward. The group is not assumed to share the druid's teleport. | Accept from Zaetar’s Spirit in the center of Princess Theradras’s platform after the kill; later deliver to Keeper Remulos, Moonglade 36.2,41.8. | The Strength of Corruption reward is still unpaid until Talo Thornhoof in Feralas. Do not count it here. | A Final Blow targets Moora, Salia and Shadow Lord Fel'dan, not Lord Banehollow."
+      }
+    ]
+  },
+  {
+    "id": "five-friends-48-54/10-kalimdor-rewards",
+    "pack": "five-friends-48-54",
+    "title": "10 - Kalimdor rewards and the XP checkpoint (52-52)",
+    "faction": "Horde",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 1454,
+    "next": "five-friends-48-54/11-western-plaguelands",
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:2967": "Return to Thunder Bluff",
+      "quest:2968": "A Future Task",
+      "quest:3562": "Magatha's Payment to Jediga",
+      "quest:3563": "Jes'rimon's Payment to Jediga",
+      "quest:3564": "Andron's Payment to Jediga",
+      "quest:4120": "The Strength of Corruption"
+    },
+    "steps": [
+      {
+        "title": "Pick up: Return to Thunder Bluff",
+        "note": "Complete Return to Thunder Bluff2967 and A Future Task2968 on the scheduled Thunder Bluff visit.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2967,
+            "title": "Return to Thunder Bluff",
+            "minLevel": 45,
+            "qlvl": 50
+          }
+        ]
+      },
+      {
+        "title": "Magatha's Payment to Jediga",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3562,
+            "title": "Magatha's Payment to Jediga",
+            "minLevel": 45,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 3562,
+            "title": "Magatha's Payment to Jediga"
+          },
+          {
+            "t": "turnin",
+            "quest": 3562,
+            "title": "Magatha's Payment to Jediga",
+            "rewards": {
+              "xp": 6350
+            }
+          }
+        ],
+        "note": "Return the three capital payments to Jediga in Azshara on one visit. Each payment has its own reward; do not re-count the original tablet deliveries. | Complete Return to Thunder Bluff2967 and A Future Task2968 on the scheduled Thunder Bluff visit."
+      },
+      {
+        "title": "Jes'rimon's Payment to Jediga",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3563,
+            "title": "Jes'rimon's Payment to Jediga",
+            "minLevel": 45,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 3563,
+            "title": "Jes'rimon's Payment to Jediga"
+          },
+          {
+            "t": "turnin",
+            "quest": 3563,
+            "title": "Jes'rimon's Payment to Jediga",
+            "rewards": {
+              "xp": 6350
+            }
+          }
+        ]
+      },
+      {
+        "title": "Pick up: The Strength of Corruption",
+        "note": "Fly to Camp Mojache and deliver The Strength of Corruption4120 to Talo Thornhoof. This is why its reward was held out of the Felwood total.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4120,
+            "title": "The Strength of Corruption",
+            "minLevel": 47,
+            "qlvl": 52
+          }
+        ]
+      },
+      {
+        "title": "Andron's Payment to Jediga",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3564,
+            "title": "Andron's Payment to Jediga",
+            "minLevel": 45,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 3564,
+            "title": "Andron's Payment to Jediga"
+          },
+          {
+            "t": "turnin",
+            "quest": 3564,
+            "title": "Andron's Payment to Jediga",
+            "rewards": {
+              "xp": 6350
+            }
+          }
+        ],
+        "note": "Fly to Camp Mojache and deliver The Strength of Corruption4120 to Talo Thornhoof. This is why its reward was held out of the Felwood total. | [{'count': 12, 'kind': 'kill', 'n': 1, 'quest': 4120, 'target': 8957}, {'count': 12, 'kind': 'kill', 'n': 2, 'quest': 4120, 'target': 8961}]"
+      },
+      {
+        "title": "Return to Thunder Bluff",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 2967,
+            "title": "Return to Thunder Bluff"
+          },
+          {
+            "t": "turnin",
+            "quest": 2967,
+            "title": "Return to Thunder Bluff",
+            "rewards": {
+              "xp": 470
+            }
+          }
+        ],
+        "note": "Check the LOWEST party member. If everyone is already at least53.6 and the Blasted/Temple rewards remain available, the WPL chapter can be skipped. Otherwise use it to fund the actual54target. | Take the Undercity zeppelin for the Western Plaguelands chapter, or follow the direct Blasted Lands hand-off if the party meets that XP checkpoint."
+      },
+      {
+        "title": "A Future Task",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2968,
+            "title": "A Future Task",
+            "minLevel": 45,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 2968,
+            "title": "A Future Task"
+          },
+          {
+            "t": "turnin",
+            "quest": 2968,
+            "title": "A Future Task",
+            "rewards": {
+              "xp": 4700
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Strength of Corruption",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 4120,
+            "title": "The Strength of Corruption"
+          },
+          {
+            "t": "turnin",
+            "quest": 4120,
+            "title": "The Strength of Corruption",
+            "rewards": {
+              "xp": 5100
+            }
+          }
+        ],
+        "note": " | The default forecast includes WPL because the verified preferred quests in the named zones alone do not safely fund six full levels at30XPperkill. | No Eastern Plaguelands or long Winterspring leveling chapter is required."
+      }
+    ]
+  },
+  {
+    "id": "five-friends-48-54/11-western-plaguelands",
+    "pack": "five-friends-48-54",
+    "title": "11 - Western Plaguelands shared-objective reserve (52-53)",
+    "faction": "Horde",
+    "minLevel": 52,
+    "maxLevel": 53,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 1422,
+    "next": "five-friends-48-54/12-blasted-lands",
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:4984": "The Wildlife Suffers Too",
+      "quest:4985": "The Wildlife Suffers Too",
+      "quest:5021": "Better Late Than Never",
+      "quest:5023": "Better Late Than Never",
+      "quest:5049": "The Jeremiah Blues",
+      "quest:5050": "Good Luck Charm",
+      "quest:5051": "Two Halves Become One",
+      "quest:5093": "A Call to Arms: The Plaguelands!",
+      "quest:5096": "Scarlet Diversions",
+      "quest:5098": "All Along the Watchtowers",
+      "quest:5228": "The Scourge Cauldrons",
+      "quest:5229": "Target: Felstone Field",
+      "quest:5230": "Return to the Bulwark",
+      "quest:5231": "Target: Dalson's Tears",
+      "quest:5232": "Return to the Bulwark",
+      "quest:5233": "Target: Writhing Haunt",
+      "quest:5234": "Return to the Bulwark",
+      "quest:5235": "Target: Gahrron's Withering",
+      "quest:5236": "Return to the Bulwark",
+      "quest:5238": "Mission Accomplished!",
+      "quest:5405": "Argent Dawn Commission",
+      "quest:6004": "Unfinished Business",
+      "quest:6023": "Unfinished Business",
+      "quest:6025": "Unfinished Business"
+    },
+    "steps": [
+      {
+        "title": "Pick up: Argent Dawn Commission, Scarlet Diversions",
+        "note": "At the Bulwark deliver the Call to Arms, take Argent Dawn Commission5405 and Scarlet Diversions5096. Collect the Flame in a Bottle and the supplied banner before leaving.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5405,
+            "title": "Argent Dawn Commission",
+            "minLevel": 50,
+            "qlvl": 55
+          },
+          {
+            "t": "accept",
+            "quest": 5096,
+            "title": "Scarlet Diversions",
+            "minLevel": 50,
+            "qlvl": 53
+          }
+        ]
+      },
+      {
+        "title": "A Call to Arms: The Plaguelands!",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5093,
+            "title": "A Call to Arms: The Plaguelands!",
+            "minLevel": 50,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 5093,
+            "title": "A Call to Arms: The Plaguelands!"
+          },
+          {
+            "t": "turnin",
+            "quest": 5093,
+            "title": "A Call to Arms: The Plaguelands!",
+            "rewards": {
+              "xp": 470
+            }
+          }
+        ],
+        "note": "At the Bulwark deliver the Call to Arms, take Argent Dawn Commission5405 and Scarlet Diversions5096. Collect the Flame in a Bottle and the supplied banner before leaving."
+      },
+      {
+        "title": "Argent Dawn Commission",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 5405,
+            "title": "Argent Dawn Commission"
+          },
+          {
+            "t": "turnin",
+            "quest": 5405,
+            "title": "Argent Dawn Commission",
+            "rewards": {
+              "xp": 560
+            }
+          }
+        ]
+      },
+      {
+        "title": "Scarlet Diversions",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 5096,
+            "title": "Scarlet Diversions"
+          },
+          {
+            "t": "turnin",
+            "quest": 5096,
+            "title": "Scarlet Diversions",
+            "rewards": {
+              "xp": 5250
+            }
+          }
+        ],
+        "note": "Burn the Scarlet command tent, plant the banner and return. Take The Scourge Cauldrons5228, the first farm target from Vandis, and All Along the Watchtowers5098."
+      },
+      {
+        "title": "The Scourge Cauldrons",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5228,
+            "title": "The Scourge Cauldrons",
+            "minLevel": 50,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 5228,
+            "title": "The Scourge Cauldrons"
+          },
+          {
+            "t": "turnin",
+            "quest": 5228,
+            "title": "The Scourge Cauldrons",
+            "rewards": {
+              "xp": 530
+            }
+          }
+        ]
+      },
+      {
+        "title": "Target: Felstone Field",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5229,
+            "title": "Target: Felstone Field",
+            "minLevel": 50,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 5229,
+            "title": "Target: Felstone Field"
+          },
+          {
+            "t": "turnin",
+            "quest": 5229,
+            "title": "Target: Felstone Field",
+            "rewards": {
+              "xp": 5250
+            }
+          }
+        ],
+        "note": "Felstone: kill the named cauldron keeper, loot each eligible key and interact with the cauldron. Visit Janice upstairs and her fixed parcel in the barn. Report to the Bulwark before the next target. | Deliver the parcel in Undercity, talk to Jeremiah and return the half-charm to Janice. Take Two Halves Become One5051 before killing the named Jabbering Ghoul and combining the charm."
+      },
+      {
+        "title": "Better Late Than Never",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5021,
+            "title": "Better Late Than Never",
+            "minLevel": 50,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 5021,
+            "title": "Better Late Than Never"
+          },
+          {
+            "t": "turnin",
+            "quest": 5021,
+            "title": "Better Late Than Never",
+            "rewards": {
+              "xp": 2550
+            }
+          }
+        ],
+        "note": "Mark the four Andorhal towers during the middle crossing. At Writhing Haunt do Mulgris's8wolf kills, turn in, then8bear kills and take Glyphed Oaken Branch4987 for the final Thunder Bluff delivery. | Complete the fourth cauldron report, Mission Accomplished!5238 and the tower reward at the Bulwark."
+      },
+      {
+        "title": "Pick up: Unfinished Business",
+        "note": "At Kirsta Deepshadow do Unfinished Business6004: two each of four Scarlet types. Return for6023, kill Huntsman Radley and Cavalier Durgen, then return for6025 and scout the top of Hearthglen's watchtower.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 6004,
+            "title": "Unfinished Business",
+            "minLevel": 50,
+            "qlvl": 56
+          }
+        ]
+      },
+      {
+        "title": "Better Late Than Never",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5023,
+            "title": "Better Late Than Never",
+            "minLevel": 50,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 5023,
+            "title": "Better Late Than Never"
+          },
+          {
+            "t": "turnin",
+            "quest": 5023,
+            "title": "Better Late Than Never",
+            "rewards": {
+              "xp": 2550
+            }
+          }
+        ],
+        "note": "At Kirsta Deepshadow do Unfinished Business6004: two each of four Scarlet types. Return for6023, kill Huntsman Radley and Cavalier Durgen, then return for6025 and scout the top of Hearthglen's watchtower."
+      },
+      {
+        "title": "The Jeremiah Blues",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5049,
+            "title": "The Jeremiah Blues",
+            "minLevel": 50,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 5049,
+            "title": "The Jeremiah Blues"
+          },
+          {
+            "t": "turnin",
+            "quest": 5049,
+            "title": "The Jeremiah Blues",
+            "rewards": {
+              "xp": 5100
+            }
+          }
+        ]
+      },
+      {
+        "title": "Good Luck Charm",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5050,
+            "title": "Good Luck Charm",
+            "minLevel": 50,
+            "qlvl": 52
+          },
+          {
+            "t": "complete",
+            "quest": 5050,
+            "title": "Good Luck Charm"
+          },
+          {
+            "t": "turnin",
+            "quest": 5050,
+            "title": "Good Luck Charm",
+            "rewards": {
+              "xp": 2550
+            }
+          }
+        ]
+      },
+      {
+        "title": "Two Halves Become One",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5051,
+            "title": "Two Halves Become One",
+            "minLevel": 50,
+            "qlvl": 54
+          },
+          {
+            "t": "complete",
+            "quest": 5051,
+            "title": "Two Halves Become One"
+          },
+          {
+            "t": "turnin",
+            "quest": 5051,
+            "title": "Two Halves Become One",
+            "rewards": {
+              "xp": 5450
+            }
+          }
+        ],
+        "note": "Dalson's diary/outhouse/cabinet branch is optional. One outhouse key opens the encounter, but all-five cabinet loot has not been reverified; its7050XP is not needed in the forecast."
+      },
+      {
+        "title": "Return to the Bulwark",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5230,
+            "title": "Return to the Bulwark",
+            "minLevel": 50,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 5230,
+            "title": "Return to the Bulwark"
+          },
+          {
+            "t": "turnin",
+            "quest": 5230,
+            "title": "Return to the Bulwark",
+            "rewards": {
+              "xp": 2650
+            }
+          }
+        ]
+      },
+      {
+        "title": "Target: Dalson's Tears",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5231,
+            "title": "Target: Dalson's Tears",
+            "minLevel": 50,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 5231,
+            "title": "Target: Dalson's Tears"
+          },
+          {
+            "t": "turnin",
+            "quest": 5231,
+            "title": "Target: Dalson's Tears",
+            "rewards": {
+              "xp": 5650
+            }
+          }
+        ]
+      },
+      {
+        "title": "Return to the Bulwark",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5232,
+            "title": "Return to the Bulwark",
+            "minLevel": 50,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 5232,
+            "title": "Return to the Bulwark"
+          },
+          {
+            "t": "turnin",
+            "quest": 5232,
+            "title": "Return to the Bulwark",
+            "rewards": {
+              "xp": 2800
+            }
+          }
+        ]
+      },
+      {
+        "title": "Target: Writhing Haunt",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5233,
+            "title": "Target: Writhing Haunt",
+            "minLevel": 50,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 5233,
+            "title": "Target: Writhing Haunt"
+          },
+          {
+            "t": "turnin",
+            "quest": 5233,
+            "title": "Target: Writhing Haunt",
+            "rewards": {
+              "xp": 5650
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Wildlife Suffers Too",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4984,
+            "title": "The Wildlife Suffers Too",
+            "minLevel": 51,
+            "qlvl": 54
+          },
+          {
+            "t": "complete",
+            "quest": 4984,
+            "title": "The Wildlife Suffers Too"
+          },
+          {
+            "t": "turnin",
+            "quest": 4984,
+            "title": "The Wildlife Suffers Too",
+            "rewards": {
+              "xp": 4100
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Wildlife Suffers Too",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4985,
+            "title": "The Wildlife Suffers Too",
+            "minLevel": 51,
+            "qlvl": 56
+          },
+          {
+            "t": "complete",
+            "quest": 4985,
+            "title": "The Wildlife Suffers Too"
+          },
+          {
+            "t": "turnin",
+            "quest": 4985,
+            "title": "The Wildlife Suffers Too",
+            "rewards": {
+              "xp": 4350
+            }
+          }
+        ]
+      },
+      {
+        "title": "Return to the Bulwark",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5234,
+            "title": "Return to the Bulwark",
+            "minLevel": 50,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 5234,
+            "title": "Return to the Bulwark"
+          },
+          {
+            "t": "turnin",
+            "quest": 5234,
+            "title": "Return to the Bulwark",
+            "rewards": {
+              "xp": 2800
+            }
+          }
+        ]
+      },
+      {
+        "title": "Target: Gahrron's Withering",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5235,
+            "title": "Target: Gahrron's Withering",
+            "minLevel": 50,
+            "qlvl": 58
+          },
+          {
+            "t": "complete",
+            "quest": 5235,
+            "title": "Target: Gahrron's Withering"
+          },
+          {
+            "t": "turnin",
+            "quest": 5235,
+            "title": "Target: Gahrron's Withering",
+            "rewards": {
+              "xp": 6200
+            }
+          }
+        ]
+      },
+      {
+        "title": "Return to the Bulwark",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5236,
+            "title": "Return to the Bulwark",
+            "minLevel": 50,
+            "qlvl": 58
+          },
+          {
+            "t": "complete",
+            "quest": 5236,
+            "title": "Return to the Bulwark"
+          },
+          {
+            "t": "turnin",
+            "quest": 5236,
+            "title": "Return to the Bulwark",
+            "rewards": {
+              "xp": 3100
+            }
+          }
+        ]
+      },
+      {
+        "title": "Mission Accomplished!",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5238,
+            "title": "Mission Accomplished!",
+            "minLevel": 50,
+            "qlvl": 58
+          },
+          {
+            "t": "complete",
+            "quest": 5238,
+            "title": "Mission Accomplished!"
+          },
+          {
+            "t": "turnin",
+            "quest": 5238,
+            "title": "Mission Accomplished!",
+            "rewards": {
+              "xp": 9300
+            }
+          }
+        ]
+      },
+      {
+        "title": "All Along the Watchtowers",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 5098,
+            "title": "All Along the Watchtowers",
+            "minLevel": 50,
+            "qlvl": 56
+          },
+          {
+            "t": "complete",
+            "quest": 5098,
+            "title": "All Along the Watchtowers"
+          },
+          {
+            "t": "turnin",
+            "quest": 5098,
+            "title": "All Along the Watchtowers",
+            "rewards": {
+              "xp": 5800
+            }
+          }
+        ]
+      },
+      {
+        "title": "Unfinished Business",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 6004,
+            "title": "Unfinished Business"
+          },
+          {
+            "t": "turnin",
+            "quest": 6004,
+            "title": "Unfinished Business",
+            "rewards": {
+              "xp": 5800
+            }
+          }
+        ]
+      },
+      {
+        "title": "Unfinished Business",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 6023,
+            "title": "Unfinished Business",
+            "minLevel": 50,
+            "qlvl": 57
+          },
+          {
+            "t": "complete",
+            "quest": 6023,
+            "title": "Unfinished Business"
+          },
+          {
+            "t": "turnin",
+            "quest": 6023,
+            "title": "Unfinished Business",
+            "rewards": {
+              "xp": 6000
+            }
+          }
+        ]
+      },
+      {
+        "title": "Unfinished Business",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 6025,
+            "title": "Unfinished Business",
+            "minLevel": 50,
+            "qlvl": 58
+          },
+          {
+            "t": "complete",
+            "quest": 6025,
+            "title": "Unfinished Business"
+          },
+          {
+            "t": "turnin",
+            "quest": 6025,
+            "title": "Unfinished Business",
+            "rewards": {
+              "xp": 6200
+            }
+          }
+        ],
+        "note": " | Kirsta's three quests add18,000basequestXP using shared kills and reconnaissance, avoiding an extra personal collection farm. | The strongest cauldron and Hearthglen targets are intended for the five-player group around53. No Araj kill is required."
+      }
+    ]
+  },
+  {
+    "id": "five-friends-48-54/12-blasted-lands",
+    "pack": "five-friends-48-54",
+    "title": "12 - Blasted Lands group story and Vek'zol (53-53)",
+    "faction": "Horde",
+    "minLevel": 53,
+    "maxLevel": 53,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 1419,
+    "next": "five-friends-48-54/13-sunken-temple",
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:2621": "The Disgraced One",
+      "quest:2622": "The Missing Orders",
+      "quest:2623": "The Swamp Talker",
+      "quest:2681": "The Stones That Bind Us",
+      "quest:2701": "Heroes of Old",
+      "quest:2702": "Heroes of Old",
+      "quest:2721": "Kirith",
+      "quest:2743": "The Cover of Darkness",
+      "quest:2784": "Fall From Grace",
+      "quest:2801": "A Tale of Sorrow"
+    },
+    "steps": [
+      {
+        "title": "Pick up: Fall From Grace",
+        "note": "Travel to the Swamp of Sorrows/Blasted Lands border. Start Fall From Grace2784 with the Fallen Hero, then visit Ruag and Bengor in Stonard for The Disgraced One2621 and The Missing Orders2622.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2784,
+            "title": "Fall From Grace",
+            "minLevel": 45,
+            "qlvl": 50
+          }
+        ]
+      },
+      {
+        "title": "Fall From Grace",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 2784,
+            "title": "Fall From Grace"
+          },
+          {
+            "t": "turnin",
+            "quest": 2784,
+            "title": "Fall From Grace",
+            "rewards": {
+              "xp": 470
+            }
+          }
+        ],
+        "note": "Travel to the Swamp of Sorrows/Blasted Lands border. Start Fall From Grace2784 with the Fallen Hero, then visit Ruag and Bengor in Stonard for The Disgraced One2621 and The Missing Orders2622."
+      },
+      {
+        "title": "The Disgraced One",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2621,
+            "title": "The Disgraced One",
+            "minLevel": 45,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 2621,
+            "title": "The Disgraced One"
+          },
+          {
+            "t": "turnin",
+            "quest": 2621,
+            "title": "The Disgraced One",
+            "rewards": {
+              "xp": 1200
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Missing Orders",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2622,
+            "title": "The Missing Orders",
+            "minLevel": 45,
+            "qlvl": 50
+          },
+          {
+            "t": "complete",
+            "quest": 2622,
+            "title": "The Missing Orders"
+          },
+          {
+            "t": "turnin",
+            "quest": 2622,
+            "title": "The Missing Orders",
+            "rewards": {
+              "xp": 1200
+            }
+          }
+        ]
+      },
+      {
+        "title": "Pick up: The Swamp Talker",
+        "note": "Kill the Swamp Talker2623 and return to the Fallen Hero. Complete A Tale of Sorrow2801 and accept The Stones That Bind Us2681.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2623,
+            "title": "The Swamp Talker",
+            "minLevel": 45,
+            "qlvl": 55
+          }
+        ]
+      },
+      {
+        "title": "The Swamp Talker",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 2623,
+            "title": "The Swamp Talker"
+          },
+          {
+            "t": "turnin",
+            "quest": 2623,
+            "title": "The Swamp Talker",
+            "rewards": {
+              "xp": 5650
+            }
+          }
+        ],
+        "note": "Kill the Swamp Talker2623 and return to the Fallen Hero. Complete A Tale of Sorrow2801 and accept The Stones That Bind Us2681."
+      },
+      {
+        "title": "A Tale of Sorrow",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2801,
+            "title": "A Tale of Sorrow",
+            "minLevel": 45,
+            "qlvl": 57
+          },
+          {
+            "t": "complete",
+            "quest": 2801,
+            "title": "A Tale of Sorrow"
+          },
+          {
+            "t": "turnin",
+            "quest": 2801,
+            "title": "A Tale of Sorrow",
+            "rewards": {
+              "xp": 600
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Stones That Bind Us",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2681,
+            "title": "The Stones That Bind Us",
+            "minLevel": 45,
+            "qlvl": 57
+          },
+          {
+            "t": "complete",
+            "quest": 2681,
+            "title": "The Stones That Bind Us"
+          },
+          {
+            "t": "turnin",
+            "quest": 2681,
+            "title": "The Stones That Bind Us",
+            "rewards": {
+              "xp": 7550
+            }
+          }
+        ]
+      },
+      {
+        "title": "Pick up: Heroes of Old",
+        "note": "Defeat the18required bound servants, using their binding stones as instructed by the quest. Return before taking Heroes of Old2702 and2701.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2702,
+            "title": "Heroes of Old",
+            "minLevel": 45,
+            "qlvl": 57
+          }
+        ]
+      },
+      {
+        "title": "Heroes of Old",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 2702,
+            "title": "Heroes of Old"
+          },
+          {
+            "t": "turnin",
+            "quest": 2702,
+            "title": "Heroes of Old",
+            "rewards": {
+              "xp": 3000
+            }
+          }
+        ],
+        "note": "Defeat the18required bound servants, using their binding stones as instructed by the quest. Return before taking Heroes of Old2702 and2701."
+      },
+      {
+        "title": "Heroes of Old",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2701,
+            "title": "Heroes of Old",
+            "minLevel": 45,
+            "qlvl": 57
+          },
+          {
+            "t": "complete",
+            "quest": 2701,
+            "title": "Heroes of Old"
+          },
+          {
+            "t": "turnin",
+            "quest": 2701,
+            "title": "Heroes of Old",
+            "rewards": {
+              "xp": 6000
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kirith",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2721,
+            "title": "Kirith",
+            "minLevel": 45,
+            "qlvl": 58
+          },
+          {
+            "t": "complete",
+            "quest": 2721,
+            "title": "Kirith"
+          },
+          {
+            "t": "turnin",
+            "quest": 2721,
+            "title": "Kirith",
+            "rewards": {
+              "xp": 6200
+            }
+          }
+        ],
+        "note": "Complete Corporal Thund's sequence/lockbox, then defeat Kirith and return for The Cover of Darkness2743. Stop before the long level60Rakh'likh continuation."
+      },
+      {
+        "title": "The Cover of Darkness",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 2743,
+            "title": "The Cover of Darkness",
+            "minLevel": 45,
+            "qlvl": 60
+          },
+          {
+            "t": "complete",
+            "quest": 2743,
+            "title": "The Cover of Darkness"
+          },
+          {
+            "t": "turnin",
+            "quest": 2743,
+            "title": "The Cover of Darkness",
+            "rewards": {
+              "xp": 3300
+            }
+          }
+        ],
+        "note": "Complete Vek'zol91548 using the item/steps supplied by Zevrost's Azshara tome chain. Its reward is delivered to Zevrost during the final capital return, not at the outdoor kill. | Before Temple confirm Jammal'an, Into the Depths, Secret of the Circle and, where available, The God Hakkar. Optional fetish/haze/class quests require their own prior steps and stay outside common XP. | Kum'isha's new defense event is sphere-gated. Use it only if the rare item and prerequisite are already available. | The Burning Beast chain is not a universal five-person route: its last quest is class-restricted."
+      }
+    ]
+  },
+  {
+    "id": "five-friends-48-54/13-sunken-temple",
+    "pack": "five-friends-48-54",
+    "title": "13 - Sunken Temple and all remaining rewards (53-54)",
+    "faction": "Horde",
+    "minLevel": 53,
+    "maxLevel": 54,
+    "category": "Leveling",
+    "folder": "Five Friends 48-54",
+    "keywords": [
+      "group",
+      "horde",
+      "five friends",
+      "dungeon"
+    ],
+    "why": "Automatic quest pickups, objective completion and rewards. Party members use their own quest log. Route notes are not blocking click-to-complete tasks.",
+    "zone": 109,
+    "next": null,
+    "author": "Five Friends",
+    "version": 2,
+    "group": true,
+    "names": {
+      "quest:1446": "Jammal'an the Prophet",
+      "quest:3373": "The Essence of Eranikus",
+      "quest:3446": "Into the Depths",
+      "quest:3447": "Secret of the Circle",
+      "quest:3528": "The God Hakkar",
+      "quest:4987": "Glyphed Oaken Branch",
+      "quest:91548": "Vek'zol"
+    },
+    "steps": [
+      {
+        "title": "Pick up: Into the Depths, Secret of the Circle",
+        "note": "Do the lower temple/statue objective for Secret of the Circle3447 and finish at the Idol of Hakkar. Finish Into the Depths3446 at the Altar of Hakkar. BOTH rewards are inside the temple; complete them during the lower-temple section.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3446,
+            "title": "Into the Depths",
+            "minLevel": 46,
+            "qlvl": 51
+          },
+          {
+            "t": "accept",
+            "quest": 3447,
+            "title": "Secret of the Circle",
+            "minLevel": 46,
+            "qlvl": 51
+          }
+        ]
+      },
+      {
+        "title": "Into the Depths",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 3446,
+            "title": "Into the Depths"
+          },
+          {
+            "t": "turnin",
+            "quest": 3446,
+            "title": "Into the Depths",
+            "rewards": {
+              "xp": 9550
+            }
+          }
+        ],
+        "note": "Complete class-specific trainer preparation before zoning in, if desired. Everyone checks their own general dungeon quest log; Hakkar requires the Egg hand-in, and the circle quests require Marvon's Stone Circle hand-in. | Do the lower temple/statue objective for Secret of the Circle3447 and finish at the Idol of Hakkar. Finish Into the Depths3446 at the Altar of Hakkar. BOTH rewards are inside the temple; complete them during the lower-temple section. | Find Altar of Hakkar inside Sunken Temple."
+      },
+      {
+        "title": "Secret of the Circle",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 3447,
+            "title": "Secret of the Circle"
+          },
+          {
+            "t": "turnin",
+            "quest": 3447,
+            "title": "Secret of the Circle",
+            "rewards": {
+              "xp": 11900
+            }
+          }
+        ],
+        "note": "Solve six statue puzzle, kill Atal'alarion, interact with Idol of Hakkar."
+      },
+      {
+        "title": "Pick up: The Essence of Eranikus",
+        "note": "Kill the Shade of Eranikus. Loot the Essence starter, accept3373 and finish it at the font in the same chamber BEFORE leaving.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3373,
+            "title": "The Essence of Eranikus",
+            "minLevel": 48,
+            "qlvl": 55
+          }
+        ]
+      },
+      {
+        "title": "The Essence of Eranikus",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 3373,
+            "title": "The Essence of Eranikus"
+          },
+          {
+            "t": "turnin",
+            "quest": 3373,
+            "title": "The Essence of Eranikus",
+            "rewards": {
+              "xp": 5450
+            }
+          }
+        ],
+        "note": "Kill Jammal'an and have every eligible player loot the required head. Complete the Hakkar event with the supplied egg if prepared; keep the group in credit range. | Kill the Shade of Eranikus. Loot the Essence starter, accept3373 and finish it at the font in the same chamber BEFORE leaving. | Loot Essence of Eranikus from Shade of Eranikus, accept quest from item, use Essence Font in same chamber."
+      },
+      {
+        "title": "Pick up: Glyphed Oaken Branch",
+        "note": "If you completed Mulgris's WPL wildlife chain and are carrying Glyphed Oaken Branch4987, finish its scheduled Thunder Bluff delivery. If WPL was bypassed, this reward is also absent.",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 4987,
+            "title": "Glyphed Oaken Branch",
+            "minLevel": 51,
+            "qlvl": 56
+          }
+        ]
+      },
+      {
+        "title": "Jammal'an the Prophet",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 1446,
+            "title": "Jammal'an the Prophet",
+            "minLevel": 38,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 1446,
+            "title": "Jammal'an the Prophet"
+          },
+          {
+            "t": "turnin",
+            "quest": 1446,
+            "title": "Jammal'an the Prophet",
+            "rewards": {
+              "xp": 12750
+            }
+          }
+        ],
+        "note": "Return Jammal'an to the Atal'ai Exile in the Hinterlands. Use the planned Orgrimmar return for Vek'zol's reward, then the Gadgetzan hearth for Yeh'kinya's Hakkar reward if that quest was completed. There is no Marvon turn-in after the dungeon. | If you completed Mulgris's WPL wildlife chain and are carrying Glyphed Oaken Branch4987, finish its scheduled Thunder Bluff delivery. If WPL was bypassed, this reward is also absent."
+      },
+      {
+        "title": "Vek'zol",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 91548,
+            "title": "Vek'zol",
+            "minLevel": 44,
+            "qlvl": 55
+          },
+          {
+            "t": "complete",
+            "quest": 91548,
+            "title": "Vek'zol"
+          },
+          {
+            "t": "turnin",
+            "quest": 91548,
+            "title": "Vek'zol",
+            "rewards": {
+              "xp": 7050
+            }
+          }
+        ],
+        "note": "Check the lowest member against54. Optional drops, class quests, extra dungeon trash and rested XP are additional progress, not requirements. | Kill Jammal'an and loot his head."
+      },
+      {
+        "title": "The God Hakkar",
+        "goals": [
+          {
+            "t": "accept",
+            "quest": 3528,
+            "title": "The God Hakkar",
+            "minLevel": 40,
+            "qlvl": 53
+          },
+          {
+            "t": "complete",
+            "quest": 3528,
+            "title": "The God Hakkar"
+          },
+          {
+            "t": "turnin",
+            "quest": 3528,
+            "title": "The God Hakkar",
+            "rewards": {
+              "xp": 15400
+            }
+          }
+        ]
+      },
+      {
+        "title": "Glyphed Oaken Branch",
+        "goals": [
+          {
+            "t": "complete",
+            "quest": 4987,
+            "title": "Glyphed Oaken Branch"
+          },
+          {
+            "t": "turnin",
+            "quest": 4987,
+            "title": "Glyphed Oaken Branch",
+            "rewards": {
+              "xp": 5800
+            }
+          }
+        ],
+        "note": "Complete Avatar of Hakkar event and fill supplied Egg with essence. | 3528 is omitted from the no-Mosh'aru scenario; the one-clear Temple plan remains usable for the other quests. | The baseline includes no second Mara, Alcaz, ZF or Temple run."
+      }
+    ]
+  }
+]
