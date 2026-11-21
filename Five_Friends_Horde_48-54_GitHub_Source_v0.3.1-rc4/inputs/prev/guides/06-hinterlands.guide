@@ -1,0 +1,118 @@
+guide five-friends-43-48/06-hinterlands
+title 06 - Hinterlands & Jintha'Alor (46-47)
+faction Horde
+levels 46-47
+zone map 1425
+coords live
+category Leveling
+folder Five Friends 43-48
+keywords group, horde, dungeon, five friends
+version 3
+Five-player quest route. Level band 46-47 is an estimate, not a grind requirement.
+next five-friends-43-48/07-zulfarrak
+
+step Western Hinterlands delivery
+  turnin 650 "Ripple Recovery" xp 4400 @26.7,48.6 -- Gilveradin Sunchaser.
+  accept 77 "A Sticky Situation" lvl 42 @26.7,48.6 -- Gilveradin.
+
+step Venom Bottles starter
+  accept 2933 "Venom Bottles" lvl 40 @23.5,58.8 -- Click a Venom Bottle in the Witherbark camp.
+
+step Tarren Mill venom handoff
+  zone map 1424
+  turnin 2933 "Venom Bottles" xp 3600 @61.5,19.2 -- Apothecary Lydon, Tarren Mill.
+  accept 2934 "Undamaged Venom Sac" lvl 40 @61.5,19.2 -- Lydon; take this before killing the Broodguards.
+
+step Get the timed sac
+  zone map 1425
+  tip Return directly to Lydon when you have the sac. Do not start the long Revantusk circuit with this timed item.
+  complete 2934 "Undamaged Venom Sac" @34.0,73.0 -- Kill Witherbark Broodguards at Shadra'Alor and obtain an Undamaged Venom Sac on every character.
+
+step Deliver the sac promptly
+  zone map 1424
+  turnin 2934 "Undamaged Venom Sac" xp 3900 @61.5,19.2 -- Apothecary Lydon, Tarren Mill.
+  accept 2935 "Consult Master Gadrin" lvl 40 @61.5,19.2 -- Hold Consult Master Gadrin until the later Sen'jin visit.
+
+step Revantusk pickups
+  zone map 1425
+  accept 7828 "Stalking the Stalkers" lvl 44 @79.2,79.5 -- Huntsman Markhor.
+  accept 7829 "Hunt the Savages" lvl 44 @79.2,79.5 -- Markhor.
+  accept 7830 "Avenging the Fallen" lvl 44 @79.2,79.5 -- Markhor.
+  accept 7816 "Gammerita, Mon!" lvl 44 @80.3,81.5 -- Katoom the Angler; this is the Horde lure quest.
+  accept 7815 "Snapjaws, Mon!" lvl 44 @80.3,81.5 -- Katoom.
+  accept 7844 "Cannibalistic Cousins" lvl 44 @78.8,78.2 -- Mystic Yayo'jin.
+  accept 7839 "Vilebranch Hooligans" lvl 44 @77.2,80.1 -- Smith Slagtree.
+  accept 7840 "Lard Lost His Lunch" lvl 44 @78.1,81.4 -- Lard.
+
+step Eastern coast loop
+  complete 7815 "Snapjaws, Mon!" -- Kill 15 Saltwater Snapjaws.
+  complete 7816 "Gammerita, Mon!" group 5 -- Kill Gammerita and loot Katoom's Best Lure.
+  complete 7840 "Lard Lost His Lunch" @85.0,41.0 -- Click the island basket, fight its ambush, and loot Lard's Lunch; the basket alone is not the full objective.
+
+step Eastern forest and troll camps
+  complete 7828 "Stalking the Stalkers" -- Kill 15 Silvermane Stalkers AND 15 Silvermane Howlers. Howlers are central/west near Valorwind Lake; Stalkers are eastern and stealthed.
+  complete 7829 "Hunt the Savages" -- Kill 20 Savage Owlbeasts.
+  complete 7830 "Avenging the Fallen" -- Kill a Razorbeak Skylord and loot its plume.
+  complete 7844 "Cannibalistic Cousins" -- Kill 30 Vilebranch Scalpers and 15 Soothsayers.
+  complete 7839 "Vilebranch Hooligans" -- Pick up Slagtree's Lost Tools from their ground-object spawn in the troll camps or Skulk Rock.
+  complete 77 "A Sticky Situation" @57.0,41.0 -- Pick up 10 Hinterlands Honey Ripple from ground crates at Skulk Rock.
+
+step Gilveradin's follow-up
+  turnin 77 "A Sticky Situation" xp 4400 @26.7,48.6 -- Gilveradin Sunchaser.
+  accept 81 "Ripple Delivery" lvl 42 @26.7,48.6 -- Keep Ripple Delivery for Orgrimmar.
+
+step Revantusk rewards
+  turnin 7828 "Stalking the Stalkers" xp 4400 @79.2,79.5 -- Markhor.
+  turnin 7829 "Hunt the Savages" xp 4400 @79.2,79.5 -- Markhor.
+  turnin 7830 "Avenging the Fallen" xp 4400 @79.2,79.5 -- Markhor.
+  turnin 7816 "Gammerita, Mon!" xp 4400 @80.3,81.5 -- Katoom.
+  turnin 7815 "Snapjaws, Mon!" xp 4700 @80.3,81.5 -- Katoom.
+  turnin 7844 "Cannibalistic Cousins" xp 4400 @78.8,78.2 -- Yayo'jin.
+  turnin 7839 "Vilebranch Hooligans" xp 4400 @77.2,80.1 -- Slagtree.
+  turnin 7840 "Lard Lost His Lunch" xp 4550 @78.1,81.4 -- Lard.
+
+step Jintha'Alor level gate
+  tip If anyone is short, use unfinished eligible lower-zone quests or shared kills before taking this package. The forecast passes this gate with both the 13% and 3% assumptions.
+  level 46
+  task "All five are level 46 before taking the Jintha'Alor package"
+
+step Jintha'Alor pickups
+  accept 7850 "Dark Vessels" lvl 46 @78.2,81.2 -- Primal Torntusk.
+  accept 7845 "Kidnapped Elder Torntusk!" lvl 46 @78.2,81.2 -- Primal Torntusk.
+  accept 7849 "Separation Anxiety" lvl 46 @79.2,79.5 -- Huntsman Markhor.
+  accept 7861 "WANTED: Vile Priestess Hexx and Her Minions" lvl 46 @79.1,79.0 -- Call to Arms board.
+  accept 7862 "Job Opening: Guard Captain of Revantusk Village" lvl 46 @79.1,79.0 -- Call to Arms board.
+
+step Get the Sacred Mallet
+  tip One usable Mallet of Zul'Farrak in the party is sufficient. Carry the Sacred Mallet up Jintha'Alor and forge it at the altar during the climb; this item has no quest XP in the forecast.
+  task "If nobody has the Mallet of Zul'Farrak, kill Qiaga the Keeper at the Altar of Zul and loot the Sacred Mallet"
+
+step Climb Jintha'Alor
+  tip Collect Vessels of Tainted Blood, the skull from the skull piles, and the bone from the ooze-pit bone piles. You need 20 of each Guard Captain type, plus Hexx and 20 Aman'zasi Guards. Work these while climbing.
+  task "Reach Elder Torntusk while progressing the kill quotas and ground pickups; do not kill Hitah'ya before accepting Recover the Key"
+
+step Elder Torntusk's key quest
+  turnin 7845 "Kidnapped Elder Torntusk!" xp 4900 @59.6,77.9 -- Elder Torntusk at the upper cave.
+  accept 7846 "Recover the Key!" lvl 46 @59.6,77.9 -- Everyone accepts Recover the Key before the keeper dies.
+
+step Recover the key
+  complete 7846 "Recover the Key!" group 5 -- Kill Hitah'ya the Keeper and obtain the key.
+
+step Free the elder
+  turnin 7846 "Recover the Key!" xp 6100 @59.6,77.9 -- Return to Elder Torntusk.
+  accept 7847 "Return to Primal Torntusk" lvl 46 @59.6,77.9 -- Take his delivery to Primal Torntusk.
+
+step Finish the Jintha objectives
+  complete 7850 "Dark Vessels" -- Finish 10 ground Vessels of Tainted Blood.
+  complete 7849 "Separation Anxiety" -- Obtain both the skull and bone ground pickups.
+  complete 7861 "WANTED: Vile Priestess Hexx and Her Minions" group 5 -- Kill Vile Priestess Hexx and 20 Vilebranch Aman'zasi Guards.
+  complete 7862 "Job Opening: Guard Captain of Revantusk Village" group 5 -- Kill 20 each of Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters.
+  task "Use the Sacred Mallet at the Jintha'Alor altar, or confirm a party member already has the Mallet of Zul'Farrak"
+
+step Jintha'Alor rewards
+  tip Keep the Mallet for Gahz'rilla. The Ancient Egg follow-up is not available before the Zul'Farrak prophecy, so it is outside this climb.
+  turnin 7850 "Dark Vessels" xp 5900 @78.2,81.2 -- Primal Torntusk.
+  turnin 7847 "Return to Primal Torntusk" xp 4900 @78.2,81.2 -- Primal Torntusk.
+  turnin 7849 "Separation Anxiety" xp 5900 @79.2,79.5 -- Markhor.
+  turnin 7861 "WANTED: Vile Priestess Hexx and Her Minions" xp 6100 @78.2,81.2 -- Primal Torntusk, Revantusk Village.
+  turnin 7862 "Job Opening: Guard Captain of Revantusk Village" xp 6100 @78.2,81.2 -- Primal Torntusk, Revantusk Village.

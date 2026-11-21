@@ -1,0 +1,83 @@
+guide five-friends-43-48/07-zulfarrak
+title 07 - Zul'Farrak (47-48)
+faction Horde
+levels 47-48
+zone map 1454
+coords live
+category Leveling
+folder Five Friends 43-48
+keywords group, horde, dungeon, five friends
+version 3
+Five-player quest route. Level band 47-48 is an estimate, not a grind requirement.
+next five-friends-43-48/08-maraudon-finish
+
+step Orgrimmar delivery and Mara pickup
+  turnin 81 "Ripple Delivery" xp 4400 @59.5,36.6 -- Dran Droffers: Ripple Delivery.
+  accept 7068 "Shadowshard Fragments" lvl 39 @39.0,86.1 -- Uthel'nay: Shadowshard Fragments for Maraudon.
+
+step Sen'jin prerequisite
+  zone map 1411
+  turnin 2935 "Consult Master Gadrin" xp 2900 @55.9,74.7 -- Master Gadrin in Sen'jin Village.
+  accept 2936 "The Spider God" lvl 40 @55.9,74.7 -- The Spider God: take it before entering Zul'Farrak.
+
+step Skywatcher Plateau dungeon pickups
+  zone map 1412
+  accept 96775 "Zum'rah's Head" lvl 42 @32.5,20.7 -- Mazu'kon: Zum'rah's Head for Zul'Farrak.
+  accept 96776 "An'she's Radiance" lvl 43 @32.6,24.1 -- Olana Brighthoof: An'she's Radiance for Maraudon.
+
+step Gahz'rilla pickup
+  zone map 1441
+  accept 2770 "Gahz'rilla" lvl 40 @78.1,77.1 -- Wizzle Brassbolts at Mirage Raceway in the Shimmering Flats.
+
+step Prophecy prerequisite hand-in
+  zone map 1446
+  turnin 3520 "Screecher Spirits" xp 3750 @67.0,22.4 -- Yeh'kinya, Steamwheedle Port.
+  accept 3527 "The Prophecy of Mosh'aru" lvl 40 @67.0,22.4 -- The Prophecy of Mosh'aru.
+
+step Gadgetzan dungeon pickups
+  accept 2865 "Scarab Shells" lvl 40 @51.6,26.8 -- Tran'rek: Scarab Shells.
+  accept 3042 "Troll Temper" lvl 40 @51.4,28.7 -- Trenton Lighthammer: Troll Temper.
+  accept 2768 "Divino-matic Rod" lvl 40 @52.5,28.5 -- Chief Engineer Bilgewhizzle: Divino-matic Rod.
+
+step Zul'Farrak readiness
+  tip Checklist: Scarab Shells, Troll Temper, Divino-matic Rod, Prophecy of Mosh'aru, Gahz'rilla, Tiara of the Deep, Zum'rah's Head, The Spider God. If Tiara is missing, visit Tabetha now. Keep the Maraudon quests in your log.
+  task "Every player has all eight ZF quests, and someone carries the Mallet of Zul'Farrak"
+
+step Zul'Farrak: Theka and Zum'rah
+  tip Loot the First Mosh'aru Tablet from Theka while here. Collect Troll Temper from the dungeon's trolls throughout the clear. This step is mandatory group content.
+  complete 2936 "The Spider God" -- READ the Tablet of Theka in Theka's area for The Spider God; do not confuse it with the prophecy loot.
+  complete 96775 "Zum'rah's Head" group 5 -- Kill Witch Doctor Zum'rah and loot his head.
+
+step Zul'Farrak: pyramid and Sergeant Bly
+  complete 2768 "Divino-matic Rod" group 5 -- Kill the Executioner, free the prisoners, finish the pyramid event, ask Weegli to open the final gate, then confront and kill Sergeant Bly for the Divino-matic Rod.
+
+step Zul'Farrak: pool, tablets and collections
+  tip Check all eight quest objectives before leaving. The one-clear assumption includes finishing these dungeon collections; do not leave while one player still needs loot.
+  complete 2846 "Tiara of the Deep" group 5 -- Kill Hydromancer Velratha and loot the Tiara of the Deep.
+  complete 3527 "The Prophecy of Mosh'aru" -- Loot both Mosh'aru Tablets: Theka and Hydromancer Velratha.
+  complete 2770 "Gahz'rilla" group 5 -- Use the Mallet on the gong, kill Gahz'rilla, and loot the required scale.
+  complete 2865 "Scarab Shells" -- Collect five Uncracked Scarab Shells per player.
+  complete 3042 "Troll Temper" -- Collect 20 Troll Temper per player.
+  task "Finish the full clear, including the final bosses beyond Weegli's opened gate"
+
+step Gadgetzan ZF rewards
+  turnin 2865 "Scarab Shells" xp 7800 @51.6,26.8 -- Tran'rek.
+  turnin 3042 "Troll Temper" xp 7800 @51.4,28.7 -- Trenton Lighthammer.
+  turnin 2768 "Divino-matic Rod" xp 12600 @52.5,28.5 -- Chief Engineer Bilgewhizzle.
+
+step Prophecy reward
+  tip The Ancient Egg is an optional later chain, not part of this 43-48 budget; it would require returning to Jintha'Alor.
+  turnin 3527 "The Prophecy of Mosh'aru" xp 10500 @67.0,22.4 -- Yeh'kinya, Steamwheedle Port.
+
+step Gahz'rilla reward
+  zone map 1441
+  turnin 2770 "Gahz'rilla" xp 14200 @78.1,77.1 -- Wizzle Brassbolts, Mirage Raceway.
+
+step Tiara reward
+  zone map 1445
+  turnin 2846 "Tiara of the Deep" xp 12100 @46.0,57.1 -- Tabetha, Dustwallow Marsh.
+
+step Zum'rah reward
+  zone map 1412
+  tip Keep The Spider God completed in your log for the final Sen'jin delivery. Proceed to Desolace and Maraudon. Keep An'she's Radiance, Shadowshard Fragments and Rot and Regret.
+  turnin 96775 "Zum'rah's Head" xp 10100 @32.5,20.7 -- Mazu'kon, Skywatcher Plateau.

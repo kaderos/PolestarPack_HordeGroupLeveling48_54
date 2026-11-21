@@ -1,0 +1,22 @@
+Five Friends Horde 48-54: upstream data and compiler notices
+==============================================================
+
+The original guide route text is presented under CC0 1.0 (see LICENSE). This does
+not assign a new license to third-party game databases, quest text, or artwork.
+
+The project's historical 49-54 focused reference cache was derived from sources
+identified in inputs/ref49/reference/PROVENANCE.json, including the Polestar
+Forever data project (https://github.com/fitzforge/polestar) and downstream
+Questie/Forever quest metadata. Upstream data may carry GPLv3 or other data
+notices. Copyright and licenses remain with their respective owners. The
+original 49-54 addon README declared that Polestar's compiler license exception
+permits distributing generated community guide packs under an author-chosen
+license; it does not grant a blanket relicensing of the raw source databases.
+
+The compiled installer carries authored quest navigation values rather than a
+copy of the raw research databases. Full source distribution contains the
+referenced focused cache solely for reproducible compilation; consult its
+provenance and the original upstream license terms if redistributing.
+
+Polestar itself (0xFitz) is GPLv3 and is a separate required addon. No Polestar
+runtime engine code is included in this release.

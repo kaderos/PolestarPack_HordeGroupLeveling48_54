@@ -1,0 +1,4 @@
+Previous 43-48 authored .guide source: Five_Friends_Polestar_GitHub_Repo_v1.2.1.zip
+Previous 49-54 compiled guide payload: Five_Friends_Horde_49-54_v1.0.0_GitHub_Source.zip
+Revised 48-54 route ledger: Five_Friends_Horde_48-54_Revised_Plan.json
+Research for new goal coordinates: see docs/LOCATION_EVIDENCE.md

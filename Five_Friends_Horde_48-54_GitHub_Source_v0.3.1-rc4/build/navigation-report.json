@@ -1,0 +1,612 @@
+{
+  "version": "0.3.1-rc4",
+  "predecessor": "0.3.0-rc3",
+  "chapterStats": {
+    "five-friends-48-54/01-mara-preparation": {
+      "steps": 26,
+      "goals": 42,
+      "mapped_goals": 39
+    },
+    "five-friends-48-54/02-maraudon": {
+      "steps": 20,
+      "goals": 22,
+      "mapped_goals": 9
+    },
+    "five-friends-48-54/03-feralas-azshara": {
+      "steps": 45,
+      "goals": 76,
+      "mapped_goals": 75
+    },
+    "five-friends-48-54/04-alcaz": {
+      "steps": 21,
+      "goals": 30,
+      "mapped_goals": 16
+    },
+    "five-friends-48-54/05-hinterlands": {
+      "steps": 20,
+      "goals": 50,
+      "mapped_goals": 50
+    },
+    "five-friends-48-54/06-searing-gorge": {
+      "steps": 25,
+      "goals": 52,
+      "mapped_goals": 51
+    },
+    "five-friends-48-54/07-tanaris": {
+      "steps": 18,
+      "goals": 29,
+      "mapped_goals": 29
+    },
+    "five-friends-48-54/08-ungoro": {
+      "steps": 39,
+      "goals": 76,
+      "mapped_goals": 73
+    },
+    "five-friends-48-54/09-felwood": {
+      "steps": 24,
+      "goals": 36,
+      "mapped_goals": 36
+    },
+    "five-friends-48-54/10-kalimdor-rewards": {
+      "steps": 6,
+      "goals": 9,
+      "mapped_goals": 9
+    },
+    "five-friends-48-54/11-western-plaguelands": {
+      "steps": 42,
+      "goals": 67,
+      "mapped_goals": 67
+    },
+    "five-friends-48-54/12-blasted-lands": {
+      "steps": 20,
+      "goals": 28,
+      "mapped_goals": 28
+    },
+    "five-friends-48-54/13-sunken-temple": {
+      "steps": 14,
+      "goals": 15,
+      "mapped_goals": 5
+    }
+  },
+  "allGoalTypes": {
+    "accept": 170,
+    "goto": 37,
+    "complete": 98,
+    "turnin": 170,
+    "enter": 2,
+    "collect": 4,
+    "kill": 51
+  },
+  "mappedGoals": 487,
+  "remainingUnmappedGoals": [
+    {
+      "chapter": "five-friends-48-54/01-mara-preparation",
+      "step": "Investigate the pylons and temple",
+      "quest": 92914,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/01-mara-preparation",
+      "step": "Desolace pylon pieces",
+      "quest": 96010,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/01-mara-preparation",
+      "step": "Power the pylons",
+      "quest": 96018,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "step": "Maraudon entrance pickup",
+      "quest": 7044,
+      "type": "accept"
+    },
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "step": "Orange wing",
+      "quest": 7029,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "step": "Purple wing and the khan gems",
+      "quest": 7067,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "step": "Celebras",
+      "quest": 7044,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "step": "Quest handoff: Celebras",
+      "quest": 7044,
+      "type": "turnin"
+    },
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "step": "Quest handoff: Celebras",
+      "quest": 7046,
+      "type": "accept"
+    },
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "step": "Scepter ritual",
+      "quest": 7046,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "step": "Quest handoff: Scepter ritual",
+      "quest": 7046,
+      "type": "turnin"
+    },
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "step": "Inner Maraudon bosses",
+      "quest": 96776,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "step": "Inner Maraudon bosses",
+      "quest": 7064,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "step": "Seed of Life pickup",
+      "quest": 7066,
+      "type": "accept"
+    },
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "step": "Rotgrip water and final collection check",
+      "quest": 93404,
+      "type": "collect"
+    },
+    {
+      "chapter": "five-friends-48-54/03-feralas-azshara",
+      "step": "Retrieve the three seals",
+      "quest": 91497,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Locate Commander Folkar",
+      "quest": 95309,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Continue Folkar's investigation",
+      "quest": 95309,
+      "type": "turnin"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Continue Folkar's investigation",
+      "quest": 95454,
+      "type": "accept"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Finish the main prison route",
+      "quest": 95454,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Finish the main prison route",
+      "quest": 96332,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Read the Perfumed Note",
+      "quest": 95454,
+      "type": "turnin"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Read the Perfumed Note",
+      "quest": 96369,
+      "type": "accept"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Ask Mason Connery about the chains",
+      "quest": 96335,
+      "type": "accept"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Return for The Questioner's key",
+      "quest": 96335,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Free Mason and follow his lead",
+      "quest": 96335,
+      "type": "turnin"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Free Mason and follow his lead",
+      "quest": 96337,
+      "type": "accept"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Give Folkar the bad news",
+      "quest": 96369,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Quest handoff: Give Folkar the bad news",
+      "quest": 96369,
+      "type": "turnin"
+    },
+    {
+      "chapter": "five-friends-48-54/04-alcaz",
+      "step": "Quest handoff: Give Folkar the bad news",
+      "quest": 95483,
+      "type": "accept"
+    },
+    {
+      "chapter": "five-friends-48-54/06-searing-gorge",
+      "step": "Set Them Ablaze",
+      "quest": 3463,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/08-ungoro",
+      "step": "Open A Small Pack and recover its three contents",
+      "quest": 3845,
+      "type": "collect"
+    },
+    {
+      "chapter": "five-friends-48-54/08-ungoro",
+      "step": "Open A Small Pack and recover its three contents",
+      "quest": 3845,
+      "type": "collect"
+    },
+    {
+      "chapter": "five-friends-48-54/08-ungoro",
+      "step": "Open A Small Pack and recover its three contents",
+      "quest": 3845,
+      "type": "collect"
+    },
+    {
+      "chapter": "five-friends-48-54/13-sunken-temple",
+      "step": "Complete Into the Depths",
+      "quest": 3446,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/13-sunken-temple",
+      "step": "The lower altar",
+      "quest": 3446,
+      "type": "turnin"
+    },
+    {
+      "chapter": "five-friends-48-54/13-sunken-temple",
+      "step": "Complete Secret of the Circle",
+      "quest": 3447,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/13-sunken-temple",
+      "step": "Solve the lower serpent-statue circle",
+      "quest": 3447,
+      "type": "turnin"
+    },
+    {
+      "chapter": "five-friends-48-54/13-sunken-temple",
+      "step": "Upper troll platforms and Jammal'an",
+      "quest": 1446,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/13-sunken-temple",
+      "step": "The Hakkar event",
+      "quest": 3528,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/13-sunken-temple",
+      "step": "Accept The Essence of Eranikus",
+      "quest": 3373,
+      "type": "accept"
+    },
+    {
+      "chapter": "five-friends-48-54/13-sunken-temple",
+      "step": "Complete The Essence of Eranikus",
+      "quest": 3373,
+      "type": "complete"
+    },
+    {
+      "chapter": "five-friends-48-54/13-sunken-temple",
+      "step": "Finish the essence hand-in",
+      "quest": 3373,
+      "type": "turnin"
+    }
+  ],
+  "knownLocationCorrections": [
+    {
+      "chapter": "five-friends-48-54/03-feralas-azshara",
+      "quest": 86746,
+      "goal": "accept",
+      "point": [
+        1447,
+        42.0,
+        38.9
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/03-feralas-azshara",
+      "quest": 86746,
+      "goal": "complete",
+      "point": [
+        1447,
+        61.0,
+        23.0
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/03-feralas-azshara",
+      "quest": 86746,
+      "goal": "turnin",
+      "point": [
+        1447,
+        42.0,
+        38.9
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/03-feralas-azshara",
+      "quest": 91531,
+      "goal": "turnin",
+      "point": [
+        1454,
+        75.2,
+        34.2
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/03-feralas-azshara",
+      "quest": 95283,
+      "goal": "accept",
+      "point": [
+        1454,
+        34.3,
+        39.4
+      ]
+    }
+  ],
+  "geographicSplits": [
+    {
+      "chapter": "five-friends-48-54/02-maraudon",
+      "original_title": "Desolace hand-ins",
+      "parts": 3,
+      "goal_types": [
+        [
+          "turnin"
+        ],
+        [
+          "turnin"
+        ],
+        [
+          "turnin"
+        ]
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/03-feralas-azshara",
+      "original_title": "Search Eldarath and the beach",
+      "parts": 2,
+      "goal_types": [
+        [
+          "goto",
+          "goto",
+          "complete"
+        ],
+        [
+          "complete"
+        ]
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/03-feralas-azshara",
+      "original_title": "Combine blood-elf kills and supplies",
+      "parts": 2,
+      "goal_types": [
+        [
+          "complete"
+        ],
+        [
+          "complete"
+        ]
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/05-hinterlands",
+      "original_title": "Eastern coast loop",
+      "parts": 2,
+      "goal_types": [
+        [
+          "complete",
+          "complete"
+        ],
+        [
+          "complete"
+        ]
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/05-hinterlands",
+      "original_title": "Eastern forest and troll camps",
+      "parts": 4,
+      "goal_types": [
+        [
+          "complete"
+        ],
+        [
+          "complete"
+        ],
+        [
+          "complete"
+        ],
+        [
+          "complete",
+          "complete"
+        ]
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/06-searing-gorge",
+      "original_title": "Dark Iron and Cauldron circuit",
+      "parts": 5,
+      "goal_types": [
+        [
+          "complete"
+        ],
+        [
+          "complete"
+        ],
+        [
+          "complete"
+        ],
+        [
+          "complete"
+        ],
+        [
+          "complete",
+          "complete"
+        ]
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/06-searing-gorge",
+      "original_title": "Twilight elites and remaining surface kills",
+      "parts": 2,
+      "goal_types": [
+        [
+          "complete"
+        ],
+        [
+          "complete",
+          "complete"
+        ]
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/08-ungoro",
+      "original_title": "Find the carcass and damaged crystal",
+      "parts": 2,
+      "goal_types": [
+        [
+          "goto",
+          "complete"
+        ],
+        [
+          "complete"
+        ]
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/08-ungoro",
+      "original_title": "Work the shared kills around the crater",
+      "parts": 2,
+      "goal_types": [
+        [
+          "kill",
+          "kill",
+          "kill",
+          "kill"
+        ],
+        [
+          "kill",
+          "kill"
+        ]
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/08-ungoro",
+      "original_title": "Finish the remaining crater kill counts",
+      "parts": 2,
+      "goal_types": [
+        [
+          "kill",
+          "kill",
+          "kill",
+          "kill"
+        ],
+        [
+          "kill",
+          "kill"
+        ]
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/11-western-plaguelands",
+      "original_title": "Complete Unfinished Business",
+      "parts": 2,
+      "goal_types": [
+        [
+          "kill",
+          "kill"
+        ],
+        [
+          "kill",
+          "kill"
+        ]
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/11-western-plaguelands",
+      "original_title": "Complete Unfinished Business",
+      "parts": 2,
+      "goal_types": [
+        [
+          "kill"
+        ],
+        [
+          "kill"
+        ]
+      ]
+    },
+    {
+      "chapter": "five-friends-48-54/12-blasted-lands",
+      "original_title": "Finish the binding-stone circuit",
+      "parts": 4,
+      "goal_types": [
+        [
+          "kill"
+        ],
+        [
+          "kill"
+        ],
+        [
+          "kill"
+        ],
+        [
+          "kill"
+        ]
+      ]
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Static build and Lua registration tested; WoW Forever client not available.",
+    "True walk-to-target route polylines depend on Polestar_Nav plus continent-specific Polestar_Nav_EK and Polestar_Nav_Kalimdor. No fabricated Legs.lua.",
+    "Known dungeon-interior quest goals lack verified usable map coordinates; follow step notes inside Maraudon, Alcaz and Sunken Temple.",
+    "Quest state, optional availability, coordinates, group completion and routing still require a live five-character smoke test."
+  ]
+}

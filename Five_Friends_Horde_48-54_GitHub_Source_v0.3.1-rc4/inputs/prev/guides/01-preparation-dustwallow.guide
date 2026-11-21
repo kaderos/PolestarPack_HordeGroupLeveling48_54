@@ -1,0 +1,129 @@
+guide five-friends-43-48/01-preparation-dustwallow
+title 01 - Prep & Dustwallow (43-44)
+faction Horde
+levels 43-44
+zone map 1454
+coords live
+category Leveling
+folder Five Friends 43-48
+keywords group, horde, dungeon, five friends
+version 3
+Five-player quest route. Level band 43-44 is an estimate, not a grind requirement.
+next five-friends-43-48/04-uldaman
+
+step Read the group plan
+  tip Refresh Sleeping Bag before long sessions. The XP forecast assumes 30 base XP per kill per player and your 13% total bonus. Each player follows their own quest log. Clear unrelated quests to leave room. The next city pickups can be done while friends are offline, in any convenient order; already accepted or completed quests advance automatically.
+  task "Ready: five Horde characters, lowest level 43, Riverglades and Krol'dok finished"
+
+step Orgrimmar advance pickups
+  zone map 1454
+  accept 2283 "Necklace Recovery" lvl 37 @59.5,36.6 -- Dran Droffers; keep this for the exterior necklace drop.
+  accept 2981 "A Threat in Feralas" lvl 38 @75.2,34.2 -- Belgrom Rockmaul; carry to Camp Mojache.
+
+step Undercity advance pickup
+  zone map 1458
+  accept 2342 "Reclaimed Treasures" lvl 33 @62.5,47.9 -- Patrick Garrett near the flight master; Horde version.
+
+step Thunder Bluff advance pickup
+  zone map 1456
+  accept 1205 "Deadmire" lvl 35 @61.5,80.9 -- Melor Stonehoof; kill Deadmire later in Dustwallow.
+
+step Booty Bay advance pickup
+  zone map 1434
+  accept 2872 "Stoley's Debt" lvl 40 @27.8,77.1 -- Sea Wolf MacKinley; carry to Stoley in Tanaris.
+
+step Badlands setup
+  zone map 1418
+  tip We do not take either reagent-run quest. This visit prepares Uldaman; save the instance bosses for the later full clear.
+  task "Set your Hearthstone at Kargath and keep it there through the Uldaman necklace deliveries"
+  accept 2418 "Power Stones" lvl 30 @42.4,52.9 -- Rigglefuzz in the Badlands.
+  accept 709 "Solution to Doom" lvl 30 @51.3,76.7 -- Theldurin the Lost in the southern Badlands.
+  note "OPTIONAL QUEST CHECK: /mappin 1418 39.0 46.0. While crossing the Badlands, watch for Malevolent Mirage's actual name and reddish aura; it can look like an ordinary animal. This is a reported sighting area, not a fixed spawn. If present, kill it together; everyone loots and uses their own Mirage Mirror. Continue if absent." @39.0,46.0 map 1418
+
+step Exterior Uldaman tunnels
+  tip The three other objectives are outside the portal. Current reports favor early instance trash for the necklace; do not keep farming empty exterior packs. Check all five necklaces before leaving. Horde takes them to Dran, rather than right-clicking the Alliance starter. This preparation may be a different instance from the later full clear.
+  complete 2418 "Power Stones" -- Collect the Power Stones from the outside dig-site dwarves.
+  complete 709 "Solution to Doom" -- Loot the Tablet of Ryun'eh from the Ancient Chest in the exterior Sealed Hall.
+  complete 2342 "Reclaimed Treasures" -- Open Garrett's family chest in the exterior common hall.
+  complete 2283 "Necklace Recovery" -- Obtain a Shattered Necklace; if none drop during exterior work, make a short main-entrance trash dip. Save the bosses.
+
+step Badlands hand-ins
+  turnin 2418 "Power Stones" xp 3500 @42.4,52.9 -- Rigglefuzz.
+  turnin 709 "Solution to Doom" xp 6150 @51.3,76.7 -- Theldurin the Lost.
+  note "OPTIONAL REWARD IF HELD: Mirage Mirror goes to Mus'hale in Kargath, /mappin 1418 4.2 46.3. Use the looted mirror to start the quest first. Combine this with a normal Kargath return; no mirror means no extra stop." @4.2,46.3 map 1418
+
+step Reclaimed Treasures delivery
+  zone map 1458
+  turnin 2342 "Reclaimed Treasures" xp 7000 @62.5,47.9 -- Patrick Garrett, Undercity.
+
+step Necklace delivery and return quest
+  zone map 1454
+  turnin 2283 "Necklace Recovery" xp 4800 @59.5,36.6 -- Dran Droffers.
+  accept 2284 "Necklace Recovery, Take 2" lvl 37 @59.5,36.6 -- Hold this for the paladin remains in Uldaman.
+  accept 649 "Ripple Recovery" lvl 42 @59.5,36.6 -- Dran Droffers.
+
+step Arrange the Hinterlands delivery
+  turnin 649 "Ripple Recovery" xp 440 @59.6,36.9 -- Malton Droffers, beside Dran.
+  accept 650 "Ripple Recovery" lvl 42 @59.6,36.9 -- Keep this until the Hinterlands circuit.
+
+step Brackenwall pickups
+  zone map 1445
+  tip Identifying the Brood is an intentional collection exception: it opens the egg destruction and Mok'Morokk challenge. Start it before killing the southern dragons.
+  accept 1166 "Overlord Mok'Morokk's Concern" lvl 38 @36.3,31.4 -- Overlord Mok'Morokk.
+  accept 1168 "Army of the Black Dragon" lvl 38 @37.4,31.4 -- Tharg.
+  accept 1169 "Identifying the Brood" lvl 38 @37.1,33.1 -- Draz'Zilb.
+
+step Deadmire
+  complete 1205 "Deadmire" group 5 -- Find the named crocolisk in the marsh and loot its tooth; keep the quest for Thunder Bluff.
+
+step Tabetha dungeon pickup
+  accept 2846 "Tiara of the Deep" lvl 40 @46.0,57.1 -- Tabetha at her hut; hold Tiara of the Deep for Zul'Farrak.
+
+step Southern goblin pickups
+  accept 98205 "Whelps are the Worst" lvl 39 @41.0,75.7 -- Drazzit Dripvalve.
+  accept 98215 "Dragon Scales Post Burnt Tails" lvl 39 @41.0,75.7 -- Drazzit Dripvalve.
+  accept 98231 "Active Ingredient" lvl 39 @41.0,75.7 -- Gizzix Grimegurgle.
+
+step Dragonmurk and Wyrmbog circuit
+  tip Work these together. Ground scales and plants are included; the Brood collection is the chain exception. Use your quest tracker for exact counts and do not leave anyone behind on their collection.
+  complete 1166 "Overlord Mok'Morokk's Concern" -- Pick up Mok'Morokk's grog, snuff and strongbox in the ruined southern ogre settlement.
+  complete 1168 "Army of the Black Dragon" -- Kill 15 Firemane Scouts, 10 Ash Tails and 5 Scalebanes.
+  complete 98205 "Whelps are the Worst" -- Kill 8 Searing Hatchlings and 8 Searing Whelps.
+  complete 98215 "Dragon Scales Post Burnt Tails" -- Collect 20 Shed Dark Dragonscales per player; use the ground clusters as well as drops.
+  complete 98231 "Active Ingredient" -- Collect 10 ground Wyrmtail plants around trees and water channels.
+  complete 1169 "Identifying the Brood" -- Each player needs 15 Searing Tongues and 15 Searing Hearts.
+
+step Goblin hand-ins
+  turnin 98205 "Whelps are the Worst" xp 3750 @41.0,75.7 -- Drazzit.
+  turnin 98215 "Dragon Scales Post Burnt Tails" xp 3750 @41.0,75.7 -- Drazzit.
+  turnin 98231 "Active Ingredient" xp 3750 @41.0,75.7 -- Gizzix.
+
+step Brackenwall hand-ins
+  turnin 1166 "Overlord Mok'Morokk's Concern" xp 4450 @36.3,31.4 -- Mok'Morokk.
+  turnin 1168 "Army of the Black Dragon" xp 3600 @37.4,31.4 -- Tharg.
+  turnin 1169 "Identifying the Brood" xp 5350 @37.1,33.1 -- Draz'Zilb.
+  accept 1170 "The Brood of Onyxia" lvl 38 @37.1,33.1 -- Draz'Zilb.
+
+step Speak to Mok'Morokk
+  turnin 1170 "The Brood of Onyxia" xp 360 @36.3,31.4 -- Mok'Morokk.
+  accept 1171 "The Brood of Onyxia" lvl 38 @36.3,31.4 -- Mok'Morokk.
+
+step Return to Draz'Zilb
+  turnin 1171 "The Brood of Onyxia" xp 360 @37.1,33.1 -- Draz'Zilb.
+  accept 1172 "The Brood of Onyxia" lvl 38 @37.1,33.1 -- Draz'Zilb.
+
+step Destroy the eggs
+  complete 1172 "The Brood of Onyxia" -- Return to Wyrmbog and destroy five Onyxia eggs; every player needs the objective.
+
+step Report the destroyed eggs
+  turnin 1172 "The Brood of Onyxia" xp 4850 @37.1,33.1 -- Draz'Zilb.
+
+step Challenge Mok'Morokk
+  accept 1173 "Challenge Overlord Mok'Morokk" lvl 38 @36.3,31.4 -- Mok'Morokk; everyone accepts before triggering the fight.
+
+step Defeat the overlord
+  complete 1173 "Challenge Overlord Mok'Morokk" @36.3,31.4 group 5 -- Defeat Mok'Morokk in the challenge.
+
+step Challenge reward
+  tip Next: Uldaman and the necklace chain. Bring Necklace Recovery, Take 2 on all five players; save Deadmire's tooth for the Thunder Bluff deliveries. Continue the other held quests in later chapters.
+  turnin 1173 "Challenge Overlord Mok'Morokk" xp 4850 @37.1,33.0 -- The hand-in is Draz'Zilb, not Mok'Morokk.

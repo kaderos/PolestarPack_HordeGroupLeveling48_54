@@ -1,0 +1,71 @@
+guide five-friends-43-48/04-uldaman
+title 02 - Uldaman & Deliveries (44-44)
+faction Horde
+levels 44-44
+zone map 1418
+coords live
+category Leveling
+folder Five Friends 43-48
+keywords group, horde, dungeon, five friends
+version 3
+Five-player quest route. Level band 44-44 is an estimate, not a grind requirement.
+next five-friends-43-48/02-tanaris-feralas
+
+step Uldaman readiness
+  tip Do not kill the gem and power-source bosses before Find the Gems and Power Source is accepted. The sequence needs one early exit for the journal translation, followed by one full clear. Do not reset the instance.
+  task "Every player has Necklace Recovery Take 2; keep the same instance for the early journal stop and main clear"
+
+step Reach the paladin remains
+  turnin 2284 "Necklace Recovery, Take 2" xp 4800 -- Inside Uldaman, turn in at the Remains of a Paladin early in the instance.
+  accept 2318 "Translating the Journal" lvl 37 -- Accept Translating the Journal from the remains.
+
+step Translate in Kargath
+  tip Leave the instance before the objective bosses. All five need to make the journal handoff; preserve the existing instance.
+  turnin 2318 "Translating the Journal" xp 6750 @2.4,46.1 -- Jarkal Mossmeld, Kargath.
+  accept 2338 "Translating the Journal" lvl 37 @2.4,46.1 -- Jarkal: translation follow-up.
+  note "OPTIONAL REWARD IF HELD: Mirage Mirror goes to Mus'hale in Kargath, /mappin 1418 4.2 46.3. Use the looted mirror to start the quest first. Combine this with a normal Kargath return; no mirror means no extra stop." @4.2,46.3 map 1418
+
+step Get the boss-loot quest
+  turnin 2338 "Translating the Journal" xp 350 @2.4,46.1 -- Jarkal Mossmeld.
+  accept 2339 "Find the Gems and Power Source" lvl 37 @2.4,46.1 -- Find the Gems and Power Source.
+
+step Uldaman boss check
+  task "All five have Find the Gems and Power Source before resuming the dungeon"
+
+step Full Uldaman clear
+  tip Check all four objectives for every player. Before leaving the final room, everyone must do the Platinum Discs dialogue below. The removed mushroom collection is not part of this run.
+  complete 2339 "Find the Gems and Power Source" group 5 -- Topaz: urn in the trogg area near the Alliance dwarves. Ruby: fixed cache in the barricaded Shadowforge area. Sapphire: Grimlok. Power Source: Archaedas.
+
+step The Platinum Discs
+  tip Speak to the Lore Keeper and read the requested history. The Lore Keeper is a dialogue objective, not a kill.
+  accept 2278 "The Platinum Discs" lvl 40 -- The Discs of Norgannon behind Archaedas.
+
+step Learn from the Lore Keeper
+  complete 2278 "The Platinum Discs" -- Complete the Lore Keeper dialogue and the disc objective.
+  turnin 2278 "The Platinum Discs" xp 8200 -- Return to the Discs of Norgannon.
+  accept 2280 "The Platinum Discs" lvl 40 -- Take the Horde delivery to Thunder Bluff.
+
+step Kargath gem hand-in
+  turnin 2339 "Find the Gems and Power Source" xp 7300 @2.4,46.1 -- Jarkal Mossmeld.
+  accept 2340 "Deliver the Gems" lvl 37 @2.4,46.1 -- Take Deliver the Gems to Orgrimmar.
+
+step Orgrimmar necklace delivery
+  zone map 1454
+  turnin 2340 "Deliver the Gems" xp 1850 @59.5,36.6 -- Dran Droffers.
+  accept 2341 "Necklace Recovery, Take 3" lvl 37 @59.5,36.6 -- Take 3 is a delivery back to Jarkal, not another dungeon clear.
+
+step Thunder Bluff discs
+  zone map 1456
+  tip Hand in Deadmire's tooth at Melor Stonehoof while in Thunder Bluff; this replaces a later detour. Complete the Platinum Discs voucher here too.
+  turnin 2280 "The Platinum Discs" xp 5250 -- Sage Truthseeker, Thunder Bluff.
+  accept 2440 "The Platinum Discs" lvl 40 -- Take the voucher follow-up.
+  turnin 1205 "Deadmire" xp 3900 @61.5,80.9 -- Melor Stonehoof: Deadmire's tooth.
+
+step Redeem the voucher
+  turnin 2440 "The Platinum Discs" xp 420 -- Bena Winterhoof, Thunder Bluff.
+
+step Finish the necklace chain
+  zone map 1418
+  tip Complete the necklace delivery in Kargath. The next chapter is Tanaris and Feralas; reach Gadgetzan using your normal flight, hearth or transport routes. Keep 15 Silk Cloth per player for the later Searing Gorge Caught! quest.
+  turnin 2341 "Necklace Recovery, Take 3" xp 5600 @2.4,46.1 -- Jarkal Mossmeld, Kargath; use your hearth when ready.
+  note "OPTIONAL REWARD IF HELD: Mirage Mirror goes to Mus'hale in Kargath, /mappin 1418 4.2 46.3. Use the looted mirror to start the quest first. Combine this with a normal Kargath return; no mirror means no extra stop." @4.2,46.3 map 1418
