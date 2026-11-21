@@ -1,0 +1,1 @@
+-- Coordinates in the guide notes use WoW Forever native /mappin.

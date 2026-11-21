@@ -1,0 +1,15 @@
+## Interface: 16001
+## Title: Polestar Community: Five Friends: Horde 48-54
+## Notes: Auto-tracked quest steps in 13 linked leveling chapters
+## Author: Five Friends
+## Version: 0.2.0-rc2
+## Category: Polestar
+## Group: Polestar
+## Dependencies: Polestar
+## X-Polestar-Pack: five-friends-48-54
+## X-Polestar-Format: 5
+## X-Polestar-Needs: 0.4.1
+## X-License: CC0-1.0
+Pack.lua
+MapFrames.lua
+Guides.lua
